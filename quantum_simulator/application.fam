@@ -1,0 +1,11 @@
+App(
+    appid="quantum_simulator",
+    name="Quantum Simulator",
+    apptype=FlipperAppType.EXTERNAL,
+    targets=["f7"],
+    entry_point="quantum_simulator_app",
+    requires=["gui"],
+    stack_size=2 * 1024,
+    fap_version="0.1",
+    fap_category="Utilities",
+)

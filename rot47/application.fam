@@ -1,0 +1,8 @@
+App(
+    appid="rot47",
+    name="Javier Morales",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="rot47_main",
+    stack_size=1 * 1024,
+    fap_category="javier_morales",
+)
