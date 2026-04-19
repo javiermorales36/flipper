@@ -1,0 +1,12 @@
+App(
+    appid="pgp_keygen",
+    name="PGP Keygen Lab",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="pgp_keygen_app",
+    stack_size=8 * 1024,
+    fap_libs=["mbedtls"],
+    fap_category="javier_morales",
+    fap_author="Javier Morales",
+    fap_weburl="https://github.com/javiermorales36",
+    fap_description="Profile saver and real OpenPGP ECDSA key exporter",
+)
