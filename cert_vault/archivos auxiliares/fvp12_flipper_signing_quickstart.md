@@ -42,7 +42,7 @@ Si responde, el bridge USB esta listo.
 Desde `d:\prueb_con\flipper`:
 
 ```powershell
-C:/py314/python.exe .\tools\fvp12_sign_service.py '48529495R' --vault-pin '4026' --exchange-dir '.\approval_exchange_test' --flipper-usb --port 8766
+C:/py314/python.exe .\tools\fvp12_sign_service.py 'DNI' --vault-pin 'XXX' --exchange-dir '.\approval_exchange_test' --flipper-usb --port 8766
 ```
 
 Puedes pasar el numero, el alias o el nombre del bundle. El servicio buscara la coincidencia en `/ext/apps_data/cert_vault/installed`.
