@@ -81,7 +81,7 @@ El servicio trabaja contra una ruta local montada por Windows.
 
 Ejemplo:
 
-`C:/py314/python.exe .\tools\fvp12_sign_service.py '48529495R' --vault-pin '4026' --exchange-dir '.\approval_exchange_test' --flipper-root 'X:/' --port 8766`
+`C:/py314/python.exe .\tools\fvp12_sign_service.py 'DNI' --vault-pin 'PINXXX' --exchange-dir '.\approval_exchange_test' --flipper-root 'X:/' --port 8766`
 
 ### 2. USB directo
 
@@ -89,7 +89,7 @@ El servicio usa `tools/flipper_usb_storage.py` para mover las solicitudes y resp
 
 Ejemplo:
 
-`C:/py314/python.exe .\tools\fvp12_sign_service.py '48529495R' --vault-pin '4026' --exchange-dir '.\approval_exchange_test' --flipper-usb --port 8766`
+`C:/py314/python.exe .\tools\fvp12_sign_service.py 'DNI' --vault-pin 'XXX' --exchange-dir '.\approval_exchange_test' --flipper-usb --port 8766`
 
 Si hay un solo Flipper conectado, el puerto se detecta automaticamente. Si hace falta, puede forzarse con `--flipper-port COM7`.
 
