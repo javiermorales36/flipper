@@ -1,0 +1,337 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/cert_vault/main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-D/.extapps/cert_vault/main.o
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libsupc++_nano.a
+
+.text           0x00000000     0x13c8
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.cert_vault_status_reset
+                0x00000000        0x8 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_sanitize_alias
+                0x00000008      0x1d4 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_reset_metadata
+                0x000001dc       0x14 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_reset_request
+                0x000001f0       0x14 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_copy_string
+                0x00000204       0x28 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_build_installed_path
+                0x0000022c       0x50 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_build_response_path
+                0x0000027c       0x40 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_string_ends_with
+                0x000002bc       0x34 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_read_request_metadata
+                0x000002f0      0x1f0 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_path_basename
+                0x000004e0       0x28 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_read_bundle_metadata
+                0x00000508      0x2a0 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_ensure_storage_dirs
+                0x000007a8       0x80 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_copy_file
+                0x00000828       0xd0 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_status_append
+                0x000008f8       0x3c build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_install_bundle
+                0x00000934      0x134 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_show_text
+                0x00000a68       0x2c build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_file_browser_callback
+                0x00000a94       0x48 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_refresh_menu
+                0x00000adc       0x90 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_app_alloc
+                0x00000b6c      0x114 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_navigation_callback
+                0x00000c80       0x3c build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_build_inventory
+                0x00000cbc      0x1cc build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_find_first_pending_request
+                0x00000e88      0x12c build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_show_first_pending_request
+                0x00000fb4       0xf4 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_respond_first_pending_request
+                0x000010a8      0x1a8 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_menu_callback
+                0x00001250       0xb0 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_app_free
+                0x00001300       0x6c build/f7-firmware-D/.extapps/cert_vault/main.o
+ .text.cert_vault_app
+                0x0000136c       0x5c build/f7-firmware-D/.extapps/cert_vault/main.o
+                0x0000136c                cert_vault_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000013c8      0x7e4
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.cert_vault_copy_string.str1.4
+                0x000013c8        0x7 build/f7-firmware-D/.extapps/cert_vault/main.o
+ *fill*         0x000013cf        0x1 
+ .rodata.cert_vault_build_installed_path.str1.4
+                0x000013d0       0x33 build/f7-firmware-D/.extapps/cert_vault/main.o
+ *fill*         0x00001403        0x1 
+ .rodata.cert_vault_build_response_path.str1.4
+                0x00001404       0x2a build/f7-firmware-D/.extapps/cert_vault/main.o
+ *fill*         0x0000142e        0x2 
+ .rodata.cert_vault_read_request_metadata.str1.4
+                0x00001430       0x67 build/f7-firmware-D/.extapps/cert_vault/main.o
+ *fill*         0x00001497        0x1 
+ .rodata.cert_vault_read_bundle_metadata.str1.4
+                0x00001498       0x80 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .rodata.cert_vault_ensure_storage_dirs.str1.4
+                0x00001518       0x4f build/f7-firmware-D/.extapps/cert_vault/main.o
+ *fill*         0x00001567        0x1 
+ .rodata.cert_vault_install_bundle.str1.4
+                0x00001568      0x112 build/f7-firmware-D/.extapps/cert_vault/main.o
+ *fill*         0x0000167a        0x2 
+ .rodata.cert_vault_refresh_menu.str1.4
+                0x0000167c       0x5a build/f7-firmware-D/.extapps/cert_vault/main.o
+ *fill*         0x000016d6        0x2 
+ .rodata.cert_vault_app_alloc.str1.4
+                0x000016d8        0x5 build/f7-firmware-D/.extapps/cert_vault/main.o
+ *fill*         0x000016dd        0x3 
+ .rodata.cert_vault_build_inventory.str1.4
+                0x000016e0      0x121 build/f7-firmware-D/.extapps/cert_vault/main.o
+ *fill*         0x00001801        0x3 
+ .rodata.cert_vault_find_first_pending_request.str1.4
+                0x00001804        0x5 build/f7-firmware-D/.extapps/cert_vault/main.o
+ *fill*         0x00001809        0x3 
+ .rodata.cert_vault_show_first_pending_request.str1.4
+                0x0000180c       0xb8 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .rodata.cert_vault_respond_first_pending_request.str1.4
+                0x000018c4      0x13f build/f7-firmware-D/.extapps/cert_vault/main.o
+ *fill*         0x00001a03        0x1 
+ .rodata.cert_vault_menu_callback.str1.4
+                0x00001a04      0x1a2 build/f7-firmware-D/.extapps/cert_vault/main.o
+ *fill*         0x00001ba6        0x2 
+ .rodata.cert_vault_app.str1.4
+                0x00001ba8        0x4 build/f7-firmware-D/.extapps/cert_vault/main.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xf0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xf0 build/f7-firmware-D/.extapps/cert_vault/main.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x323c
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x323c build/f7-firmware-D/.extapps/cert_vault/main.o
+
+.debug_abbrev   0x00000000      0x391
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x391 build/f7-firmware-D/.extapps/cert_vault/main.o
+
+.debug_line     0x00000000     0x111b
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x324 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_status_reset
+                0x00000324       0x1c build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_sanitize_alias
+                0x00000340       0xba build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_reset_metadata
+                0x000003fa       0x1c build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_reset_request
+                0x00000416       0x1c build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_copy_string
+                0x00000432       0x3b build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_build_installed_path
+                0x0000046d       0x3f build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_build_response_path
+                0x000004ac       0x3c build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_string_ends_with
+                0x000004e8       0x43 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_read_request_metadata
+                0x0000052b      0x191 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_path_basename
+                0x000006bc       0x44 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_read_bundle_metadata
+                0x00000700      0x1ed build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_ensure_storage_dirs
+                0x000008ed       0x5f build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_copy_file
+                0x0000094c       0xa4 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_status_append
+                0x000009f0       0x35 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_install_bundle
+                0x00000a25       0xbe build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_show_text
+                0x00000ae3       0x2a build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_file_browser_callback
+                0x00000b0d       0x2a build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_refresh_menu
+                0x00000b37       0x28 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_app_alloc
+                0x00000b5f      0x110 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_navigation_callback
+                0x00000c6f       0x49 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_build_inventory
+                0x00000cb8      0x10b build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_find_first_pending_request
+                0x00000dc3       0xbf build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_show_first_pending_request
+                0x00000e82       0x94 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_respond_first_pending_request
+                0x00000f16       0xf6 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_menu_callback
+                0x0000100c       0x4c build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_app_free
+                0x00001058       0x83 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line.text.cert_vault_app
+                0x000010db       0x40 build/f7-firmware-D/.extapps/cert_vault/main.o
+ .debug_line_end
+                0x0000111b        0x0 build/f7-firmware-D/.extapps/cert_vault/main.o
+
+.debug_frame    0x00000000      0x3a4
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x3a4 build/f7-firmware-D/.extapps/cert_vault/main.o
+
+.debug_str      0x00000000      0xfa4
+ *(.debug_str)
+ .debug_str     0x00000000      0xfa4 build/f7-firmware-D/.extapps/cert_vault/main.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0xbc5
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0xbc5 build/f7-firmware-D/.extapps/cert_vault/main.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x117
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x117 build/f7-firmware-D/.extapps/cert_vault/main.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-D/.extapps/cert_vault/main.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-D/.extapps/cert_vault_d.elf elf32-littlearm)
+LOAD linker stubs
