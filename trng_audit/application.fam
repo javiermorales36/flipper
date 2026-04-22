@@ -1,0 +1,14 @@
+App(
+    appid="trng_audit",
+    name="TRNG Audit",
+    apptype=FlipperAppType.EXTERNAL,
+    targets=["f7"],
+    entry_point="trng_audit_app",
+    requires=["gui", "storage"],
+    stack_size=4 * 1024,
+    fap_version="0.1",
+    fap_category="Crypto",
+    fap_author="Javier Morales",
+    fap_weburl="https://github.com/javiermorales36",
+    fap_description="Fast hardware RNG health checks for the Flipper TRNG",
+)

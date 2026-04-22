@@ -1,0 +1,20 @@
+App(
+    appid="bcon_demo",
+    name="B-Con Demo",
+    apptype=FlipperAppType.EXTERNAL,
+    targets=["f7"],
+    entry_point="bcon_demo_app",
+    stack_size=2 * 1024,
+    fap_version="0.1",
+    fap_category="Crypto",
+    fap_description="Educational SHA-256 demo using vendored B-Con crypto-algorithms.",
+    fap_author="Javier Morales",
+    fap_weburl="https://github.com/javiermorales36",
+    fap_private_libs=[
+        Lib(
+            name="bcon",
+            sources=["sha256.c"],
+            cflags=["-Wno-error"],
+        ),
+    ],
+)

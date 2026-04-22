@@ -1,0 +1,29 @@
+App(
+    appid="crypto_engine_fap",
+    name="Crypto Engine",
+    apptype=FlipperAppType.EXTERNAL,
+    targets=["f7"],
+    entry_point="crypto_engine_fap_app",
+    requires=["gui"],
+    stack_size=8 * 1024,
+    fap_version="0.1",
+    fap_category="Crypto",
+    fap_description="Standalone FAP with vendored ChaCha20, PBKDF2, LZ4 and text/binary transforms.",
+    fap_author="Javier Morales",
+    fap_weburl="https://github.com/javiermorales36",
+    fap_private_libs=[
+        Lib(
+            name="crypto_engine",
+            sources=[
+                "chacha20.c",
+                "pbkdf2.c",
+                "lz4.c",
+                "transform.c",
+                "../monocypher/monocypher.c",
+                "../bcon/sha256.c",
+            ],
+            cdefines=["BLAKE2_NO_UNROLLING"],
+            cflags=["-Wno-error"],
+        ),
+    ],
+)

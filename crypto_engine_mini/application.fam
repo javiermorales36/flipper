@@ -1,0 +1,29 @@
+App(
+    appid="crypto_engine_mini",
+    name="Crypto Mini",
+    apptype=FlipperAppType.EXTERNAL,
+    targets=["f7"],
+    entry_point="crypto_engine_mini_app",
+    requires=["gui", "storage"],
+    stack_size=8 * 1024,
+    fap_version="0.1",
+    fap_category="Crypto",
+    fap_description="Interactive text and TXT file encrypt/decrypt app using the vendored crypto_engine private library.",
+    fap_author="Javier Morales",
+    fap_weburl="https://github.com/javiermorales36",
+    fap_private_libs=[
+        Lib(
+            name="crypto_engine",
+            sources=[
+                "chacha20.c",
+                "pbkdf2.c",
+                "lz4.c",
+                "transform.c",
+                "../monocypher/monocypher.c",
+                "../bcon/sha256.c",
+            ],
+            cdefines=["BLAKE2_NO_UNROLLING"],
+            cflags=["-Wno-error"],
+        ),
+    ],
+)

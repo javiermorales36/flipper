@@ -1,0 +1,14 @@
+App(
+    appid="shamir_vault",
+    name="Shamir Vault",
+    apptype=FlipperAppType.EXTERNAL,
+    targets=["f7"],
+    entry_point="shamir_vault_app",
+    requires=["gui", "storage"],
+    stack_size=4 * 1024,
+    fap_version="0.1",
+    fap_category="Crypto",
+    fap_author="Javier Morales",
+    fap_weburl="https://github.com/javiermorales36",
+    fap_description="Split and recover secrets with 3-of-5 Shamir shares",
+)

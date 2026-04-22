@@ -1,0 +1,139 @@
+Notas de integracion de librerias privadas en Flipper Zero
+
+1. Objetivo correcto si no quieres tocar el firmware
+
+Si quieres meter una libreria compleja en la SD sin recompilar el firmware,
+no la pongas en lib/ del SDK.
+
+Haz esto:
+- Crea una app externa dentro de applications_user.
+- Declara la app con apptype=FlipperAppType.EXTERNAL.
+- Mete las librerias dentro de app_folder/lib/<library_name>.
+- Declaralas en fap_private_libs dentro de application.fam.
+- Compila con fbt.
+- El .fap resultante contiene tu app y todo el codigo privado.
+- Copia ese .fap a /ext/apps/<Category>/ de la SD.
+
+Eso es exactamente el modelo para llevar codigo pesado en la SD sin tocar el firmware.
+
+2. Limite importante del modelo .fap
+
+Un .fap puede contener librerias privadas.
+Pero otro .fap no puede enlazar dinamicamente contra ese .fap como si fuera una .so.
+
+Conclusiones practicas:
+- Si quieres una app autocontenida en la SD, usa fap_private_libs.
+- Si varias apps necesitan la misma libreria, cada una debe vendorizAR sus fuentes.
+- Si quieres una libreria compartida de verdad entre varias apps, hay que subirla al firmware.
+
+3. Patron minimo de manifest
+
+App(
+    appid="demo_app",
+    name="Aplicacion Demo",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="demo_app_main",
+    fap_private_libs=[
+        Lib(
+            name="mylib",
+            sources=["mylib.c"],
+        ),
+    ],
+)
+
+4. Patron minimo de codigo
+
+#include <furi.h>
+#include <mylib.h>
+
+int32_t demo_app_main(void* p) {
+    UNUSED(p);
+
+    mylib_do_something();
+    return 0;
+}
+
+5. Ejemplo real en este workspace: crypto_engine_fap
+
+Ficheros:
+- applications_user/crypto_engine_fap/application.fam
+- applications_user/crypto_engine_fap/main.c
+- applications_user/crypto_engine_fap/lib/crypto_engine/crypto_engine.h
+- applications_user/crypto_engine_fap/lib/crypto_engine/chacha20.c
+- applications_user/crypto_engine_fap/lib/crypto_engine/pbkdf2.c
+- applications_user/crypto_engine_fap/lib/crypto_engine/lz4.c
+- applications_user/crypto_engine_fap/lib/crypto_engine/transform.c
+- applications_user/crypto_engine_fap/lib/monocypher/monocypher.c
+- applications_user/crypto_engine_fap/lib/monocypher/monocypher.h
+- applications_user/crypto_engine_fap/lib/bcon/sha256.c
+- applications_user/crypto_engine_fap/lib/bcon/sha256.h
+
+Que hace:
+- Empaqueta ChaCha20 con Monocypher dentro del .fap.
+- Empaqueta PBKDF2-HMAC-SHA256 sin depender del firmware.
+- Empaqueta LZ4 block compressor/decompressor dentro del .fap.
+- Incluye transformaciones hex, base64 y cambios de case.
+- Se compila como una app externa y se puede copiar a la SD.
+
+6. Manifest real de varias librerias privadas
+
+App(
+    appid="crypto_engine_fap",
+    name="Crypto Engine",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="crypto_engine_fap_app",
+    fap_private_libs=[
+        Lib(
+            name="crypto_engine",
+            sources=[
+                "chacha20.c",
+                "pbkdf2.c",
+                "lz4.c",
+                "transform.c",
+                "../monocypher/monocypher.c",
+                "../bcon/sha256.c",
+            ],
+        ),
+    ],
+)
+
+7. Como compilar y usar el .fap
+
+Compilacion:
+- cmd /c fbt.cmd fap_crypto_engine_fap
+
+Salida esperada:
+- applications_user/crypto_engine_fap/dist/crypto_engine_fap.fap
+
+Uso en Flipper:
+- Copia el .fap a /ext/apps/Crypto/
+- Abre la app desde Apps > Crypto
+
+8. Nota sobre librerias pesadas
+
+Si una libreria es pesada pero solo la necesitas en una app concreta, este modelo es correcto.
+La ventaja es que no tocas el firmware.
+El coste es que el codigo queda embebido dentro de ese .fap concreto.
+
+9. Ejemplo pequeno de segunda app que usa la misma libreria
+
+Ficheros:
+- applications_user/crypto_engine_mini/application.fam
+- applications_user/crypto_engine_mini/main.c
+- applications_user/crypto_engine_mini/lib/crypto_engine/*
+- applications_user/crypto_engine_mini/lib/monocypher/*
+- applications_user/crypto_engine_mini/lib/bcon/*
+
+Que hace:
+- Usa crypto_engine_pbkdf2_hmac_sha256()
+- Usa crypto_engine_hex_encode()
+- Usa crypto_engine_base64_encode()
+- Usa crypto_engine_to_uppercase()
+
+Punto importante:
+- crypto_engine_mini no enlaza contra crypto_engine_fap.
+- Lleva otra copia vendorizada de la libreria dentro de su propio .fap.
+- Ese es el comportamiento correcto con fap_private_libs.
+
+Compilacion:
+- cmd /c fbt.cmd fap_crypto_engine_mini
