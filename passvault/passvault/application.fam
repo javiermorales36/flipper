@@ -1,0 +1,12 @@
+App(
+    appid="passvault",
+    name="PassVault",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="passvault_app",
+    requires=["gui"],
+    stack_size=4 * 1024,
+    fap_category="Tools",
+    fap_icon_assets="icons",
+    fap_description="Password manager + generator with PIN lock and bookmarks",
+    fap_version=(1, 0),
+)

@@ -1,0 +1,1136 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+                              build/f7-firmware-D/.extapps/crypto_engine_fap/main.o (crypto_engine_chacha20_encrypt)
+build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+                              build/f7-firmware-D/.extapps/crypto_engine_fap/main.o (crypto_engine_pbkdf2_hmac_sha256)
+build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+                              build/f7-firmware-D/.extapps/crypto_engine_fap/main.o (crypto_engine_lz4_compress)
+build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+                              build/f7-firmware-D/.extapps/crypto_engine_fap/main.o (crypto_engine_base64_encode)
+build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+                              build/f7-firmware-D/.extapps/crypto_engine_fap/main.o (crypto_engine_x25519_keygen)
+build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+                              build/f7-firmware-D/.extapps/crypto_engine_fap/main.o (crypto_engine_eddsa_keygen)
+build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+                              build/f7-firmware-D/.extapps/crypto_engine_fap/main.o (crypto_engine_aead_encrypt)
+build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(argon2.o)
+                              build/f7-firmware-D/.extapps/crypto_engine_fap/main.o (crypto_engine_argon2i)
+build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(blake2b.o)
+                              build/f7-firmware-D/.extapps/crypto_engine_fap/main.o (crypto_engine_blake2b)
+build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                              build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o) (crypto_wipe)
+build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+                              build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o) (sha256_init)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+ .text.crypto_engine_chacha20_decrypt
+                0x00000000       0x14 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+ .debug_line.text.crypto_engine_chacha20_decrypt
+                0x00000000       0x1f build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .text.crypto_engine_lz4_max_compressed_size
+                0x00000000       0x14 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .debug_line.text.crypto_engine_lz4_max_compressed_size
+                0x00000000       0x1c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .text.crypto_engine_base64_decode_value
+                0x00000000       0x44 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .rodata.crypto_engine_hex_encode.str1.4
+                0x00000000       0x11 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .text.crypto_engine_hex_encode
+                0x00000000       0x84 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .text.crypto_engine_hex_decode
+                0x00000000       0xd8 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .text.crypto_engine_base64_decode
+                0x00000000      0x16c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .text.crypto_engine_to_uppercase
+                0x00000000       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .text.crypto_engine_to_lowercase
+                0x00000000       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .debug_line.text.crypto_engine_base64_decode_value
+                0x00000000       0x92 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .debug_line.text.crypto_engine_hex_encode
+                0x00000000       0xb3 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .debug_line.text.crypto_engine_hex_decode
+                0x00000000      0x159 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .debug_line.text.crypto_engine_base64_decode
+                0x00000000      0x1bd build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .debug_line.text.crypto_engine_to_uppercase
+                0x00000000       0x4d build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .debug_line.text.crypto_engine_to_lowercase
+                0x00000000       0x4d build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(argon2.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(argon2.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(argon2.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(argon2.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(blake2b.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(blake2b.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(blake2b.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(blake2b.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.x64      0x00000000       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.add_xl   0x00000000       0x54 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_verify64
+                0x00000000       0x14 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.select_lop
+                0x00000000       0x54 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.redc     0x00000000       0xd8 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_chacha20_x
+                0x00000000       0x50 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_poly1305
+                0x00000000       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_eddsa_to_x25519
+                0x00000000       0x70 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_x25519_to_eddsa
+                0x00000000       0x70 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_x25519_dirty_small
+                0x00000000       0x44 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_x25519_dirty_fast
+                0x00000000       0xf8 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_elligator_map
+                0x00000000      0x118 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_elligator_rev
+                0x00000000       0xcc build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_elligator_key_pair
+                0x00000000       0xac build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_x25519_inverse
+                0x00000000      0x170 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_aead_init_djb
+                0x00000000       0x58 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_aead_init_ietf
+                0x00000000       0x44 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.k.0    0x00000000       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.Lm2.1  0x00000000       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.dirty_base_point.2
+                0x00000000       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.A      0x00000000       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.A2     0x00000000       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.ufactor
+                0x00000000       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.lop_y  0x00000000       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.lop_x  0x00000000       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.fe_one
+                0x00000000       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata        0x00000000       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.x64
+                0x00000000       0x24 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.add_xl
+                0x00000000       0x84 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_verify64
+                0x00000000       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.select_lop
+                0x00000000       0x29 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.redc
+                0x00000000      0x131 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_chacha20_x
+                0x00000000       0x36 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_poly1305
+                0x00000000       0x25 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_eddsa_to_x25519
+                0x00000000       0x2a build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_x25519_to_eddsa
+                0x00000000       0x2a build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_x25519_dirty_small
+                0x00000000       0x2a build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_x25519_dirty_fast
+                0x00000000       0x49 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_elligator_map
+                0x00000000       0x4b build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_elligator_rev
+                0x00000000       0x4f build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_elligator_key_pair
+                0x00000000       0x80 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_x25519_inverse
+                0x00000000       0xe1 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_aead_init_djb
+                0x00000000       0x5c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_aead_init_ietf
+                0x00000000       0x4e build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libsupc++_nano.a
+LOAD build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine
+
+.text           0x00000000     0x728c
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.test_classic
+                0x00000000      0x110 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .text.test_x25519
+                0x00000110       0x60 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .text.test_eddsa
+                0x00000170       0x88 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .text.test_aead
+                0x000001f8       0xb4 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .text.test_argon2i
+                0x000002ac       0x50 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .text.test_blake2b
+                0x000002fc       0x6c build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .text.crypto_engine_fap_app
+                0x00000368      0x178 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+                0x00000368                crypto_engine_fap_app
+ .text.crypto_engine_chacha20_encrypt
+                0x000004e0       0x44 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+                0x000004e0                crypto_engine_chacha20_encrypt
+ .text.pbkdf2_sha256_digest
+                0x00000524       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .text.pbkdf2_hmac_sha256
+                0x00000558       0xcc build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .text.crypto_engine_pbkdf2_hmac_sha256
+                0x00000624      0x134 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+                0x00000624                crypto_engine_pbkdf2_hmac_sha256
+ .text.write_length
+                0x00000758       0x48 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .text.lz4_match_length
+                0x000007a0       0x1c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .text.lz4_emit_sequence
+                0x000007bc       0xec build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .text.crypto_engine_lz4_compress
+                0x000008a8      0x108 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+                0x000008a8                crypto_engine_lz4_compress
+ .text.crypto_engine_lz4_decompress
+                0x000009b0      0x114 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+                0x000009b0                crypto_engine_lz4_decompress
+ .text.crypto_engine_base64_encode
+                0x00000ac4       0xec build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+                0x00000ac4                crypto_engine_base64_encode
+ .text.crypto_engine_x25519_keygen
+                0x00000bb0        0xc build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+                0x00000bb0                crypto_engine_x25519_keygen
+ .text.crypto_engine_x25519_dh
+                0x00000bbc       0x50 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+                0x00000bbc                crypto_engine_x25519_dh
+ .text.crypto_engine_eddsa_keygen
+                0x00000c0c        0xc build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+                0x00000c0c                crypto_engine_eddsa_keygen
+ .text.crypto_engine_eddsa_sign
+                0x00000c18        0xc build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+                0x00000c18                crypto_engine_eddsa_sign
+ .text.crypto_engine_eddsa_verify
+                0x00000c24       0x14 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+                0x00000c24                crypto_engine_eddsa_verify
+ .text.crypto_engine_aead_encrypt
+                0x00000c38       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+                0x00000c38                crypto_engine_aead_encrypt
+ .text.crypto_engine_aead_decrypt
+                0x00000c58       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+                0x00000c58                crypto_engine_aead_decrypt
+ .text.crypto_engine_argon2i
+                0x00000c80       0xe0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(argon2.o)
+                0x00000c80                crypto_engine_argon2i
+ .text.crypto_engine_blake2b
+                0x00000d60        0xc build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(blake2b.o)
+                0x00000d60                crypto_engine_blake2b
+ .text.gap      0x00000d6c        0x8 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.load24_le
+                0x00000d74       0x10 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.load32_le
+                0x00000d84       0x16 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ *fill*         0x00000d9a        0x2 
+ .text.load64_le
+                0x00000d9c       0x18 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.store32_le
+                0x00000db4       0x14 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.store64_le
+                0x00000dc8       0x18 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.load32_le_buf
+                0x00000de0       0x24 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.load64_le_buf
+                0x00000e04       0x2c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.store32_le_buf
+                0x00000e30       0x24 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.store64_le_buf
+                0x00000e54       0x2c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.rotr64   0x00000e80       0x4a build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.rotl32   0x00000eca        0x8 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.neq0     0x00000ed2        0xc build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ *fill*         0x00000ede        0x2 
+ .text.x16      0x00000ee0       0x3c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.x32      0x00000f1c       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.chacha20_rounds
+                0x00000f44      0x270 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.poly_blocks
+                0x000011b4      0x288 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.blake2b_compress
+                0x0000143c      0x7b8 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.copy_block
+                0x00001bf4       0x1c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.xor_block
+                0x00001c10       0x32 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ *fill*         0x00001c42        0x2 
+ .text.g_rounds
+                0x00001c44     0x1518 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.fe_0     0x0000315c       0x12 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.fe_1     0x0000316e       0x16 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.fe_copy  0x00003184       0x14 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.fe_neg   0x00003198       0x16 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.fe_add   0x000031ae       0x22 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.fe_sub   0x000031d0       0x22 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.fe_cswap
+                0x000031f2       0x36 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.fe_ccopy
+                0x00003228       0x2a build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ *fill*         0x00003252        0x2 
+ .text.fe_frombytes_mask
+                0x00003254      0x230 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.fe_frombytes
+                0x00003484       0x10 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.fe_mul_small
+                0x00003494      0x2ae build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.fe_mul   0x00003742      0xd9a build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.fe_sq    0x000044dc      0x822 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.scalar_bit
+                0x00004cfe       0x18 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.multiply
+                0x00004d16       0x62 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.is_above_l
+                0x00004d78       0x38 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.remove_l
+                0x00004db0       0x4c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.ge_zero  0x00004dfc       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.ge_cache
+                0x00004e24       0x50 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.ge_add   0x00004e74       0xbc build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.ge_sub   0x00004f30       0x48 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.ge_madd  0x00004f78       0xc0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.ge_msub  0x00005038       0x4c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.ge_double
+                0x00005084       0xb4 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.slide_init
+                0x00005138       0x30 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.slide_step
+                0x00005168       0xc8 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.lookup_add
+                0x00005230      0x108 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_verify16
+                0x00005338       0x14 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00005338                crypto_verify16
+ .text.crypto_verify32
+                0x0000534c       0x14 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x0000534c                crypto_verify32
+ .text.crypto_wipe
+                0x00005360       0x10 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00005360                crypto_wipe
+ .text.fe_tobytes
+                0x00005370      0x130 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.fe_isequal
+                0x000054a0       0x40 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.invsqrt  0x000054e0      0x210 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.fe_invert
+                0x000056f0       0x44 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.scalarmult
+                0x00005734      0x18c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.mod_l    0x000058c0      0x140 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.fe_isodd
+                0x00005a00       0x2c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.ge_frombytes_neg_vartime
+                0x00005a2c       0xbc build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.ge_tobytes
+                0x00005ae8       0x6c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_chacha20_h
+                0x00005b54       0x60 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00005b54                crypto_chacha20_h
+ .text.crypto_chacha20_djb
+                0x00005bb4      0x15c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00005bb4                crypto_chacha20_djb
+ .text.crypto_chacha20_ietf
+                0x00005d10       0x3c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00005d10                crypto_chacha20_ietf
+ .text.crypto_poly1305_init
+                0x00005d4c       0x70 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00005d4c                crypto_poly1305_init
+ .text.crypto_poly1305_update
+                0x00005dbc       0x80 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00005dbc                crypto_poly1305_update
+ .text.crypto_poly1305_final
+                0x00005e3c       0xc0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00005e3c                crypto_poly1305_final
+ .text.lock_auth
+                0x00005efc       0x94 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_blake2b_keyed_init
+                0x00005f90       0xb8 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00005f90                crypto_blake2b_keyed_init
+ .text.crypto_blake2b_init
+                0x00006048       0x10 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00006048                crypto_blake2b_init
+ .text.crypto_blake2b_update
+                0x00006058      0x1d0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00006058                crypto_blake2b_update
+ .text.blake_update_32
+                0x00006228       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.blake_update_32_buf
+                0x0000625c       0x24 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_blake2b_final
+                0x00006280       0x74 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00006280                crypto_blake2b_final
+ .text.crypto_blake2b_keyed
+                0x000062f4       0x30 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x000062f4                crypto_blake2b_keyed
+ .text.crypto_blake2b
+                0x00006324       0x18 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00006324                crypto_blake2b
+ .text.extended_hash
+                0x0000633c       0x98 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_argon2
+                0x000063d4      0x400 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x000063d4                crypto_argon2
+ .text.crypto_eddsa_trim_scalar
+                0x000067d4       0x26 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x000067d4                crypto_eddsa_trim_scalar
+ *fill*         0x000067fa        0x2 
+ .text.crypto_x25519
+                0x000067fc       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x000067fc                crypto_x25519
+ .text.crypto_x25519_public_key
+                0x00006830       0x14 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00006830                crypto_x25519_public_key
+ .text.crypto_eddsa_reduce
+                0x00006844       0x30 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00006844                crypto_eddsa_reduce
+ .text.hash_reduce
+                0x00006874       0x54 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_eddsa_mul_add
+                0x000068c8       0x70 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x000068c8                crypto_eddsa_mul_add
+ .text.ge_scalarmult_base
+                0x00006938       0xe4 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .text.crypto_eddsa_check_equation
+                0x00006a1c      0x1f4 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00006a1c                crypto_eddsa_check_equation
+ .text.crypto_eddsa_scalarbase
+                0x00006c10       0x2c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00006c10                crypto_eddsa_scalarbase
+ .text.crypto_eddsa_key_pair
+                0x00006c3c       0x8c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00006c3c                crypto_eddsa_key_pair
+ .text.crypto_eddsa_sign
+                0x00006cc8       0xa4 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00006cc8                crypto_eddsa_sign
+ .text.crypto_eddsa_check
+                0x00006d6c       0x30 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00006d6c                crypto_eddsa_check
+ .text.crypto_aead_init_x
+                0x00006d9c       0x30 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00006d9c                crypto_aead_init_x
+ .text.crypto_aead_write
+                0x00006dcc       0x90 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00006dcc                crypto_aead_write
+ .text.crypto_aead_read
+                0x00006e5c       0xa8 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00006e5c                crypto_aead_read
+ .text.crypto_aead_lock
+                0x00006f04       0x44 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00006f04                crypto_aead_lock
+ .text.crypto_aead_unlock
+                0x00006f48       0x48 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x00006f48                crypto_aead_unlock
+ .text.sha256_transform
+                0x00006f90      0x174 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+                0x00006f90                sha256_transform
+ .text.sha256_init
+                0x00007104       0x54 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+                0x00007104                sha256_init
+ .text.sha256_update
+                0x00007158       0x44 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+                0x00007158                sha256_update
+ .text.sha256_final
+                0x0000719c       0xf0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+                0x0000719c                sha256_final
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00007290     0x1218
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.test_eddsa.str1.4
+                0x00007290       0x47 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ *fill*         0x000072d7        0x1 
+ .rodata.crypto_engine_fap_app.str1.4
+                0x000072d8      0x10d build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ *fill*         0x000073e5        0x3 
+ .rodata.msg.0  0x000073e8        0x8 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .rodata.salt.1
+                0x000073f0       0x11 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ *fill*         0x00007401        0x3 
+ .rodata.pass.2
+                0x00007404        0xf build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ *fill*         0x00007413        0x1 
+ .rodata.plain.3
+                0x00007414       0x1f build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ *fill*         0x00007433        0x1 
+ .rodata.ad.4   0x00007434       0x15 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ *fill*         0x00007449        0x3 
+ .rodata.nonce.5
+                0x0000744c       0x18 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .rodata.key.6  0x00007464       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .rodata.msg.7  0x00007484       0x23 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ *fill*         0x000074a7        0x1 
+ .rodata.bob_sk.9
+                0x000074a8       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .rodata.alice_sk.10
+                0x000074c8       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .rodata.sample.11
+                0x000074e8       0x12 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ *fill*         0x000074fa        0x2 
+ .rodata.nonce.12
+                0x000074fc        0xc build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .rodata.key.13
+                0x00007508       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .rodata.salt.14
+                0x00007528        0xe build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ *fill*         0x00007536        0x2 
+ .rodata.password.15
+                0x00007538        0x8 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .rodata.base64_chars
+                0x00007540       0x41 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ *fill*         0x00007581        0x3 
+ .rodata.crypto_chacha20_h.str1.4
+                0x00007584       0x11 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ *fill*         0x00007595        0x3 
+ .rodata.half_ones.3
+                0x00007598       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.half_mod_L.4
+                0x000075b8       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.zero_point.5
+                0x000075d8       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.r.6    0x000075f8       0x24 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.base_point.7
+                0x0000761c       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.sigma.8
+                0x0000763c       0xc0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.b_comb_high
+                0x000076fc      0x3c0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.b_comb_low
+                0x00007abc      0x3c0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.b_window
+                0x00007e7c      0x3c0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.L      0x0000823c       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.D2     0x0000825c       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.d      0x00008284       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.sqrtm1
+                0x000082ac       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.crypto_argon2_no_extras
+                0x000082d4       0x10 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+                0x000082d4                crypto_argon2_no_extras
+ *fill*         0x000082e4        0x4 
+ .rodata.iv     0x000082e8       0x40 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.zero   0x00008328       0x80 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .rodata.k      0x000083a8      0x100 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x5c8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x50 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .debug_aranges
+                0x00000050       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+ .debug_aranges
+                0x00000078       0x30 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .debug_aranges
+                0x000000a8       0x48 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .debug_aranges
+                0x000000f0       0x50 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .debug_aranges
+                0x00000140       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+ .debug_aranges
+                0x00000168       0x30 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+ .debug_aranges
+                0x00000198       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+ .debug_aranges
+                0x000001c0       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(argon2.o)
+ .debug_aranges
+                0x000001e0       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(blake2b.o)
+ .debug_aranges
+                0x00000200      0x390 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_aranges
+                0x00000590       0x38 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xcf34
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xfc8 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .debug_info    0x00000fc8      0x23f build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+ .debug_info    0x00001207      0x732 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .debug_info    0x00001939      0x6fb build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .debug_info    0x00002034      0x613 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .debug_info    0x00002647      0x233 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+ .debug_info    0x0000287a      0x282 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+ .debug_info    0x00002afc      0x2fd build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+ .debug_info    0x00002df9      0x36c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(argon2.o)
+ .debug_info    0x00003165      0x14e build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(blake2b.o)
+ .debug_info    0x000032b3     0x98b9 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_info    0x0000cb6c      0x3c8 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+
+.debug_abbrev   0x00000000     0x11c9
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1e3 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .debug_abbrev  0x000001e3       0xdd build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+ .debug_abbrev  0x000002c0      0x19f build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .debug_abbrev  0x0000045f      0x169 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .debug_abbrev  0x000005c8      0x17a build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .debug_abbrev  0x00000742      0x10f build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+ .debug_abbrev  0x00000851      0x10c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+ .debug_abbrev  0x0000095d       0xef build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+ .debug_abbrev  0x00000a4c      0x16d build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(argon2.o)
+ .debug_abbrev  0x00000bb9       0xba build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(blake2b.o)
+ .debug_abbrev  0x00000c73      0x407 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_abbrev  0x0000107a      0x14f build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+
+.debug_line     0x00000000     0x6ce4
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x2a8 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .debug_line.text.test_classic
+                0x000002a8       0x99 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .debug_line.text.test_x25519
+                0x00000341       0x40 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .debug_line.text.test_eddsa
+                0x00000381       0x42 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .debug_line.text.test_aead
+                0x000003c3       0x5b build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .debug_line.text.test_argon2i
+                0x0000041e       0x3c build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .debug_line.text.test_blake2b
+                0x0000045a       0x45 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .debug_line.text.crypto_engine_fap_app
+                0x0000049f      0x113 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .debug_line_end
+                0x000005b2        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .debug_line    0x000005b2      0x1ed build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+ .debug_line.text.crypto_engine_chacha20_encrypt
+                0x0000079f       0x4a build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+ .debug_line_end
+                0x000007e9        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+ .debug_line    0x000007e9      0x24b build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .debug_line.text.pbkdf2_sha256_digest
+                0x00000a34       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .debug_line.text.pbkdf2_hmac_sha256
+                0x00000a54       0xac build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .debug_line.text.crypto_engine_pbkdf2_hmac_sha256
+                0x00000b00      0x129 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .debug_line_end
+                0x00000c29        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .debug_line    0x00000c29      0x1fe build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .debug_line.text.write_length
+                0x00000e27       0x8e build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .debug_line.text.lz4_match_length
+                0x00000eb5       0x44 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .debug_line.text.lz4_emit_sequence
+                0x00000ef9      0x130 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .debug_line.text.crypto_engine_lz4_compress
+                0x00001029      0x173 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .debug_line.text.crypto_engine_lz4_decompress
+                0x0000119c      0x1dc build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .debug_line_end
+                0x00001378        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .debug_line    0x00001378      0x204 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .debug_line.text.crypto_engine_base64_encode
+                0x0000157c      0x218 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .debug_line_end
+                0x00001794        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .debug_line    0x00001794      0x1eb build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+ .debug_line.text.crypto_engine_x25519_keygen
+                0x0000197f       0x19 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+ .debug_line.text.crypto_engine_x25519_dh
+                0x00001998       0x56 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+ .debug_line_end
+                0x000019ee        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+ .debug_line    0x000019ee      0x1ea build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+ .debug_line.text.crypto_engine_eddsa_keygen
+                0x00001bd8       0x19 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+ .debug_line.text.crypto_engine_eddsa_sign
+                0x00001bf1       0x1b build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+ .debug_line.text.crypto_engine_eddsa_verify
+                0x00001c0c       0x24 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+ .debug_line_end
+                0x00001c30        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+ .debug_line    0x00001c30      0x1e9 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+ .debug_line.text.crypto_engine_aead_encrypt
+                0x00001e19       0x1c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+ .debug_line.text.crypto_engine_aead_decrypt
+                0x00001e35       0x24 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+ .debug_line_end
+                0x00001e59        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+ .debug_line    0x00001e59      0x255 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(argon2.o)
+ .debug_line.text.crypto_engine_argon2i
+                0x000020ae       0x93 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(argon2.o)
+ .debug_line_end
+                0x00002141        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(argon2.o)
+ .debug_line    0x00002141      0x1ec build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(blake2b.o)
+ .debug_line.text.crypto_engine_blake2b
+                0x0000232d       0x19 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(blake2b.o)
+ .debug_line_end
+                0x00002346        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(blake2b.o)
+ .debug_line    0x00002346      0x1b6 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.gap
+                0x000024fc       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.load24_le
+                0x0000251c       0x23 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.load32_le
+                0x0000253f       0x29 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.load64_le
+                0x00002568       0x24 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.store32_le
+                0x0000258c       0x3d build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.store64_le
+                0x000025c9       0x1e build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.load32_le_buf
+                0x000025e7       0x44 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.load64_le_buf
+                0x0000262b       0x4b build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.store32_le_buf
+                0x00002676       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.store64_le_buf
+                0x000026aa       0x44 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.rotr64
+                0x000026ee       0x21 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.rotl32
+                0x0000270f       0x1d build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.neq0
+                0x0000272c       0x2b build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.x16
+                0x00002757       0x30 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.x32
+                0x00002787       0x24 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.chacha20_rounds
+                0x000027ab      0x389 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.poly_blocks
+                0x00002b34      0x3a8 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.blake2b_compress
+                0x00002edc      0x527 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.copy_block
+                0x00003403       0x40 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.xor_block
+                0x00003443       0x4a build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.g_rounds
+                0x0000348d      0x44e build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.fe_0
+                0x000038db       0x2c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.fe_1
+                0x00003907       0x3b build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.fe_copy
+                0x00003942       0x40 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.fe_neg
+                0x00003982       0x47 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.fe_add
+                0x000039c9       0x4e build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.fe_sub
+                0x00003a17       0x4e build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.fe_cswap
+                0x00003a65       0x87 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.fe_ccopy
+                0x00003aec       0x69 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.fe_frombytes_mask
+                0x00003b55      0x115 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.fe_frombytes
+                0x00003c6a       0x1c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.fe_mul_small
+                0x00003c86      0x110 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.fe_mul
+                0x00003d96      0x496 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.fe_sq
+                0x0000422c      0x2ff build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.scalar_bit
+                0x0000452b       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.multiply
+                0x0000455f       0xa6 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.is_above_l
+                0x00004605       0x79 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.remove_l
+                0x0000467e       0x99 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.ge_zero
+                0x00004717       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.ge_cache
+                0x00004737       0x29 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.ge_add
+                0x00004760       0x52 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.ge_sub
+                0x000047b2       0x26 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.ge_madd
+                0x000047d8       0x53 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.ge_msub
+                0x0000482b       0x26 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.ge_double
+                0x00004851       0x51 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.slide_init
+                0x000048a2       0x5c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.slide_step
+                0x000048fe       0xf6 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.lookup_add
+                0x000049f4       0xb7 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_verify16
+                0x00004aab       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_verify32
+                0x00004acb       0x20 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_wipe
+                0x00004aeb       0x2d build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.fe_tobytes
+                0x00004b18      0x187 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.fe_isequal
+                0x00004c9f       0x32 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.invsqrt
+                0x00004cd1      0x2ee build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.fe_invert
+                0x00004fbf       0x25 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.scalarmult
+                0x00004fe4      0x117 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.mod_l
+                0x000050fb      0x1d5 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.fe_isodd
+                0x000052d0       0x2e build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.ge_frombytes_neg_vartime
+                0x000052fe       0x6b build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.ge_tobytes
+                0x00005369       0x3c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_chacha20_h
+                0x000053a5       0x29 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_chacha20_djb
+                0x000053ce      0x1d3 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_chacha20_ietf
+                0x000055a1       0x2e build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_poly1305_init
+                0x000055cf       0x94 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_poly1305_update
+                0x00005663      0x107 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_poly1305_final
+                0x0000576a       0xf6 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.lock_auth
+                0x00005860       0x33 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_blake2b_keyed_init
+                0x00005893       0xad build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_blake2b_init
+                0x00005940       0x1c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_blake2b_update
+                0x0000595c      0x27c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.blake_update_32
+                0x00005bd8       0x23 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.blake_update_32_buf
+                0x00005bfb       0x21 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_blake2b_final
+                0x00005c1c       0x7c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_blake2b_keyed
+                0x00005c98       0x23 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_blake2b
+                0x00005cbb       0x1e build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.extended_hash
+                0x00005cd9       0x6d build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_argon2
+                0x00005d46      0x373 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_eddsa_trim_scalar
+                0x000060b9       0x46 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_x25519
+                0x000060ff       0x26 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_x25519_public_key
+                0x00006125       0x1d build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_eddsa_reduce
+                0x00006142       0x23 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.hash_reduce
+                0x00006165       0x2c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_eddsa_mul_add
+                0x00006191       0x53 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.ge_scalarmult_base
+                0x000061e4       0x6b build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_eddsa_check_equation
+                0x0000624f      0x1d9 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_eddsa_scalarbase
+                0x00006428       0x23 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_eddsa_key_pair
+                0x0000644b       0x65 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_eddsa_sign
+                0x000064b0       0x45 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_eddsa_check
+                0x000064f5       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_aead_init_x
+                0x0000651d       0x39 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_aead_write
+                0x00006556       0x50 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_aead_read
+                0x000065a6       0x6b build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_aead_lock
+                0x00006611       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line.text.crypto_aead_unlock
+                0x00006639       0x32 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line_end
+                0x0000666b        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_line    0x0000666b      0x137 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+ .debug_line.text.sha256_transform
+                0x000067a2      0x256 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+ .debug_line.text.sha256_init
+                0x000069f8       0x64 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+ .debug_line.text.sha256_update
+                0x00006a5c       0x64 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+ .debug_line.text.sha256_final
+                0x00006ac0      0x224 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+ .debug_line_end
+                0x00006ce4        0x0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+
+.debug_frame    0x00000000     0x14cc
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x118 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .debug_frame   0x00000118       0x54 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+ .debug_frame   0x0000016c       0x8c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .debug_frame   0x000001f8      0x10c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .debug_frame   0x00000304      0x144 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .debug_frame   0x00000448       0x54 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+ .debug_frame   0x0000049c       0x58 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+ .debug_frame   0x000004f4       0x50 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+ .debug_frame   0x00000544       0x40 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(argon2.o)
+ .debug_frame   0x00000584       0x28 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(blake2b.o)
+ .debug_frame   0x000005ac      0xe94 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_frame   0x00001440       0x8c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+
+.debug_str      0x00000000     0x32c6
+ *(.debug_str)
+ .debug_str     0x00000000      0x6c0 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .debug_str     0x000006c0      0x283 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+ .debug_str     0x00000943      0x3ad build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .debug_str     0x00000cf0      0x3e8 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .debug_str     0x000010d8      0x36c build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .debug_str     0x00001444      0x28e build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+ .debug_str     0x000016d2      0x293 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+ .debug_str     0x00001965      0x284 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+ .debug_str     0x00001be9      0x348 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(argon2.o)
+ .debug_str     0x00001f31      0x239 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(blake2b.o)
+ .debug_str     0x0000216a      0xef1 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_str     0x0000305b      0x26b build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x7aab
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x100 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .debug_loclists
+                0x00000100      0x179 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+ .debug_loclists
+                0x00000279      0x2f0 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .debug_loclists
+                0x00000569      0x7ff build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .debug_loclists
+                0x00000d68      0x7be build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .debug_loclists
+                0x00001526       0xe4 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+ .debug_loclists
+                0x0000160a      0x109 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+ .debug_loclists
+                0x00001713      0x174 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+ .debug_loclists
+                0x00001887      0x1de build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(argon2.o)
+ .debug_loclists
+                0x00001a65       0x68 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(blake2b.o)
+ .debug_loclists
+                0x00001acd     0x5d08 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_loclists
+                0x000077d5      0x2d6 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x77a
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x3b build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .debug_rnglists
+                0x0000003b       0x19 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+ .debug_rnglists
+                0x00000054       0x48 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .debug_rnglists
+                0x0000009c       0x92 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .debug_rnglists
+                0x0000012e       0xa2 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .debug_rnglists
+                0x000001d0       0x19 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+ .debug_rnglists
+                0x000001e9       0x1f build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+ .debug_rnglists
+                0x00000208       0x19 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+ .debug_rnglists
+                0x00000221       0x14 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(argon2.o)
+ .debug_rnglists
+                0x00000235       0x13 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(blake2b.o)
+ .debug_rnglists
+                0x00000248      0x50b build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .debug_rnglists
+                0x00000753       0x27 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/main.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(chacha20.o)
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(pbkdf2.o)
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(lz4.o)
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(transform.o)
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(x25519.o)
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(eddsa.o)
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(aead.o)
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(argon2.o)
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(blake2b.o)
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(monocypher.o)
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-D/.extapps/crypto_engine_fap/crypto_engine(sha256.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-D/.extapps/crypto_engine_fap_d.elf elf32-littlearm)
+LOAD linker stubs

@@ -1,0 +1,25 @@
+App(
+    appid="key_locker",
+    name="Key Locker",
+    apptype=FlipperAppType.EXTERNAL,
+    targets=["f7"],
+    entry_point="key_locker_app",
+    requires=["gui"],
+    stack_size=4 * 1024,
+    fap_version=(1, 0),
+    fap_category="Crypto",
+    fap_description="Encrypted vault for Ed25519/X25519 keys and passwords. PIN-locked, Argon2i KDF, XChaCha20-Poly1305.",
+    fap_author="Javier Morales",
+    fap_weburl="https://github.com/javiermorales36",
+    fap_private_libs=[
+        Lib(
+            name="klocker",
+            sources=[
+                "kl_store.c",
+                "../monocypher/monocypher.c",
+            ],
+            cdefines=["BLAKE2_NO_UNROLLING"],
+            cflags=["-Wno-error"],
+        ),
+    ],
+)

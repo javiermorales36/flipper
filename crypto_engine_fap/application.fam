@@ -15,10 +15,18 @@ App(
         Lib(
             name="crypto_engine",
             sources=[
+                # Primitivos clásicos
                 "chacha20.c",
                 "pbkdf2.c",
                 "lz4.c",
                 "transform.c",
+                # Fase 1: X25519 / EdDSA / AEAD / Argon2i / BLAKE2b
+                "x25519.c",
+                "eddsa.c",
+                "aead.c",
+                "argon2.c",
+                "blake2b.c",
+                # Dependencias vendorizadas
                 "../monocypher/monocypher.c",
                 "../bcon/sha256.c",
             ],

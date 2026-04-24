@@ -1,0 +1,819 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+                              build/f7-firmware-D/.extapps/key_locker/main.o (kl_store_save)
+build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                              build/f7-firmware-D/.extapps/key_locker/main.o (crypto_wipe)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/key_locker/main.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/key_locker/main.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/key_locker/main.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/key_locker/main.o
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.x64      0x00000000       0x28 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.ge_cache
+                0x00000000       0x50 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.ge_add   0x00000000       0xbc build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.ge_sub   0x00000000       0x48 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.ge_msub  0x00000000       0x4c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.slide_init
+                0x00000000       0x30 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.slide_step
+                0x00000000       0xc8 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.add_xl   0x00000000       0x54 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_verify64
+                0x00000000       0x14 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.ge_frombytes_neg_vartime
+                0x00000000       0xbc build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.select_lop
+                0x00000000       0x54 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.redc     0x00000000       0xd8 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_chacha20_ietf
+                0x00000000       0x3c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_chacha20_x
+                0x00000000       0x50 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_poly1305
+                0x00000000       0x34 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_eddsa_reduce
+                0x00000000       0x30 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.hash_reduce
+                0x00000000       0x54 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_eddsa_check_equation
+                0x00000000      0x1f4 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_eddsa_sign
+                0x00000000       0xa4 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_eddsa_check
+                0x00000000       0x30 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_eddsa_to_x25519
+                0x00000000       0x70 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_x25519_to_eddsa
+                0x00000000       0x70 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_x25519_dirty_small
+                0x00000000       0x44 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_x25519_dirty_fast
+                0x00000000       0xf8 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_elligator_map
+                0x00000000      0x118 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_elligator_rev
+                0x00000000       0xcc build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_elligator_key_pair
+                0x00000000       0xac build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_x25519_inverse
+                0x00000000      0x170 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_aead_init_djb
+                0x00000000       0x58 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_aead_init_ietf
+                0x00000000       0x44 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.k.0    0x00000000       0x20 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.Lm2.1  0x00000000       0x20 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.dirty_base_point.2
+                0x00000000       0x20 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.zero_point.5
+                0x00000000       0x20 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.A      0x00000000       0x28 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.b_window
+                0x00000000      0x3c0 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.A2     0x00000000       0x28 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.ufactor
+                0x00000000       0x28 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.lop_y  0x00000000       0x28 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.lop_x  0x00000000       0x28 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.D2     0x00000000       0x28 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.d      0x00000000       0x28 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.fe_one
+                0x00000000       0x28 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata        0x00000000       0x20 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.x64
+                0x00000000       0x24 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.ge_cache
+                0x00000000       0x29 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.ge_add
+                0x00000000       0x52 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.ge_sub
+                0x00000000       0x26 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.ge_msub
+                0x00000000       0x26 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.slide_init
+                0x00000000       0x5c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.slide_step
+                0x00000000       0xf6 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.add_xl
+                0x00000000       0x84 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_verify64
+                0x00000000       0x20 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.ge_frombytes_neg_vartime
+                0x00000000       0x6b build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.select_lop
+                0x00000000       0x29 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.redc
+                0x00000000      0x131 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_chacha20_ietf
+                0x00000000       0x2e build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_chacha20_x
+                0x00000000       0x36 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_poly1305
+                0x00000000       0x25 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_eddsa_reduce
+                0x00000000       0x23 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.hash_reduce
+                0x00000000       0x2c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_eddsa_check_equation
+                0x00000000      0x1d9 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_eddsa_sign
+                0x00000000       0x45 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_eddsa_check
+                0x00000000       0x28 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_eddsa_to_x25519
+                0x00000000       0x2a build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_x25519_to_eddsa
+                0x00000000       0x2a build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_x25519_dirty_small
+                0x00000000       0x2a build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_x25519_dirty_fast
+                0x00000000       0x49 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_elligator_map
+                0x00000000       0x4b build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_elligator_rev
+                0x00000000       0x4f build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_elligator_key_pair
+                0x00000000       0x80 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_x25519_inverse
+                0x00000000       0xe1 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_aead_init_djb
+                0x00000000       0x5c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_aead_init_ietf
+                0x00000000       0x4e build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-D/.extapps/key_locker/main.o
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libsupc++_nano.a
+LOAD build/f7-firmware-D/.extapps/key_locker/klocker
+
+.text           0x00000000     0x6eb4
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.list_filtered
+                0x00000000       0x36 build/f7-firmware-D/.extapps/key_locker/main.o
+ *fill*         0x00000036        0x2 
+ .text.input_cb
+                0x00000038       0x2c build/f7-firmware-D/.extapps/key_locker/main.o
+ .text.bytes_to_hex
+                0x00000064       0x40 build/f7-firmware-D/.extapps/key_locker/main.o
+ .text.draw_cb  0x000000a4      0x464 build/f7-firmware-D/.extapps/key_locker/main.o
+ .text.try_unlock
+                0x00000508       0xe8 build/f7-firmware-D/.extapps/key_locker/main.o
+ .text.do_generate
+                0x000005f0      0x268 build/f7-firmware-D/.extapps/key_locker/main.o
+ .text.handle_input
+                0x00000858      0x264 build/f7-firmware-D/.extapps/key_locker/main.o
+ .text.key_locker_app
+                0x00000abc      0x178 build/f7-firmware-D/.extapps/key_locker/main.o
+                0x00000abc                key_locker_app
+ .text.entry_to_ser
+                0x00000c34       0x9c build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .text.ser_to_entry
+                0x00000cd0       0xa8 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .text.derive_key
+                0x00000d78       0x98 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .text.kl_store_save
+                0x00000e10      0x1dc build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+                0x00000e10                kl_store_save
+ .text.kl_store_load
+                0x00000fec      0x244 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+                0x00000fec                kl_store_load
+ .text.kl_keygen_ed25519
+                0x00001230       0xa4 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+                0x00001230                kl_keygen_ed25519
+ .text.kl_keygen_x25519
+                0x000012d4       0x98 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+                0x000012d4                kl_keygen_x25519
+ .text.gap      0x0000136c        0x8 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.load24_le
+                0x00001374       0x10 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.load32_le
+                0x00001384       0x16 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ *fill*         0x0000139a        0x2 
+ .text.load64_le
+                0x0000139c       0x18 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.store32_le
+                0x000013b4       0x14 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.store64_le
+                0x000013c8       0x18 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.load32_le_buf
+                0x000013e0       0x24 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.load64_le_buf
+                0x00001404       0x2c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.store32_le_buf
+                0x00001430       0x24 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.store64_le_buf
+                0x00001454       0x2c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.rotr64   0x00001480       0x4a build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.rotl32   0x000014ca        0x8 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.neq0     0x000014d2        0xc build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ *fill*         0x000014de        0x2 
+ .text.x16      0x000014e0       0x3c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.x32      0x0000151c       0x28 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.chacha20_rounds
+                0x00001544      0x270 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.poly_blocks
+                0x000017b4      0x288 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.blake2b_compress
+                0x00001a3c      0x7b8 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.copy_block
+                0x000021f4       0x1c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.xor_block
+                0x00002210       0x32 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ *fill*         0x00002242        0x2 
+ .text.g_rounds
+                0x00002244     0x1518 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.fe_0     0x0000375c       0x12 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.fe_1     0x0000376e       0x16 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.fe_copy  0x00003784       0x14 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.fe_neg   0x00003798       0x16 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.fe_add   0x000037ae       0x22 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.fe_sub   0x000037d0       0x22 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.fe_cswap
+                0x000037f2       0x36 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.fe_ccopy
+                0x00003828       0x2a build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ *fill*         0x00003852        0x2 
+ .text.fe_frombytes_mask
+                0x00003854      0x230 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.fe_frombytes
+                0x00003a84       0x10 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.fe_mul_small
+                0x00003a94      0x2ae build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.fe_mul   0x00003d42      0xd9a build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.fe_sq    0x00004adc      0x822 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.scalar_bit
+                0x000052fe       0x18 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.multiply
+                0x00005316       0x62 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.is_above_l
+                0x00005378       0x38 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.remove_l
+                0x000053b0       0x4c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.ge_zero  0x000053fc       0x28 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.ge_madd  0x00005424       0xc0 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.ge_double
+                0x000054e4       0xb4 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.lookup_add
+                0x00005598      0x108 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_verify16
+                0x000056a0       0x14 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x000056a0                crypto_verify16
+ .text.crypto_verify32
+                0x000056b4       0x14 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x000056b4                crypto_verify32
+ .text.crypto_wipe
+                0x000056c8       0x10 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x000056c8                crypto_wipe
+ .text.fe_tobytes
+                0x000056d8      0x130 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.fe_isequal
+                0x00005808       0x40 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.invsqrt  0x00005848      0x210 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.fe_invert
+                0x00005a58       0x44 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.scalarmult
+                0x00005a9c      0x18c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.mod_l    0x00005c28      0x140 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.fe_isodd
+                0x00005d68       0x2c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.ge_tobytes
+                0x00005d94       0x6c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_chacha20_h
+                0x00005e00       0x60 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x00005e00                crypto_chacha20_h
+ .text.crypto_chacha20_djb
+                0x00005e60      0x15c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x00005e60                crypto_chacha20_djb
+ .text.crypto_poly1305_init
+                0x00005fbc       0x70 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x00005fbc                crypto_poly1305_init
+ .text.crypto_poly1305_update
+                0x0000602c       0x80 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x0000602c                crypto_poly1305_update
+ .text.crypto_poly1305_final
+                0x000060ac       0xc0 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x000060ac                crypto_poly1305_final
+ .text.lock_auth
+                0x0000616c       0x94 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_blake2b_keyed_init
+                0x00006200       0xb8 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x00006200                crypto_blake2b_keyed_init
+ .text.crypto_blake2b_init
+                0x000062b8       0x10 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x000062b8                crypto_blake2b_init
+ .text.crypto_blake2b_update
+                0x000062c8      0x1d0 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x000062c8                crypto_blake2b_update
+ .text.blake_update_32
+                0x00006498       0x34 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.blake_update_32_buf
+                0x000064cc       0x24 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_blake2b_final
+                0x000064f0       0x74 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x000064f0                crypto_blake2b_final
+ .text.crypto_blake2b_keyed
+                0x00006564       0x30 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x00006564                crypto_blake2b_keyed
+ .text.crypto_blake2b
+                0x00006594       0x18 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x00006594                crypto_blake2b
+ .text.extended_hash
+                0x000065ac       0x98 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_argon2
+                0x00006644      0x400 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x00006644                crypto_argon2
+ .text.crypto_eddsa_trim_scalar
+                0x00006a44       0x26 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x00006a44                crypto_eddsa_trim_scalar
+ *fill*         0x00006a6a        0x2 
+ .text.crypto_x25519
+                0x00006a6c       0x34 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x00006a6c                crypto_x25519
+ .text.crypto_x25519_public_key
+                0x00006aa0       0x14 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x00006aa0                crypto_x25519_public_key
+ .text.crypto_eddsa_mul_add
+                0x00006ab4       0x70 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x00006ab4                crypto_eddsa_mul_add
+ .text.ge_scalarmult_base
+                0x00006b24       0xe4 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .text.crypto_eddsa_scalarbase
+                0x00006c08       0x2c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x00006c08                crypto_eddsa_scalarbase
+ .text.crypto_eddsa_key_pair
+                0x00006c34       0x8c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x00006c34                crypto_eddsa_key_pair
+ .text.crypto_aead_init_x
+                0x00006cc0       0x30 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x00006cc0                crypto_aead_init_x
+ .text.crypto_aead_write
+                0x00006cf0       0x90 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x00006cf0                crypto_aead_write
+ .text.crypto_aead_read
+                0x00006d80       0xa8 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x00006d80                crypto_aead_read
+ .text.crypto_aead_lock
+                0x00006e28       0x44 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x00006e28                crypto_aead_lock
+ .text.crypto_aead_unlock
+                0x00006e6c       0x48 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x00006e6c                crypto_aead_unlock
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00006eb8      0xbe0
+ *(.rodata)
+ .rodata        0x00006eb8       0x10 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.bytes_to_hex.str1.4
+                0x00006ec8        0x5 build/f7-firmware-D/.extapps/key_locker/main.o
+ *fill*         0x00006ecd        0x3 
+ .rodata.draw_cb.str1.4
+                0x00006ed0       0x9a build/f7-firmware-D/.extapps/key_locker/main.o
+ *fill*         0x00006f6a        0x2 
+ .rodata.try_unlock.str1.4
+                0x00006f6c       0x18 build/f7-firmware-D/.extapps/key_locker/main.o
+ .rodata.do_generate.str1.4
+                0x00006f84       0x74 build/f7-firmware-D/.extapps/key_locker/main.o
+ .rodata.key_locker_app.str1.4
+                0x00006ff8        0x4 build/f7-firmware-D/.extapps/key_locker/main.o
+ .rodata.charset.0
+                0x00006ffc       0x47 build/f7-firmware-D/.extapps/key_locker/main.o
+ *fill*         0x00007043        0x1 
+ .rodata.str1.4
+                0x00007044        0x9 build/f7-firmware-D/.extapps/key_locker/main.o
+ *fill*         0x0000704d        0x3 
+ .rodata.GENMENU_LABELS
+                0x00007050        0xc build/f7-firmware-D/.extapps/key_locker/main.o
+ .rodata.MENU_LABELS
+                0x0000705c        0xc build/f7-firmware-D/.extapps/key_locker/main.o
+ .rodata.kl_store_save.str1.4
+                0x00007068       0x39 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ *fill*         0x000070a1        0x3 
+ .rodata.crypto_chacha20_h.str1.4
+                0x000070a4       0x11 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ *fill*         0x000070b5        0x3 
+ .rodata.half_ones.3
+                0x000070b8       0x20 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.half_mod_L.4
+                0x000070d8       0x20 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.r.6    0x000070f8       0x24 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.base_point.7
+                0x0000711c       0x20 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.sigma.8
+                0x0000713c       0xc0 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.b_comb_high
+                0x000071fc      0x3c0 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.b_comb_low
+                0x000075bc      0x3c0 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.L      0x0000797c       0x20 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.sqrtm1
+                0x0000799c       0x28 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.crypto_argon2_no_extras
+                0x000079c4       0x10 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+                0x000079c4                crypto_argon2_no_extras
+ *fill*         0x000079d4        0x4 
+ .rodata.iv     0x000079d8       0x40 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .rodata.zero   0x00007a18       0x80 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss            0x00007a98        0x1
+ *(.bss)
+ *(.bss*)
+ .bss.gen_counter.1
+                0x00007a98        0x1 build/f7-firmware-D/.extapps/key_locker/main.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x438
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x58 build/f7-firmware-D/.extapps/key_locker/main.o
+ .debug_aranges
+                0x00000058       0x50 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .debug_aranges
+                0x000000a8      0x390 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xd0d9
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2036 build/f7-firmware-D/.extapps/key_locker/main.o
+ .debug_info    0x00002036     0x17ea build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .debug_info    0x00003820     0x98b9 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+
+.debug_abbrev   0x00000000      0xa76
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3e9 build/f7-firmware-D/.extapps/key_locker/main.o
+ .debug_abbrev  0x000003e9      0x286 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .debug_abbrev  0x0000066f      0x407 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+
+.debug_line     0x00000000     0x557b
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3bd build/f7-firmware-D/.extapps/key_locker/main.o
+ .debug_line.text.list_filtered
+                0x000003bd       0x81 build/f7-firmware-D/.extapps/key_locker/main.o
+ .debug_line.text.input_cb
+                0x0000043e       0x27 build/f7-firmware-D/.extapps/key_locker/main.o
+ .debug_line.text.bytes_to_hex
+                0x00000465       0x6c build/f7-firmware-D/.extapps/key_locker/main.o
+ .debug_line.text.draw_cb
+                0x000004d1      0x3ae build/f7-firmware-D/.extapps/key_locker/main.o
+ .debug_line.text.try_unlock
+                0x0000087f       0xdd build/f7-firmware-D/.extapps/key_locker/main.o
+ .debug_line.text.do_generate
+                0x0000095c      0x16d build/f7-firmware-D/.extapps/key_locker/main.o
+ .debug_line.text.handle_input
+                0x00000ac9      0x383 build/f7-firmware-D/.extapps/key_locker/main.o
+ .debug_line.text.key_locker_app
+                0x00000e4c       0x9d build/f7-firmware-D/.extapps/key_locker/main.o
+ .debug_line_end
+                0x00000ee9        0x0 build/f7-firmware-D/.extapps/key_locker/main.o
+ .debug_line    0x00000ee9      0x322 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .debug_line.text.entry_to_ser
+                0x0000120b       0x48 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .debug_line.text.ser_to_entry
+                0x00001253       0x63 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .debug_line.text.derive_key
+                0x000012b6       0x54 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .debug_line.text.kl_store_save
+                0x0000130a      0x163 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .debug_line.text.kl_store_load
+                0x0000146d      0x23d build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .debug_line.text.kl_keygen_ed25519
+                0x000016aa       0x7a build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .debug_line.text.kl_keygen_x25519
+                0x00001724       0x80 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .debug_line_end
+                0x000017a4        0x0 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .debug_line    0x000017a4      0x1af build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.gap
+                0x00001953       0x20 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.load24_le
+                0x00001973       0x23 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.load32_le
+                0x00001996       0x29 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.load64_le
+                0x000019bf       0x24 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.store32_le
+                0x000019e3       0x3d build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.store64_le
+                0x00001a20       0x1e build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.load32_le_buf
+                0x00001a3e       0x44 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.load64_le_buf
+                0x00001a82       0x4b build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.store32_le_buf
+                0x00001acd       0x34 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.store64_le_buf
+                0x00001b01       0x44 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.rotr64
+                0x00001b45       0x21 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.rotl32
+                0x00001b66       0x1d build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.neq0
+                0x00001b83       0x2b build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.x16
+                0x00001bae       0x30 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.x32
+                0x00001bde       0x24 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.chacha20_rounds
+                0x00001c02      0x389 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.poly_blocks
+                0x00001f8b      0x3a8 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.blake2b_compress
+                0x00002333      0x527 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.copy_block
+                0x0000285a       0x40 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.xor_block
+                0x0000289a       0x4a build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.g_rounds
+                0x000028e4      0x44e build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.fe_0
+                0x00002d32       0x2c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.fe_1
+                0x00002d5e       0x3b build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.fe_copy
+                0x00002d99       0x40 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.fe_neg
+                0x00002dd9       0x47 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.fe_add
+                0x00002e20       0x4e build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.fe_sub
+                0x00002e6e       0x4e build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.fe_cswap
+                0x00002ebc       0x87 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.fe_ccopy
+                0x00002f43       0x69 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.fe_frombytes_mask
+                0x00002fac      0x115 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.fe_frombytes
+                0x000030c1       0x1c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.fe_mul_small
+                0x000030dd      0x110 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.fe_mul
+                0x000031ed      0x496 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.fe_sq
+                0x00003683      0x2ff build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.scalar_bit
+                0x00003982       0x34 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.multiply
+                0x000039b6       0xa6 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.is_above_l
+                0x00003a5c       0x79 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.remove_l
+                0x00003ad5       0x99 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.ge_zero
+                0x00003b6e       0x20 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.ge_madd
+                0x00003b8e       0x53 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.ge_double
+                0x00003be1       0x51 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.lookup_add
+                0x00003c32       0xb7 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_verify16
+                0x00003ce9       0x20 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_verify32
+                0x00003d09       0x20 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_wipe
+                0x00003d29       0x2d build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.fe_tobytes
+                0x00003d56      0x187 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.fe_isequal
+                0x00003edd       0x32 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.invsqrt
+                0x00003f0f      0x2ee build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.fe_invert
+                0x000041fd       0x25 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.scalarmult
+                0x00004222      0x117 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.mod_l
+                0x00004339      0x1d5 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.fe_isodd
+                0x0000450e       0x2e build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.ge_tobytes
+                0x0000453c       0x3c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_chacha20_h
+                0x00004578       0x29 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_chacha20_djb
+                0x000045a1      0x1d3 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_poly1305_init
+                0x00004774       0x94 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_poly1305_update
+                0x00004808      0x107 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_poly1305_final
+                0x0000490f       0xf6 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.lock_auth
+                0x00004a05       0x33 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_blake2b_keyed_init
+                0x00004a38       0xad build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_blake2b_init
+                0x00004ae5       0x1c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_blake2b_update
+                0x00004b01      0x27c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.blake_update_32
+                0x00004d7d       0x23 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.blake_update_32_buf
+                0x00004da0       0x21 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_blake2b_final
+                0x00004dc1       0x7c build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_blake2b_keyed
+                0x00004e3d       0x23 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_blake2b
+                0x00004e60       0x1e build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.extended_hash
+                0x00004e7e       0x6d build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_argon2
+                0x00004eeb      0x373 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_eddsa_trim_scalar
+                0x0000525e       0x46 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_x25519
+                0x000052a4       0x26 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_x25519_public_key
+                0x000052ca       0x1d build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_eddsa_mul_add
+                0x000052e7       0x53 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.ge_scalarmult_base
+                0x0000533a       0x6b build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_eddsa_scalarbase
+                0x000053a5       0x23 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_eddsa_key_pair
+                0x000053c8       0x65 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_aead_init_x
+                0x0000542d       0x39 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_aead_write
+                0x00005466       0x50 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_aead_read
+                0x000054b6       0x6b build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_aead_lock
+                0x00005521       0x28 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line.text.crypto_aead_unlock
+                0x00005549       0x32 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ .debug_line_end
+                0x0000557b        0x0 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+
+.debug_frame    0x00000000     0x10f8
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x12c build/f7-firmware-D/.extapps/key_locker/main.o
+ .debug_frame   0x0000012c      0x138 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .debug_frame   0x00000264      0xe94 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+
+.debug_str      0x00000000     0x2183
+ *(.debug_str)
+ .debug_str     0x00000000      0xac5 build/f7-firmware-D/.extapps/key_locker/main.o
+ .debug_str     0x00000ac5      0x7d4 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .debug_str     0x00001299      0xeea build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x68f2
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x665 build/f7-firmware-D/.extapps/key_locker/main.o
+ .debug_loclists
+                0x00000665      0x585 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .debug_loclists
+                0x00000bea     0x5d08 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x61d
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xc6 build/f7-firmware-D/.extapps/key_locker/main.o
+ .debug_rnglists
+                0x000000c6       0x4c build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .debug_rnglists
+                0x00000112      0x50b build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-D/.extapps/key_locker/main.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-D/.extapps/key_locker/klocker(kl_store.o)
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-D/.extapps/key_locker/klocker(monocypher.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-D/.extapps/key_locker_d.elf elf32-littlearm)
+LOAD linker stubs

@@ -1,0 +1,687 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .text.pv_initialize_hid
+                0x00000000       0x34 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .text.pv_release_all_keys
+                0x00000000        0xc build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .text.pv_type_string
+                0x00000000       0x54 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .text.pv_press_key
+                0x00000000       0x24 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .rodata.hid_asciimap
+                0x00000000      0x100 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .debug_info    0x00000000      0xa53 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .debug_abbrev  0x00000000      0x274 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .debug_loclists
+                0x00000000       0x56 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .debug_aranges
+                0x00000000       0x38 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .debug_rnglists
+                0x00000000       0x25 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .debug_line    0x00000000      0x241 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .debug_str     0x00000000      0x87d build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .debug_line.text.pv_initialize_hid
+                0x00000000       0x42 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .debug_line.text.pv_release_all_keys
+                0x00000000       0x16 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .debug_line.text.pv_type_string
+                0x00000000       0x7a build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .debug_line.text.pv_press_key
+                0x00000000       0x1d build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .debug_frame   0x00000000       0x74 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/main.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/main.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/main.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/main.o
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/passvault_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/passvault_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/passvault_icons.o
+ .debug_info    0x00000000       0x6c build/f7-firmware-D/.extapps/passvault/passvault_icons.o
+ .debug_abbrev  0x00000000       0x26 build/f7-firmware-D/.extapps/passvault/passvault_icons.o
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-D/.extapps/passvault/passvault_icons.o
+ .debug_line    0x00000000       0x59 build/f7-firmware-D/.extapps/passvault/passvault_icons.o
+ .debug_str     0x00000000      0x1d8 build/f7-firmware-D/.extapps/passvault/passvault_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/passvault_icons.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/passvault_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+LOAD build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+LOAD build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+LOAD build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+LOAD build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+LOAD build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+LOAD build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+LOAD build/f7-firmware-D/.extapps/passvault/views/import_result.o
+LOAD build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+LOAD build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+LOAD build/f7-firmware-D/.extapps/passvault/main.o
+LOAD build/f7-firmware-D/.extapps/passvault/passvault_icons.o
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libsupc++_nano.a
+
+.text           0x00000000     0x22d0
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.parse_csv3
+                0x00000000       0x94 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .text.read_line
+                0x00000094       0x5c build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .text.write_escaped
+                0x000000f0       0x48 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .text.pv_ensure_vault_dir
+                0x00000138       0x2c build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+                0x00000138                pv_ensure_vault_dir
+ .text.pv_read_credentials
+                0x00000164       0xc8 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+                0x00000164                pv_read_credentials
+ .text.pv_write_credential
+                0x0000022c       0xc8 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+                0x0000022c                pv_write_credential
+ .text.pv_delete_credential
+                0x000002f4       0xec build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+                0x000002f4                pv_delete_credential
+ .text.pv_load_bookmarks
+                0x000003e0       0x9c build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+                0x000003e0                pv_load_bookmarks
+ .text.pv_save_bookmarks
+                0x0000047c       0x9c build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+                0x0000047c                pv_save_bookmarks
+ .text.pv_load_pin
+                0x00000518       0x9c build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+                0x00000518                pv_load_pin
+ .text.pv_save_pin
+                0x000005b4       0x78 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+                0x000005b4                pv_save_pin
+ .text.pv_import_csv
+                0x0000062c       0xe0 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+                0x0000062c                pv_import_csv
+ .text.cb_cred_name
+                0x0000070c       0x10 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .text.cb_username
+                0x0000071c       0x10 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .text.cb_password
+                0x0000072c       0xac build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .text.pv_ti_cred_name_alloc
+                0x000007d8       0x44 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+                0x000007d8                pv_ti_cred_name_alloc
+ .text.pv_ti_username_alloc
+                0x0000081c       0x50 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+                0x0000081c                pv_ti_username_alloc
+ .text.pv_ti_password_alloc
+                0x0000086c       0x44 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+                0x0000086c                pv_ti_password_alloc
+ .text.collect_bookmarks
+                0x000008b0       0x32 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ *fill*         0x000008e2        0x2 
+ .text.bkm_input
+                0x000008e4       0xc4 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .text.bkm_draw
+                0x000009a8      0x174 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .text.pv_bookmarks_view_alloc
+                0x00000b1c       0x58 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+                0x00000b1c                pv_bookmarks_view_alloc
+ .text.cd_input
+                0x00000b74       0x46 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ *fill*         0x00000bba        0x2 
+ .text.cd_draw  0x00000bbc      0x1ac build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .text.pv_credential_detail_view_alloc
+                0x00000d68       0x5c build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+                0x00000d68                pv_credential_detail_view_alloc
+ .text.dp_input
+                0x00000dc4      0x134 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .text.dp_draw  0x00000ef8      0x1d8 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .text.pv_delete_password_view_alloc
+                0x000010d0       0x58 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+                0x000010d0                pv_delete_password_view_alloc
+ .text.gp_draw  0x00001128       0xdc build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .text.pv_gen_build_alphabet
+                0x00001204       0x48 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+                0x00001204                pv_gen_build_alphabet
+ .text.pv_gen_generate
+                0x0000124c       0x94 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+                0x0000124c                pv_gen_generate
+ .text.gp_input
+                0x000012e0      0x1a4 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .text.pv_generate_password_view_alloc
+                0x00001484       0x58 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+                0x00001484                pv_generate_password_view_alloc
+ .text.ir_input
+                0x000014dc       0x48 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .text.ir_draw  0x00001524      0x108 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .text.pv_import_result_view_alloc
+                0x0000162c       0x58 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+                0x0000162c                pv_import_result_view_alloc
+ .text.pin_input
+                0x00001684      0x1a8 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .text.pin_draw
+                0x0000182c      0x134 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .text.pv_pin_view_alloc
+                0x00001960       0x58 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+                0x00001960                pv_pin_view_alloc
+ .text.sp_input
+                0x000019b8       0xbc build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .text.sp_draw  0x00001a74      0x1ac build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .text.pv_saved_passwords_view_alloc
+                0x00001c20       0x58 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+                0x00001c20                pv_saved_passwords_view_alloc
+ .text.nav_cb   0x00001c78       0x40 build/f7-firmware-D/.extapps/passvault/main.o
+ .text.mm_input
+                0x00001cb8      0x1c8 build/f7-firmware-D/.extapps/passvault/main.o
+ .text.mm_draw  0x00001e80      0x114 build/f7-firmware-D/.extapps/passvault/main.o
+ .text.passvault_app
+                0x00001f94      0x33c build/f7-firmware-D/.extapps/passvault/main.o
+                0x00001f94                passvault_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000022d0      0x4b4
+ *(.rodata)
+ .rodata        0x000022d0        0xc build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.pv_ensure_vault_dir.str1.4
+                0x000022dc       0x17 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ *fill*         0x000022f3        0x1 
+ .rodata.pv_read_credentials.str1.4
+                0x000022f4       0x1d build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ *fill*         0x00002311        0x3 
+ .rodata.pv_write_credential.str1.4
+                0x00002314        0x6 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ *fill*         0x0000231a        0x2 
+ .rodata.pv_delete_credential.str1.4
+                0x0000231c       0x1d build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ *fill*         0x00002339        0x3 
+ .rodata.pv_load_bookmarks.str1.4
+                0x0000233c       0x1d build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ *fill*         0x00002359        0x3 
+ .rodata.pv_load_pin.str1.4
+                0x0000235c       0x17 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ *fill*         0x00002373        0x1 
+ .rodata.pv_ti_cred_name_alloc.str1.4
+                0x00002374       0x13 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ *fill*         0x00002387        0x1 
+ .rodata.pv_ti_username_alloc.str1.4
+                0x00002388       0x15 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ *fill*         0x0000239d        0x3 
+ .rodata.pv_ti_password_alloc.str1.4
+                0x000023a0        0xa build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ *fill*         0x000023aa        0x2 
+ .rodata.bkm_draw.str1.4
+                0x000023ac       0x36 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ *fill*         0x000023e2        0x2 
+ .rodata.cd_draw.str1.4
+                0x000023e4       0x3d build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ *fill*         0x00002421        0x3 
+ .rodata.str1.4
+                0x00002424       0x1a build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ *fill*         0x0000243e        0x2 
+ .rodata.dp_draw.str1.4
+                0x00002440       0x4d build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ *fill*         0x0000248d        0x3 
+ .rodata.gp_draw.str1.4
+                0x00002490       0x27 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ *fill*         0x000024b7        0x1 
+ .rodata.str1.4
+                0x000024b8      0x101 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ *fill*         0x000025b9        0x3 
+ .rodata.pg_level_names
+                0x000025bc       0x14 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .rodata.pg_alphabets
+                0x000025d0       0x14 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .rodata.ir_draw.str1.4
+                0x000025e4       0x8a build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ *fill*         0x0000266e        0x2 
+ .rodata.pin_draw.str1.4
+                0x00002670       0x36 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ *fill*         0x000026a6        0x2 
+ .rodata.sp_draw.str1.4
+                0x000026a8       0x37 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ *fill*         0x000026df        0x1 
+ .rodata.mm_input.str1.4
+                0x000026e0       0x1a build/f7-firmware-D/.extapps/passvault/main.o
+ *fill*         0x000026fa        0x2 
+ .rodata.mm_draw.str1.4
+                0x000026fc        0xa build/f7-firmware-D/.extapps/passvault/main.o
+ *fill*         0x00002706        0x2 
+ .rodata.passvault_app.str1.4
+                0x00002708       0x7c build/f7-firmware-D/.extapps/passvault/main.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x260
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x78 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_aranges
+                0x00000078       0x48 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .debug_aranges
+                0x000000c0       0x38 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .debug_aranges
+                0x000000f8       0x30 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .debug_aranges
+                0x00000128       0x30 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .debug_aranges
+                0x00000158       0x40 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .debug_aranges
+                0x00000198       0x30 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .debug_aranges
+                0x000001c8       0x30 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .debug_aranges
+                0x000001f8       0x30 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .debug_aranges
+                0x00000228       0x38 build/f7-firmware-D/.extapps/passvault/main.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xa531
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1616 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_info    0x00001616      0xa4b build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .debug_info    0x00002061      0xf00 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .debug_info    0x00002f61      0xda5 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .debug_info    0x00003d06      0xffb build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .debug_info    0x00004d01     0x1315 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .debug_info    0x00006016      0xdd4 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .debug_info    0x00006dea     0x1157 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .debug_info    0x00007f41      0xee4 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .debug_info    0x00008e25     0x170c build/f7-firmware-D/.extapps/passvault/main.o
+
+.debug_abbrev   0x00000000     0x1d43
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x317 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_abbrev  0x00000317      0x221 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .debug_abbrev  0x00000538      0x304 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .debug_abbrev  0x0000083c      0x2e4 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .debug_abbrev  0x00000b20      0x306 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .debug_abbrev  0x00000e26      0x343 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .debug_abbrev  0x00001169      0x2f1 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .debug_abbrev  0x0000145a      0x308 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .debug_abbrev  0x00001762      0x2e8 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .debug_abbrev  0x00001a4a      0x2f9 build/f7-firmware-D/.extapps/passvault/main.o
+
+.debug_line     0x00000000     0x415b
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x306 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_line.text.parse_csv3
+                0x00000306      0x11c build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_line.text.read_line
+                0x00000422       0x9a build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_line.text.write_escaped
+                0x000004bc       0x71 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_line.text.pv_ensure_vault_dir
+                0x0000052d       0x22 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_line.text.pv_read_credentials
+                0x0000054f       0x85 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_line.text.pv_write_credential
+                0x000005d4       0x62 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_line.text.pv_delete_credential
+                0x00000636       0xa4 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_line.text.pv_load_bookmarks
+                0x000006da       0x75 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_line.text.pv_save_bookmarks
+                0x0000074f       0x70 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_line.text.pv_load_pin
+                0x000007bf       0x9f build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_line.text.pv_save_pin
+                0x0000085e       0x4f build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_line.text.pv_import_csv
+                0x000008ad       0xc5 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_line_end
+                0x00000972        0x0 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_line    0x00000972      0x377 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .debug_line.text.cb_cred_name
+                0x00000ce9       0x1b build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .debug_line.text.cb_username
+                0x00000d04       0x1d build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .debug_line.text.cb_password
+                0x00000d21       0x93 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .debug_line.text.pv_ti_cred_name_alloc
+                0x00000db4       0x2a build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .debug_line.text.pv_ti_username_alloc
+                0x00000dde       0x2b build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .debug_line.text.pv_ti_password_alloc
+                0x00000e09       0x2a build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .debug_line_end
+                0x00000e33        0x0 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .debug_line    0x00000e33      0x316 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .debug_line.text.collect_bookmarks
+                0x00001149       0x75 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .debug_line.text.bkm_input
+                0x000011be       0xfc build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .debug_line.text.bkm_draw
+                0x000012ba      0x10c build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .debug_line.text.pv_bookmarks_view_alloc
+                0x000013c6       0x3c build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .debug_line_end
+                0x00001402        0x0 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .debug_line    0x00001402      0x31e build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .debug_line.text.cd_input
+                0x00001720       0x91 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .debug_line.text.cd_draw
+                0x000017b1      0x11e build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .debug_line.text.pv_credential_detail_view_alloc
+                0x000018cf       0x44 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .debug_line_end
+                0x00001913        0x0 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .debug_line    0x00001913      0x3cf build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .debug_line.text.dp_input
+                0x00001ce2      0x1ae build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .debug_line.text.dp_draw
+                0x00001e90      0x129 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .debug_line.text.pv_delete_password_view_alloc
+                0x00001fb9       0x3c build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .debug_line_end
+                0x00001ff5        0x0 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .debug_line    0x00001ff5      0x3c3 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .debug_line.text.gp_draw
+                0x000023b8       0x46 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .debug_line.text.pv_gen_build_alphabet
+                0x000023fe       0x58 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .debug_line.text.pv_gen_generate
+                0x00002456       0xbc build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .debug_line.text.gp_input
+                0x00002512      0x13a build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .debug_line.text.pv_generate_password_view_alloc
+                0x0000264c       0x3c build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .debug_line_end
+                0x00002688        0x0 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .debug_line    0x00002688      0x3cd build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .debug_line.text.ir_input
+                0x00002a55       0x54 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .debug_line.text.ir_draw
+                0x00002aa9       0x5a build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .debug_line.text.pv_import_result_view_alloc
+                0x00002b03       0x3b build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .debug_line_end
+                0x00002b3e        0x0 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .debug_line    0x00002b3e      0x3e4 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .debug_line.text.pin_input
+                0x00002f22      0x195 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .debug_line.text.pin_draw
+                0x000030b7       0xb8 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .debug_line.text.pv_pin_view_alloc
+                0x0000316f       0x3c build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .debug_line_end
+                0x000031ab        0x0 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .debug_line    0x000031ab      0x3d0 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .debug_line.text.sp_input
+                0x0000357b      0x113 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .debug_line.text.sp_draw
+                0x0000368e      0x12e build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .debug_line.text.pv_saved_passwords_view_alloc
+                0x000037bc       0x3c build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .debug_line_end
+                0x000037f8        0x0 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .debug_line    0x000037f8      0x492 build/f7-firmware-D/.extapps/passvault/main.o
+ .debug_line.text.nav_cb
+                0x00003c8a       0x6e build/f7-firmware-D/.extapps/passvault/main.o
+ .debug_line.text.mm_input
+                0x00003cf8      0x1d6 build/f7-firmware-D/.extapps/passvault/main.o
+ .debug_line.text.mm_draw
+                0x00003ece       0xd9 build/f7-firmware-D/.extapps/passvault/main.o
+ .debug_line.text.passvault_app
+                0x00003fa7      0x1b4 build/f7-firmware-D/.extapps/passvault/main.o
+ .debug_line_end
+                0x0000415b        0x0 build/f7-firmware-D/.extapps/passvault/main.o
+
+.debug_frame    0x00000000      0x6a0
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1e0 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_frame   0x000001e0       0xc0 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .debug_frame   0x000002a0       0x90 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .debug_frame   0x00000330       0x68 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .debug_frame   0x00000398       0x7c build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .debug_frame   0x00000414       0xa8 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .debug_frame   0x000004bc       0x70 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .debug_frame   0x0000052c       0x70 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .debug_frame   0x0000059c       0x70 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .debug_frame   0x0000060c       0x94 build/f7-firmware-D/.extapps/passvault/main.o
+
+.debug_str      0x00000000     0x664c
+ *(.debug_str)
+ .debug_str     0x00000000      0x645 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_str     0x00000645      0x6eb build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .debug_str     0x00000d30      0x989 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .debug_str     0x000016b9      0x872 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .debug_str     0x00001f2b      0x9c4 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .debug_str     0x000028ef      0xf32 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .debug_str     0x00003821      0x962 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .debug_str     0x00004183      0xe37 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .debug_str     0x00004fba      0x99b build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .debug_str     0x00005955      0xcf7 build/f7-firmware-D/.extapps/passvault/main.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x1f83
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x69e build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_loclists
+                0x0000069e      0x168 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .debug_loclists
+                0x00000806      0x31e build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .debug_loclists
+                0x00000b24      0x1cd build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .debug_loclists
+                0x00000cf1      0x292 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .debug_loclists
+                0x00000f83      0x4ed build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .debug_loclists
+                0x00001470      0x148 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .debug_loclists
+                0x000015b8      0x29c build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .debug_loclists
+                0x00001854      0x306 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .debug_loclists
+                0x00001b5a      0x429 build/f7-firmware-D/.extapps/passvault/main.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x2c5
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xb1 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_rnglists
+                0x000000b1       0x32 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .debug_rnglists
+                0x000000e3       0x4c build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .debug_rnglists
+                0x0000012f       0x3a build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .debug_rnglists
+                0x00000169       0x3a build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .debug_rnglists
+                0x000001a3       0x4c build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .debug_rnglists
+                0x000001ef       0x20 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .debug_rnglists
+                0x0000020f       0x3b build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .debug_rnglists
+                0x0000024a       0x3b build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .debug_rnglists
+                0x00000285       0x40 build/f7-firmware-D/.extapps/passvault/main.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-D/.extapps/passvault/main.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-D/.extapps/passvault/passvault_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-D/.extapps/passvault_d.elf elf32-littlearm)
+LOAD linker stubs

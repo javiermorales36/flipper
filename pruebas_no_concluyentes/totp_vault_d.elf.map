@@ -1,0 +1,892 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+                              build/f7-firmware-D/.extapps/totp_vault/main.o (totp_generate)
+build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+                              build/f7-firmware-D/.extapps/totp_vault/main.o (totp_store_save)
+build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                              build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o) (crypto_wipe)
+build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+                              build/f7-firmware-D/.extapps/totp_vault/totp(totp.o) (hmac_sha1)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/totp_vault/main.o
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.load24_le
+                0x00000000       0x10 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.x32      0x00000000       0x28 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.x64      0x00000000       0x28 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.fe_0     0x00000000       0x12 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.fe_1     0x00000000       0x16 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.fe_copy  0x00000000       0x14 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.fe_neg   0x00000000       0x16 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.fe_add   0x00000000       0x22 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.fe_sub   0x00000000       0x22 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.fe_cswap
+                0x00000000       0x36 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.fe_ccopy
+                0x00000000       0x2a build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.fe_frombytes_mask
+                0x00000000      0x230 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.fe_frombytes
+                0x00000000       0x10 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.fe_mul_small
+                0x00000000      0x2ae build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.fe_mul   0x00000000      0xd9a build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.fe_sq    0x00000000      0x822 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.scalar_bit
+                0x00000000       0x18 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.multiply
+                0x00000000       0x62 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.is_above_l
+                0x00000000       0x38 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.remove_l
+                0x00000000       0x4c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.ge_zero  0x00000000       0x28 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.ge_cache
+                0x00000000       0x50 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.ge_add   0x00000000       0xbc build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.ge_sub   0x00000000       0x48 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.ge_madd  0x00000000       0xc0 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.ge_msub  0x00000000       0x4c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.ge_double
+                0x00000000       0xb4 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.slide_init
+                0x00000000       0x30 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.slide_step
+                0x00000000       0xc8 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.lookup_add
+                0x00000000      0x108 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.add_xl   0x00000000       0x54 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_verify32
+                0x00000000       0x14 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_verify64
+                0x00000000       0x14 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.fe_tobytes
+                0x00000000      0x130 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.fe_isequal
+                0x00000000       0x40 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.invsqrt  0x00000000      0x210 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.fe_invert
+                0x00000000       0x44 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.scalarmult
+                0x00000000      0x18c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.mod_l    0x00000000      0x140 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.fe_isodd
+                0x00000000       0x2c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.ge_frombytes_neg_vartime
+                0x00000000       0xbc build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.ge_tobytes
+                0x00000000       0x6c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.select_lop
+                0x00000000       0x54 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.redc     0x00000000       0xd8 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_chacha20_ietf
+                0x00000000       0x3c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_chacha20_x
+                0x00000000       0x50 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_poly1305
+                0x00000000       0x34 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_eddsa_trim_scalar
+                0x00000000       0x26 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_x25519
+                0x00000000       0x34 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_x25519_public_key
+                0x00000000       0x14 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_eddsa_reduce
+                0x00000000       0x30 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.hash_reduce
+                0x00000000       0x54 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_eddsa_mul_add
+                0x00000000       0x70 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.ge_scalarmult_base
+                0x00000000       0xe4 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_eddsa_check_equation
+                0x00000000      0x1f4 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_eddsa_scalarbase
+                0x00000000       0x2c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_eddsa_key_pair
+                0x00000000       0x8c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_eddsa_sign
+                0x00000000       0xa4 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_eddsa_check
+                0x00000000       0x30 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_eddsa_to_x25519
+                0x00000000       0x70 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_x25519_to_eddsa
+                0x00000000       0x70 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_x25519_dirty_small
+                0x00000000       0x44 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_x25519_dirty_fast
+                0x00000000       0xf8 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_elligator_map
+                0x00000000      0x118 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_elligator_rev
+                0x00000000       0xcc build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_elligator_key_pair
+                0x00000000       0xac build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_x25519_inverse
+                0x00000000      0x170 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_aead_init_djb
+                0x00000000       0x58 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_aead_init_ietf
+                0x00000000       0x44 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.k.0    0x00000000       0x20 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.Lm2.1  0x00000000       0x20 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.dirty_base_point.2
+                0x00000000       0x20 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.half_ones.3
+                0x00000000       0x20 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.half_mod_L.4
+                0x00000000       0x20 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.zero_point.5
+                0x00000000       0x20 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.r.6    0x00000000       0x24 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.base_point.7
+                0x00000000       0x20 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.A      0x00000000       0x28 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.b_comb_high
+                0x00000000      0x3c0 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.b_comb_low
+                0x00000000      0x3c0 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.b_window
+                0x00000000      0x3c0 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.L      0x00000000       0x20 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.A2     0x00000000       0x28 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.ufactor
+                0x00000000       0x28 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.lop_y  0x00000000       0x28 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.lop_x  0x00000000       0x28 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.D2     0x00000000       0x28 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.d      0x00000000       0x28 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.sqrtm1
+                0x00000000       0x28 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.fe_one
+                0x00000000       0x28 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata        0x00000000       0x20 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.load24_le
+                0x00000000       0x23 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.x32
+                0x00000000       0x24 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.x64
+                0x00000000       0x24 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.fe_0
+                0x00000000       0x2c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.fe_1
+                0x00000000       0x3b build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.fe_copy
+                0x00000000       0x40 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.fe_neg
+                0x00000000       0x47 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.fe_add
+                0x00000000       0x4e build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.fe_sub
+                0x00000000       0x4e build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.fe_cswap
+                0x00000000       0x87 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.fe_ccopy
+                0x00000000       0x69 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.fe_frombytes_mask
+                0x00000000      0x115 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.fe_frombytes
+                0x00000000       0x1c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.fe_mul_small
+                0x00000000      0x110 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.fe_mul
+                0x00000000      0x496 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.fe_sq
+                0x00000000      0x2ff build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.scalar_bit
+                0x00000000       0x34 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.multiply
+                0x00000000       0xa6 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.is_above_l
+                0x00000000       0x79 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.remove_l
+                0x00000000       0x99 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.ge_zero
+                0x00000000       0x20 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.ge_cache
+                0x00000000       0x29 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.ge_add
+                0x00000000       0x52 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.ge_sub
+                0x00000000       0x26 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.ge_madd
+                0x00000000       0x53 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.ge_msub
+                0x00000000       0x26 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.ge_double
+                0x00000000       0x51 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.slide_init
+                0x00000000       0x5c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.slide_step
+                0x00000000       0xf6 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.lookup_add
+                0x00000000       0xb7 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.add_xl
+                0x00000000       0x84 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_verify32
+                0x00000000       0x20 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_verify64
+                0x00000000       0x20 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.fe_tobytes
+                0x00000000      0x187 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.fe_isequal
+                0x00000000       0x32 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.invsqrt
+                0x00000000      0x2ee build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.fe_invert
+                0x00000000       0x25 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.scalarmult
+                0x00000000      0x117 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.mod_l
+                0x00000000      0x1d5 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.fe_isodd
+                0x00000000       0x2e build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.ge_frombytes_neg_vartime
+                0x00000000       0x6b build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.ge_tobytes
+                0x00000000       0x3c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.select_lop
+                0x00000000       0x29 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.redc
+                0x00000000      0x131 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_chacha20_ietf
+                0x00000000       0x2e build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_chacha20_x
+                0x00000000       0x36 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_poly1305
+                0x00000000       0x25 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_eddsa_trim_scalar
+                0x00000000       0x46 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_x25519
+                0x00000000       0x26 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_x25519_public_key
+                0x00000000       0x1d build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_eddsa_reduce
+                0x00000000       0x23 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.hash_reduce
+                0x00000000       0x2c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_eddsa_mul_add
+                0x00000000       0x53 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.ge_scalarmult_base
+                0x00000000       0x6b build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_eddsa_check_equation
+                0x00000000      0x1d9 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_eddsa_scalarbase
+                0x00000000       0x23 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_eddsa_key_pair
+                0x00000000       0x65 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_eddsa_sign
+                0x00000000       0x45 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_eddsa_check
+                0x00000000       0x28 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_eddsa_to_x25519
+                0x00000000       0x2a build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_x25519_to_eddsa
+                0x00000000       0x2a build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_x25519_dirty_small
+                0x00000000       0x2a build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_x25519_dirty_fast
+                0x00000000       0x49 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_elligator_map
+                0x00000000       0x4b build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_elligator_rev
+                0x00000000       0x4f build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_elligator_key_pair
+                0x00000000       0x80 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_x25519_inverse
+                0x00000000       0xe1 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_aead_init_djb
+                0x00000000       0x5c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_aead_init_ietf
+                0x00000000       0x4e build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-D/.extapps/totp_vault/main.o
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libsupc++_nano.a
+LOAD build/f7-firmware-D/.extapps/totp_vault/totp
+
+.text           0x00000000     0x46c8
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.handle_code_input
+                0x00000000       0x14 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .text.timer_callback
+                0x00000014       0x24 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .text.input_callback
+                0x00000038       0x28 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .text.draw_pin
+                0x00000060      0x11c build/f7-firmware-D/.extapps/totp_vault/main.o
+ .text.draw_list
+                0x0000017c      0x130 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .text.draw_code
+                0x000002ac      0x134 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .text.draw_callback
+                0x000003e0       0x60 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .text.try_unlock
+                0x00000440      0x100 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .text.handle_pin_input
+                0x00000540       0x9c build/f7-firmware-D/.extapps/totp_vault/main.o
+ .text.refresh_code
+                0x000005dc       0x6c build/f7-firmware-D/.extapps/totp_vault/main.o
+ .text.handle_list_input
+                0x00000648       0x98 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .text.totp_vault_app
+                0x000006e0      0x1b4 build/f7-firmware-D/.extapps/totp_vault/main.o
+                0x000006e0                totp_vault_app
+ .text.hotp     0x00000894       0x90 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .text.totp_generate
+                0x00000924       0x30 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+                0x00000924                totp_generate
+ .text.totp_format
+                0x00000954       0x18 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+                0x00000954                totp_format
+ .text.base32_decode
+                0x0000096c       0x70 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+                0x0000096c                base32_decode
+ .text.derive_key
+                0x000009dc       0x94 build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .text.totp_store_save
+                0x00000a70      0x254 build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+                0x00000a70                totp_store_save
+ .text.totp_store_load
+                0x00000cc4      0x2cc build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+                0x00000cc4                totp_store_load
+ .text.totp_store_import
+                0x00000f90      0x1f4 build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+                0x00000f90                totp_store_import
+ .text.gap      0x00001184        0x8 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.load32_le
+                0x0000118c       0x16 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ *fill*         0x000011a2        0x2 
+ .text.load64_le
+                0x000011a4       0x18 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.store32_le
+                0x000011bc       0x14 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.store64_le
+                0x000011d0       0x18 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.load32_le_buf
+                0x000011e8       0x24 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.load64_le_buf
+                0x0000120c       0x2c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.store32_le_buf
+                0x00001238       0x24 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.store64_le_buf
+                0x0000125c       0x2c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.rotr64   0x00001288       0x4a build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.rotl32   0x000012d2        0x8 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.neq0     0x000012da        0xc build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ *fill*         0x000012e6        0x2 
+ .text.x16      0x000012e8       0x3c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.chacha20_rounds
+                0x00001324      0x270 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.poly_blocks
+                0x00001594      0x288 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.blake2b_compress
+                0x0000181c      0x7b8 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.copy_block
+                0x00001fd4       0x1c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.xor_block
+                0x00001ff0       0x32 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ *fill*         0x00002022        0x2 
+ .text.g_rounds
+                0x00002024     0x1518 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_verify16
+                0x0000353c       0x14 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x0000353c                crypto_verify16
+ .text.crypto_wipe
+                0x00003550       0x10 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x00003550                crypto_wipe
+ .text.crypto_chacha20_h
+                0x00003560       0x60 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x00003560                crypto_chacha20_h
+ .text.crypto_chacha20_djb
+                0x000035c0      0x15c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x000035c0                crypto_chacha20_djb
+ .text.crypto_poly1305_init
+                0x0000371c       0x70 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x0000371c                crypto_poly1305_init
+ .text.crypto_poly1305_update
+                0x0000378c       0x80 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x0000378c                crypto_poly1305_update
+ .text.crypto_poly1305_final
+                0x0000380c       0xc0 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x0000380c                crypto_poly1305_final
+ .text.lock_auth
+                0x000038cc       0x94 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_blake2b_keyed_init
+                0x00003960       0xb8 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x00003960                crypto_blake2b_keyed_init
+ .text.crypto_blake2b_init
+                0x00003a18       0x10 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x00003a18                crypto_blake2b_init
+ .text.crypto_blake2b_update
+                0x00003a28      0x1d0 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x00003a28                crypto_blake2b_update
+ .text.blake_update_32
+                0x00003bf8       0x34 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.blake_update_32_buf
+                0x00003c2c       0x24 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_blake2b_final
+                0x00003c50       0x74 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x00003c50                crypto_blake2b_final
+ .text.crypto_blake2b_keyed
+                0x00003cc4       0x30 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x00003cc4                crypto_blake2b_keyed
+ .text.crypto_blake2b
+                0x00003cf4       0x18 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x00003cf4                crypto_blake2b
+ .text.extended_hash
+                0x00003d0c       0x98 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .text.crypto_argon2
+                0x00003da4      0x400 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x00003da4                crypto_argon2
+ .text.crypto_aead_init_x
+                0x000041a4       0x30 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x000041a4                crypto_aead_init_x
+ .text.crypto_aead_write
+                0x000041d4       0x90 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x000041d4                crypto_aead_write
+ .text.crypto_aead_read
+                0x00004264       0xa8 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x00004264                crypto_aead_read
+ .text.crypto_aead_lock
+                0x0000430c       0x44 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x0000430c                crypto_aead_lock
+ .text.crypto_aead_unlock
+                0x00004350       0x48 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x00004350                crypto_aead_unlock
+ .text.sha1_transform
+                0x00004398      0x11c build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+ .text.sha1_init
+                0x000044b4       0x34 build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+                0x000044b4                sha1_init
+ .text.sha1_update
+                0x000044e8       0x88 build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+                0x000044e8                sha1_update
+ .text.sha1_final
+                0x00004570       0x9c build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+                0x00004570                sha1_final
+ .text.hmac_sha1
+                0x0000460c       0xbc build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+                0x0000460c                hmac_sha1
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000046c8      0x3c8
+ *(.rodata)
+ .rodata        0x000046c8       0x10 build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.draw_pin.str1.4
+                0x000046d8       0x38 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .rodata.draw_list.str1.4
+                0x00004710       0x22 build/f7-firmware-D/.extapps/totp_vault/main.o
+ *fill*         0x00004732        0x2 
+ .rodata.draw_code.str1.4
+                0x00004734        0x4 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .rodata.try_unlock.str1.4
+                0x00004738       0x48 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .rodata.totp_vault_app.str1.4
+                0x00004780        0x4 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .rodata.totp_format.str1.4
+                0x00004784        0x5 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ *fill*         0x00004789        0x3 
+ .rodata.TABLE.0
+                0x0000478c      0x100 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .rodata.totp_store_save.str1.4
+                0x0000488c       0x39 build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ *fill*         0x000048c5        0x3 
+ .rodata.totp_store_import.str1.4
+                0x000048c8       0x1f build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ *fill*         0x000048e7        0x1 
+ .rodata.crypto_chacha20_h.str1.4
+                0x000048e8       0x11 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ *fill*         0x000048f9        0x3 
+ .rodata.sigma.8
+                0x000048fc       0xc0 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.crypto_argon2_no_extras
+                0x000049bc       0x10 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+                0x000049bc                crypto_argon2_no_extras
+ *fill*         0x000049cc        0x4 
+ .rodata.iv     0x000049d0       0x40 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .rodata.zero   0x00004a10       0x80 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x4b8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x78 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_aranges
+                0x00000078       0x38 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .debug_aranges
+                0x000000b0       0x38 build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .debug_aranges
+                0x000000e8      0x390 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_aranges
+                0x00000478       0x40 build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xd537
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x18ad build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_info    0x000018ad      0x446 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .debug_info    0x00001cf3     0x1818 build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .debug_info    0x0000350b     0x98b9 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_info    0x0000cdc4      0x773 build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+
+.debug_abbrev   0x00000000      0xd72
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x374 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_abbrev  0x00000374      0x1b2 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .debug_abbrev  0x00000526      0x289 build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .debug_abbrev  0x000007af      0x407 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_abbrev  0x00000bb6      0x1bc build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+
+.debug_line     0x00000000     0x4213
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x339 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_line.text.handle_code_input
+                0x00000339       0x3a build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_line.text.timer_callback
+                0x00000373       0x26 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_line.text.input_callback
+                0x00000399       0x27 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_line.text.draw_pin
+                0x000003c0       0xb5 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_line.text.draw_list
+                0x00000475       0xe1 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_line.text.draw_code
+                0x00000556       0xcc build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_line.text.draw_callback
+                0x00000622       0x3f build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_line.text.try_unlock
+                0x00000661      0x102 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_line.text.handle_pin_input
+                0x00000763       0xb0 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_line.text.refresh_code
+                0x00000813       0x6c build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_line.text.handle_list_input
+                0x0000087f       0xdb build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_line.text.totp_vault_app
+                0x0000095a       0xe9 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_line_end
+                0x00000a43        0x0 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_line    0x00000a43      0x1f8 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .debug_line.text.hotp
+                0x00000c3b       0x8f build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .debug_line.text.totp_generate
+                0x00000cca       0x51 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .debug_line.text.totp_format
+                0x00000d1b       0x1c build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .debug_line.text.base32_decode
+                0x00000d37       0xc1 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .debug_line_end
+                0x00000df8        0x0 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .debug_line    0x00000df8      0x32a build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .debug_line.text.derive_key
+                0x00001122       0x4d build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .debug_line.text.totp_store_save
+                0x0000116f      0x1c1 build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .debug_line.text.totp_store_load
+                0x00001330      0x27a build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .debug_line.text.totp_store_import
+                0x000015aa      0x246 build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .debug_line_end
+                0x000017f0        0x0 build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .debug_line    0x000017f0      0x1af build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.gap
+                0x0000199f       0x20 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.load32_le
+                0x000019bf       0x29 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.load64_le
+                0x000019e8       0x24 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.store32_le
+                0x00001a0c       0x3d build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.store64_le
+                0x00001a49       0x1e build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.load32_le_buf
+                0x00001a67       0x44 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.load64_le_buf
+                0x00001aab       0x4b build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.store32_le_buf
+                0x00001af6       0x34 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.store64_le_buf
+                0x00001b2a       0x44 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.rotr64
+                0x00001b6e       0x21 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.rotl32
+                0x00001b8f       0x1d build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.neq0
+                0x00001bac       0x2b build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.x16
+                0x00001bd7       0x30 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.chacha20_rounds
+                0x00001c07      0x389 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.poly_blocks
+                0x00001f90      0x3a8 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.blake2b_compress
+                0x00002338      0x527 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.copy_block
+                0x0000285f       0x40 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.xor_block
+                0x0000289f       0x4a build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.g_rounds
+                0x000028e9      0x44e build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_verify16
+                0x00002d37       0x20 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_wipe
+                0x00002d57       0x2d build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_chacha20_h
+                0x00002d84       0x29 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_chacha20_djb
+                0x00002dad      0x1d3 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_poly1305_init
+                0x00002f80       0x94 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_poly1305_update
+                0x00003014      0x107 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_poly1305_final
+                0x0000311b       0xf6 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.lock_auth
+                0x00003211       0x33 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_blake2b_keyed_init
+                0x00003244       0xad build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_blake2b_init
+                0x000032f1       0x1c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_blake2b_update
+                0x0000330d      0x27c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.blake_update_32
+                0x00003589       0x23 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.blake_update_32_buf
+                0x000035ac       0x21 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_blake2b_final
+                0x000035cd       0x7c build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_blake2b_keyed
+                0x00003649       0x23 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_blake2b
+                0x0000366c       0x1e build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.extended_hash
+                0x0000368a       0x6d build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_argon2
+                0x000036f7      0x373 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_aead_init_x
+                0x00003a6a       0x39 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_aead_write
+                0x00003aa3       0x50 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_aead_read
+                0x00003af3       0x6b build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_aead_lock
+                0x00003b5e       0x28 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line.text.crypto_aead_unlock
+                0x00003b86       0x32 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line_end
+                0x00003bb8        0x0 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_line    0x00003bb8      0x1f9 build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+ .debug_line.text.sha1_transform
+                0x00003db1      0x1f3 build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+ .debug_line.text.sha1_init
+                0x00003fa4       0x4b build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+ .debug_line.text.sha1_update
+                0x00003fef       0xb4 build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+ .debug_line.text.sha1_final
+                0x000040a3       0xe8 build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+ .debug_line.text.hmac_sha1
+                0x0000418b       0x88 build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+ .debug_line_end
+                0x00004213        0x0 build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+
+.debug_frame    0x00000000     0x122c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x190 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_frame   0x00000190       0x84 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .debug_frame   0x00000214       0xc8 build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .debug_frame   0x000002dc      0xe94 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_frame   0x00001170       0xbc build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+
+.debug_str      0x00000000     0x27bc
+ *(.debug_str)
+ .debug_str     0x00000000      0xb66 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_str     0x00000b66      0x2e0 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .debug_str     0x00000e46      0x7c0 build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .debug_str     0x00001606      0xeea build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_str     0x000024f0      0x2cc build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x6e20
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x48f build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_loclists
+                0x0000048f      0x30e build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .debug_loclists
+                0x0000079d      0x5cb build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .debug_loclists
+                0x00000d68     0x5d08 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_loclists
+                0x00006a70      0x3b0 build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x677
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x82 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .debug_rnglists
+                0x00000082       0x44 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .debug_rnglists
+                0x000000c6       0x6b build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .debug_rnglists
+                0x00000131      0x50b build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .debug_rnglists
+                0x0000063c       0x3b build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-D/.extapps/totp_vault/main.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-D/.extapps/totp_vault/totp(totp.o)
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-D/.extapps/totp_vault/totp(totp_store.o)
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-D/.extapps/totp_vault/totp(monocypher.o)
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-D/.extapps/totp_vault/totp(sha1.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-D/.extapps/totp_vault_d.elf elf32-littlearm)
+LOAD linker stubs

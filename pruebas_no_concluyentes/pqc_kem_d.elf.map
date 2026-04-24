@@ -1,0 +1,841 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+                              build/f7-firmware-D/.extapps/pqc_kem/main.o (pqcrystals_kyber512_ref_keypair)
+build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+                              build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o) (pqcrystals_kyber512_ref_indcpa_keypair_derand)
+build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+                              build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o) (pqcrystals_kyber512_ref_polyvec_compress)
+build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+                              build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o) (pqcrystals_kyber512_ref_poly_compress)
+build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+                              build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o) (pqcrystals_kyber512_ref_ntt)
+build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+                              build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o) (pqcrystals_kyber512_ref_poly_cbd_eta1)
+build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+                              build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o) (pqcrystals_kyber512_ref_montgomery_reduce)
+build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+                              build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o) (pqcrystals_kyber512_ref_verify)
+build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+                              build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o) (pqcrystals_kyber512_ref_kyber_shake128_absorb)
+build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+                              build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o) (pqcrystals_kyber_fips202_ref_shake128_absorb_once)
+build/f7-firmware-D/.extapps/pqc_kem/kyber512(randombytes.o)
+                              build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o) (randombytes)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .text.pqcrystals_kyber_fips202_ref_shake128_init
+                0x00000000       0x14 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .text.pqcrystals_kyber_fips202_ref_shake128_absorb
+                0x00000000       0x20 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .text.pqcrystals_kyber_fips202_ref_shake128_finalize
+                0x00000000       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .text.pqcrystals_kyber_fips202_ref_shake128_squeeze
+                0x00000000       0x20 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .text.pqcrystals_kyber_fips202_ref_shake128
+                0x00000000       0x4c build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.pqcrystals_kyber_fips202_ref_shake128_init
+                0x00000000       0x21 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.pqcrystals_kyber_fips202_ref_shake128_absorb
+                0x00000000       0x25 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.pqcrystals_kyber_fips202_ref_shake128_finalize
+                0x00000000       0x21 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.pqcrystals_kyber_fips202_ref_shake128_squeeze
+                0x00000000       0x23 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.pqcrystals_kyber_fips202_ref_shake128
+                0x00000000       0x38 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(randombytes.o)
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(randombytes.o)
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(randombytes.o)
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(randombytes.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-D/.extapps/pqc_kem/main.o
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libsupc++_nano.a
+LOAD build/f7-firmware-D/.extapps/pqc_kem/kyber512
+
+.text           0x00000000     0x28f0
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.input_cb
+                0x00000000       0x24 build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .text.draw_cb  0x00000024      0x148 build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .text.run_kem  0x0000016c      0x1d8 build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .text.pqc_kem_app
+                0x00000344      0x12c build/f7-firmware-D/.extapps/pqc_kem/main.o
+                0x00000344                pqc_kem_app
+ .text.pqcrystals_kyber512_ref_keypair_derand
+                0x00000470       0x68 build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+                0x00000470                pqcrystals_kyber512_ref_keypair_derand
+ .text.pqcrystals_kyber512_ref_keypair
+                0x000004d8       0x28 build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+                0x000004d8                pqcrystals_kyber512_ref_keypair
+ .text.pqcrystals_kyber512_ref_enc_derand
+                0x00000500       0x80 build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+                0x00000500                pqcrystals_kyber512_ref_enc_derand
+ .text.pqcrystals_kyber512_ref_enc
+                0x00000580       0x2c build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+                0x00000580                pqcrystals_kyber512_ref_enc
+ .text.pqcrystals_kyber512_ref_dec
+                0x000005ac       0xa4 build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+                0x000005ac                pqcrystals_kyber512_ref_dec
+ .text.rej_uniform
+                0x00000650       0x60 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .text.pack_sk  0x000006b0        0xc build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .text.pack_pk  0x000006bc       0x40 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .text.unpack_pk
+                0x000006fc       0x44 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .text.unpack_sk
+                0x00000740        0xc build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .text.pack_ciphertext
+                0x0000074c       0x20 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .text.unpack_ciphertext
+                0x0000076c       0x20 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .text.pqcrystals_kyber512_ref_gen_matrix
+                0x0000078c       0xa8 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+                0x0000078c                pqcrystals_kyber512_ref_gen_matrix
+ .text.pqcrystals_kyber512_ref_indcpa_keypair_derand
+                0x00000834      0x118 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+                0x00000834                pqcrystals_kyber512_ref_indcpa_keypair_derand
+ .text.pqcrystals_kyber512_ref_indcpa_enc
+                0x0000094c      0x144 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+                0x0000094c                pqcrystals_kyber512_ref_indcpa_enc
+ .text.pqcrystals_kyber512_ref_indcpa_dec
+                0x00000a90       0x7c build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+                0x00000a90                pqcrystals_kyber512_ref_indcpa_dec
+ .text.pqcrystals_kyber512_ref_polyvec_compress
+                0x00000b0c       0xac build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+                0x00000b0c                pqcrystals_kyber512_ref_polyvec_compress
+ .text.pqcrystals_kyber512_ref_polyvec_decompress
+                0x00000bb8       0x90 build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+                0x00000bb8                pqcrystals_kyber512_ref_polyvec_decompress
+ .text.pqcrystals_kyber512_ref_polyvec_tobytes
+                0x00000c48       0x28 build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+                0x00000c48                pqcrystals_kyber512_ref_polyvec_tobytes
+ .text.pqcrystals_kyber512_ref_polyvec_frombytes
+                0x00000c70       0x28 build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+                0x00000c70                pqcrystals_kyber512_ref_polyvec_frombytes
+ .text.pqcrystals_kyber512_ref_polyvec_ntt
+                0x00000c98       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+                0x00000c98                pqcrystals_kyber512_ref_polyvec_ntt
+ .text.pqcrystals_kyber512_ref_polyvec_invntt_tomont
+                0x00000cb4       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+                0x00000cb4                pqcrystals_kyber512_ref_polyvec_invntt_tomont
+ .text.pqcrystals_kyber512_ref_polyvec_basemul_acc_montgomery
+                0x00000cd0       0x4c build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+                0x00000cd0                pqcrystals_kyber512_ref_polyvec_basemul_acc_montgomery
+ .text.pqcrystals_kyber512_ref_polyvec_reduce
+                0x00000d1c       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+                0x00000d1c                pqcrystals_kyber512_ref_polyvec_reduce
+ .text.pqcrystals_kyber512_ref_polyvec_add
+                0x00000d38       0x28 build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+                0x00000d38                pqcrystals_kyber512_ref_polyvec_add
+ .text.pqcrystals_kyber512_ref_poly_compress
+                0x00000d60       0x90 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+                0x00000d60                pqcrystals_kyber512_ref_poly_compress
+ .text.pqcrystals_kyber512_ref_poly_decompress
+                0x00000df0       0x4a build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+                0x00000df0                pqcrystals_kyber512_ref_poly_decompress
+ .text.pqcrystals_kyber512_ref_poly_tobytes
+                0x00000e3a       0x58 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+                0x00000e3a                pqcrystals_kyber512_ref_poly_tobytes
+ .text.pqcrystals_kyber512_ref_poly_frombytes
+                0x00000e92       0x46 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+                0x00000e92                pqcrystals_kyber512_ref_poly_frombytes
+ .text.pqcrystals_kyber512_ref_poly_frommsg
+                0x00000ed8       0x40 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+                0x00000ed8                pqcrystals_kyber512_ref_poly_frommsg
+ .text.pqcrystals_kyber512_ref_poly_tomsg
+                0x00000f18       0x4c build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+                0x00000f18                pqcrystals_kyber512_ref_poly_tomsg
+ .text.pqcrystals_kyber512_ref_poly_getnoise_eta1
+                0x00000f64       0x28 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+                0x00000f64                pqcrystals_kyber512_ref_poly_getnoise_eta1
+ .text.pqcrystals_kyber512_ref_poly_getnoise_eta2
+                0x00000f8c       0x28 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+                0x00000f8c                pqcrystals_kyber512_ref_poly_getnoise_eta2
+ .text.pqcrystals_kyber512_ref_poly_invntt_tomont
+                0x00000fb4        0xc build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+                0x00000fb4                pqcrystals_kyber512_ref_poly_invntt_tomont
+ .text.pqcrystals_kyber512_ref_poly_basemul_montgomery
+                0x00000fc0       0x58 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+                0x00000fc0                pqcrystals_kyber512_ref_poly_basemul_montgomery
+ .text.pqcrystals_kyber512_ref_poly_tomont
+                0x00001018       0x28 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+                0x00001018                pqcrystals_kyber512_ref_poly_tomont
+ .text.pqcrystals_kyber512_ref_poly_reduce
+                0x00001040       0x20 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+                0x00001040                pqcrystals_kyber512_ref_poly_reduce
+ .text.pqcrystals_kyber512_ref_poly_ntt
+                0x00001060       0x18 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+                0x00001060                pqcrystals_kyber512_ref_poly_ntt
+ .text.pqcrystals_kyber512_ref_poly_add
+                0x00001078       0x22 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+                0x00001078                pqcrystals_kyber512_ref_poly_add
+ .text.pqcrystals_kyber512_ref_poly_sub
+                0x0000109a       0x24 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+                0x0000109a                pqcrystals_kyber512_ref_poly_sub
+ *fill*         0x000010be        0x2 
+ .text.fqmul    0x000010c0       0x10 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .text.pqcrystals_kyber512_ref_ntt
+                0x000010d0       0x64 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+                0x000010d0                pqcrystals_kyber512_ref_ntt
+ .text.pqcrystals_kyber512_ref_invntt
+                0x00001134       0x98 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+                0x00001134                pqcrystals_kyber512_ref_invntt
+ .text.pqcrystals_kyber512_ref_basemul
+                0x000011cc       0x58 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+                0x000011cc                pqcrystals_kyber512_ref_basemul
+ .text.load32_littleendian
+                0x00001224       0x16 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .text.load24_littleendian
+                0x0000123a       0x10 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ *fill*         0x0000124a        0x2 
+ .text.cbd2     0x0000124c       0x54 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .text.cbd3     0x000012a0       0x64 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .text.pqcrystals_kyber512_ref_poly_cbd_eta1
+                0x00001304        0xc build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+                0x00001304                pqcrystals_kyber512_ref_poly_cbd_eta1
+ .text.pqcrystals_kyber512_ref_poly_cbd_eta2
+                0x00001310        0xc build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+                0x00001310                pqcrystals_kyber512_ref_poly_cbd_eta2
+ .text.pqcrystals_kyber512_ref_montgomery_reduce
+                0x0000131c       0x20 build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+                0x0000131c                pqcrystals_kyber512_ref_montgomery_reduce
+ .text.pqcrystals_kyber512_ref_barrett_reduce
+                0x0000133c       0x22 build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+                0x0000133c                pqcrystals_kyber512_ref_barrett_reduce
+ .text.pqcrystals_kyber512_ref_verify
+                0x0000135e       0x2a build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+                0x0000135e                pqcrystals_kyber512_ref_verify
+ .text.pqcrystals_kyber512_ref_cmov
+                0x00001388       0x2a build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+                0x00001388                pqcrystals_kyber512_ref_cmov
+ .text.pqcrystals_kyber512_ref_cmov_int16
+                0x000013b2       0x14 build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+                0x000013b2                pqcrystals_kyber512_ref_cmov_int16
+ *fill*         0x000013c6        0x2 
+ .text.pqcrystals_kyber512_ref_kyber_shake128_absorb
+                0x000013c8       0x50 build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+                0x000013c8                pqcrystals_kyber512_ref_kyber_shake128_absorb
+ .text.pqcrystals_kyber512_ref_kyber_shake256_prf
+                0x00001418       0x4c build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+                0x00001418                pqcrystals_kyber512_ref_kyber_shake256_prf
+ .text.pqcrystals_kyber512_ref_kyber_shake256_rkprf
+                0x00001464       0x48 build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+                0x00001464                pqcrystals_kyber512_ref_kyber_shake256_rkprf
+ .text.load64   0x000014ac       0x3a build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .text.store64  0x000014e6       0x3c build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ *fill*         0x00001522        0x2 
+ .text.KeccakF1600_StatePermute
+                0x00001524      0xf20 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ *fill*         0x00002444        0x4 
+ .text.keccak_init
+                0x00002448       0x20 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .text.keccak_absorb
+                0x00002468       0xbc build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .text.keccak_finalize
+                0x00002524       0x4a build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ *fill*         0x0000256e        0x2 
+ .text.keccak_squeeze
+                0x00002570       0x7c build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .text.keccak_absorb_once
+                0x000025ec       0xfc build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .text.keccak_squeezeblocks
+                0x000026e8       0x48 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .text.pqcrystals_kyber_fips202_ref_shake128_absorb_once
+                0x00002730       0x24 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+                0x00002730                pqcrystals_kyber_fips202_ref_shake128_absorb_once
+ .text.pqcrystals_kyber_fips202_ref_shake128_squeezeblocks
+                0x00002754       0x10 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+                0x00002754                pqcrystals_kyber_fips202_ref_shake128_squeezeblocks
+ .text.pqcrystals_kyber_fips202_ref_shake256_init
+                0x00002764       0x14 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+                0x00002764                pqcrystals_kyber_fips202_ref_shake256_init
+ .text.pqcrystals_kyber_fips202_ref_shake256_absorb
+                0x00002778       0x20 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+                0x00002778                pqcrystals_kyber_fips202_ref_shake256_absorb
+ .text.pqcrystals_kyber_fips202_ref_shake256_finalize
+                0x00002798       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+                0x00002798                pqcrystals_kyber_fips202_ref_shake256_finalize
+ .text.pqcrystals_kyber_fips202_ref_shake256_squeeze
+                0x000027b4       0x20 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+                0x000027b4                pqcrystals_kyber_fips202_ref_shake256_squeeze
+ .text.pqcrystals_kyber_fips202_ref_shake256_absorb_once
+                0x000027d4       0x24 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+                0x000027d4                pqcrystals_kyber_fips202_ref_shake256_absorb_once
+ .text.pqcrystals_kyber_fips202_ref_shake256_squeezeblocks
+                0x000027f8       0x10 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+                0x000027f8                pqcrystals_kyber_fips202_ref_shake256_squeezeblocks
+ .text.pqcrystals_kyber_fips202_ref_shake256
+                0x00002808       0x4c build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+                0x00002808                pqcrystals_kyber_fips202_ref_shake256
+ .text.pqcrystals_kyber_fips202_ref_sha3_256
+                0x00002854       0x48 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+                0x00002854                pqcrystals_kyber_fips202_ref_sha3_256
+ .text.pqcrystals_kyber_fips202_ref_sha3_512
+                0x0000289c       0x48 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+                0x0000289c                pqcrystals_kyber_fips202_ref_sha3_512
+ .text.randombytes
+                0x000028e4        0xc build/f7-firmware-D/.extapps/pqc_kem/kyber512(randombytes.o)
+                0x000028e4                randombytes
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000028f0      0x2f0
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.draw_cb.str1.4
+                0x000028f0       0xeb build/f7-firmware-D/.extapps/pqc_kem/main.o
+ *fill*         0x000029db        0x1 
+ .rodata.run_kem.str1.4
+                0x000029dc       0x3d build/f7-firmware-D/.extapps/pqc_kem/main.o
+ *fill*         0x00002a19        0x3 
+ .rodata.pqc_kem_app.str1.4
+                0x00002a1c        0x4 build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .rodata.pqcrystals_kyber512_ref_zetas
+                0x00002a20      0x100 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+                0x00002a20                pqcrystals_kyber512_ref_zetas
+ .rodata.KeccakF_RoundConstants
+                0x00002b20       0xc0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x3e0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x38 build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .debug_aranges
+                0x00000038       0x40 build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .debug_aranges
+                0x00000078       0x70 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_aranges
+                0x000000e8       0x60 build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .debug_aranges
+                0x00000148       0x90 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_aranges
+                0x000001d8       0x38 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .debug_aranges
+                0x00000210       0x48 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .debug_aranges
+                0x00000258       0x28 build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+ .debug_aranges
+                0x00000280       0x30 build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+ .debug_aranges
+                0x000002b0       0x30 build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+ .debug_aranges
+                0x000002e0       0xe0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_aranges
+                0x000003c0       0x20 build/f7-firmware-D/.extapps/pqc_kem/kyber512(randombytes.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x58e3
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x127d build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .debug_info    0x0000127d      0x62d build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .debug_info    0x000018aa      0xf7c build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_info    0x00002826      0x62d build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .debug_info    0x00002e53      0x84a build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_info    0x0000369d      0x347 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .debug_info    0x000039e4      0x37b build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .debug_info    0x00003d5f      0x122 build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+ .debug_info    0x00003e81      0x1f2 build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+ .debug_info    0x00004073      0x3d1 build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+ .debug_info    0x00004444     0x11a5 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_info    0x000055e9      0x2fa build/f7-firmware-D/.extapps/pqc_kem/kyber512(randombytes.o)
+
+.debug_abbrev   0x00000000     0x1258
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x2d8 build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .debug_abbrev  0x000002d8      0x16a build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .debug_abbrev  0x00000442      0x29a build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_abbrev  0x000006dc      0x14a build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .debug_abbrev  0x00000826      0x1de build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_abbrev  0x00000a04      0x15e build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .debug_abbrev  0x00000b62      0x124 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .debug_abbrev  0x00000c86       0xb4 build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+ .debug_abbrev  0x00000d3a       0xbe build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+ .debug_abbrev  0x00000df8      0x14d build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+ .debug_abbrev  0x00000f45      0x225 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_abbrev  0x0000116a       0xee build/f7-firmware-D/.extapps/pqc_kem/kyber512(randombytes.o)
+
+.debug_line     0x00000000     0x495a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x36e build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .debug_line.text.input_cb
+                0x0000036e       0x26 build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .debug_line.text.draw_cb
+                0x00000394       0x85 build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .debug_line.text.run_kem
+                0x00000419      0x1b0 build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .debug_line.text.pqc_kem_app
+                0x000005c9       0x9d build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .debug_line_end
+                0x00000666        0x0 build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .debug_line    0x00000666      0x234 build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .debug_line.text.pqcrystals_kyber512_ref_keypair_derand
+                0x0000089a       0x21 build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .debug_line.text.pqcrystals_kyber512_ref_keypair
+                0x000008bb       0x23 build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .debug_line.text.pqcrystals_kyber512_ref_enc_derand
+                0x000008de       0x2d build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .debug_line.text.pqcrystals_kyber512_ref_enc
+                0x0000090b       0x27 build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .debug_line.text.pqcrystals_kyber512_ref_dec
+                0x00000932       0x44 build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .debug_line_end
+                0x00000976        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .debug_line    0x00000976      0x217 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_line.text.rej_uniform
+                0x00000b8d       0x88 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_line.text.pack_sk
+                0x00000c15       0x1b build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_line.text.pack_pk
+                0x00000c30       0x1e build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_line.text.unpack_pk
+                0x00000c4e       0x21 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_line.text.unpack_sk
+                0x00000c6f       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_line.text.pack_ciphertext
+                0x00000c8b       0x1e build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_line.text.unpack_ciphertext
+                0x00000ca9       0x21 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_line.text.pqcrystals_kyber512_ref_gen_matrix
+                0x00000cca       0x80 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_line.text.pqcrystals_kyber512_ref_indcpa_keypair_derand
+                0x00000d4a       0xd5 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_line.text.pqcrystals_kyber512_ref_indcpa_enc
+                0x00000e1f       0xba build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_line.text.pqcrystals_kyber512_ref_indcpa_dec
+                0x00000ed9       0x2a build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_line_end
+                0x00000f03        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_line    0x00000f03      0x135 build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .debug_line.text.pqcrystals_kyber512_ref_polyvec_compress
+                0x00001038      0x17a build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .debug_line.text.pqcrystals_kyber512_ref_polyvec_decompress
+                0x000011b2       0xe4 build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .debug_line.text.pqcrystals_kyber512_ref_polyvec_tobytes
+                0x00001296       0x4b build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .debug_line.text.pqcrystals_kyber512_ref_polyvec_frombytes
+                0x000012e1       0x4b build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .debug_line.text.pqcrystals_kyber512_ref_polyvec_ntt
+                0x0000132c       0x3b build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .debug_line.text.pqcrystals_kyber512_ref_polyvec_invntt_tomont
+                0x00001367       0x3b build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .debug_line.text.pqcrystals_kyber512_ref_polyvec_basemul_acc_montgomery
+                0x000013a2       0x48 build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .debug_line.text.pqcrystals_kyber512_ref_polyvec_reduce
+                0x000013ea       0x3b build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .debug_line.text.pqcrystals_kyber512_ref_polyvec_add
+                0x00001425       0x3b build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .debug_line_end
+                0x00001460        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .debug_line    0x00001460      0x1c9 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_line.text.pqcrystals_kyber512_ref_poly_compress
+                0x00001629      0x176 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_line.text.pqcrystals_kyber512_ref_poly_decompress
+                0x0000179f       0xb3 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_line.text.pqcrystals_kyber512_ref_poly_tobytes
+                0x00001852       0xf4 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_line.text.pqcrystals_kyber512_ref_poly_frombytes
+                0x00001946       0x9c build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_line.text.pqcrystals_kyber512_ref_poly_frommsg
+                0x000019e2       0x7a build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_line.text.pqcrystals_kyber512_ref_poly_tomsg
+                0x00001a5c       0xd3 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_line.text.pqcrystals_kyber512_ref_poly_getnoise_eta1
+                0x00001b2f       0x24 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_line.text.pqcrystals_kyber512_ref_poly_getnoise_eta2
+                0x00001b53       0x24 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_line.text.pqcrystals_kyber512_ref_poly_invntt_tomont
+                0x00001b77       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_line.text.pqcrystals_kyber512_ref_poly_basemul_montgomery
+                0x00001b93       0x75 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_line.text.pqcrystals_kyber512_ref_poly_tomont
+                0x00001c08       0x53 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_line.text.pqcrystals_kyber512_ref_poly_reduce
+                0x00001c5b       0x4b build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_line.text.pqcrystals_kyber512_ref_poly_ntt
+                0x00001ca6       0x1e build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_line.text.pqcrystals_kyber512_ref_poly_add
+                0x00001cc4       0x5b build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_line.text.pqcrystals_kyber512_ref_poly_sub
+                0x00001d1f       0x5b build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_line_end
+                0x00001d7a        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_line    0x00001d7a      0x12f build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .debug_line.text.fqmul
+                0x00001ea9       0x20 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .debug_line.text.pqcrystals_kyber512_ref_ntt
+                0x00001ec9       0xe1 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .debug_line.text.pqcrystals_kyber512_ref_invntt
+                0x00001faa      0x125 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .debug_line.text.pqcrystals_kyber512_ref_basemul
+                0x000020cf       0x57 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .debug_line_end
+                0x00002126        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .debug_line    0x00002126      0x124 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .debug_line.text.load32_littleendian
+                0x0000224a       0x40 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .debug_line.text.load24_littleendian
+                0x0000228a       0x35 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .debug_line.text.cbd2
+                0x000022bf       0xc4 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .debug_line.text.cbd3
+                0x00002383       0xd2 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .debug_line.text.pqcrystals_kyber512_ref_poly_cbd_eta1
+                0x00002455       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .debug_line.text.pqcrystals_kyber512_ref_poly_cbd_eta2
+                0x00002471       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .debug_line_end
+                0x0000248d        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .debug_line    0x0000248d      0x11d build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+ .debug_line.text.pqcrystals_kyber512_ref_montgomery_reduce
+                0x000025aa       0x30 build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+ .debug_line.text.pqcrystals_kyber512_ref_barrett_reduce
+                0x000025da       0x34 build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+ .debug_line_end
+                0x0000260e        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+ .debug_line    0x0000260e      0x188 build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+ .debug_line.text.pqcrystals_kyber512_ref_verify
+                0x00002796       0x5b build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+ .debug_line.text.pqcrystals_kyber512_ref_cmov
+                0x000027f1       0x5b build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+ .debug_line.text.pqcrystals_kyber512_ref_cmov_int16
+                0x0000284c       0x29 build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+ .debug_line_end
+                0x00002875        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+ .debug_line    0x00002875      0x1fa build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+ .debug_line.text.pqcrystals_kyber512_ref_kyber_shake128_absorb
+                0x00002a6f       0x34 build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+ .debug_line.text.pqcrystals_kyber512_ref_kyber_shake256_prf
+                0x00002aa3       0x2d build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+ .debug_line.text.pqcrystals_kyber512_ref_kyber_shake256_rkprf
+                0x00002ad0       0x28 build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+ .debug_line_end
+                0x00002af8        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+ .debug_line    0x00002af8      0x196 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.load64
+                0x00002c8e       0x63 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.store64
+                0x00002cf1       0x53 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.KeccakF1600_StatePermute
+                0x00002d44     0x14cc build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.keccak_init
+                0x00004210       0x47 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.keccak_absorb
+                0x00004257       0xeb build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.keccak_finalize
+                0x00004342       0x38 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.keccak_squeeze
+                0x0000437a       0xa2 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.keccak_absorb_once
+                0x0000441c       0xfb build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.keccak_squeezeblocks
+                0x00004517       0x65 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.pqcrystals_kyber_fips202_ref_shake128_absorb_once
+                0x0000457c       0x25 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.pqcrystals_kyber_fips202_ref_shake128_squeezeblocks
+                0x000045a1       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.pqcrystals_kyber_fips202_ref_shake256_init
+                0x000045bd       0x21 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.pqcrystals_kyber_fips202_ref_shake256_absorb
+                0x000045de       0x25 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.pqcrystals_kyber_fips202_ref_shake256_finalize
+                0x00004603       0x21 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.pqcrystals_kyber_fips202_ref_shake256_squeeze
+                0x00004624       0x23 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.pqcrystals_kyber_fips202_ref_shake256_absorb_once
+                0x00004647       0x25 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.pqcrystals_kyber_fips202_ref_shake256_squeezeblocks
+                0x0000466c       0x1c build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.pqcrystals_kyber_fips202_ref_shake256
+                0x00004688       0x38 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.pqcrystals_kyber_fips202_ref_sha3_256
+                0x000046c0       0x43 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line.text.pqcrystals_kyber_fips202_ref_sha3_512
+                0x00004703       0x43 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line_end
+                0x00004746        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_line    0x00004746      0x1fb build/f7-firmware-D/.extapps/pqc_kem/kyber512(randombytes.o)
+ .debug_line.text.randombytes
+                0x00004941       0x19 build/f7-firmware-D/.extapps/pqc_kem/kyber512(randombytes.o)
+ .debug_line_end
+                0x0000495a        0x0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(randombytes.o)
+
+.debug_frame    0x00000000      0xb24
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xa8 build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .debug_frame   0x000000a8       0xc0 build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .debug_frame   0x00000168      0x178 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_frame   0x000002e0      0x128 build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .debug_frame   0x00000408      0x1bc build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_frame   0x000005c4       0x94 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .debug_frame   0x00000658       0x98 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .debug_frame   0x000006f0       0x30 build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+ .debug_frame   0x00000720       0x50 build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+ .debug_frame   0x00000770       0x7c build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+ .debug_frame   0x000007ec      0x310 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_frame   0x00000afc       0x28 build/f7-firmware-D/.extapps/pqc_kem/kyber512(randombytes.o)
+
+.debug_str      0x00000000     0x354a
+ *(.debug_str)
+ .debug_str     0x00000000      0x90d build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .debug_str     0x0000090d      0x3ea build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .debug_str     0x00000cf7      0x74f build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_str     0x00001446      0x4c5 build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .debug_str     0x0000190b      0x5f1 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_str     0x00001efc      0x2c5 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .debug_str     0x000021c1      0x288 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .debug_str     0x00002449      0x23e build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+ .debug_str     0x00002687      0x287 build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+ .debug_str     0x0000290e      0x3e4 build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+ .debug_str     0x00002cf2      0x59f build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_str     0x00003291      0x2b9 build/f7-firmware-D/.extapps/pqc_kem/kyber512(randombytes.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x3818
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x249 build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .debug_loclists
+                0x00000249      0x229 build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .debug_loclists
+                0x00000472      0x5a8 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_loclists
+                0x00000a1a      0x2cb build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .debug_loclists
+                0x00000ce5      0x494 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_loclists
+                0x00001179      0x1f5 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .debug_loclists
+                0x0000136e      0x252 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .debug_loclists
+                0x000015c0       0x8b build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+ .debug_loclists
+                0x0000164b       0xb2 build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+ .debug_loclists
+                0x000016fd      0x14f build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+ .debug_loclists
+                0x0000184c     0x1f92 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_loclists
+                0x000037de       0x3a build/f7-firmware-D/.extapps/pqc_kem/kyber512(randombytes.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x2c9
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x36 build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .debug_rnglists
+                0x00000036       0x2d build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .debug_rnglists
+                0x00000063       0x52 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .debug_rnglists
+                0x000000b5       0x45 build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .debug_rnglists
+                0x000000fa       0x68 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .debug_rnglists
+                0x00000162       0x26 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .debug_rnglists
+                0x00000188       0x31 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .debug_rnglists
+                0x000001b9       0x19 build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+ .debug_rnglists
+                0x000001d2       0x1f build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+ .debug_rnglists
+                0x000001f1       0x1f build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+ .debug_rnglists
+                0x00000210       0xa6 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .debug_rnglists
+                0x000002b6       0x13 build/f7-firmware-D/.extapps/pqc_kem/kyber512(randombytes.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-D/.extapps/pqc_kem/main.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-D/.extapps/pqc_kem/kyber512(kem.o)
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-D/.extapps/pqc_kem/kyber512(indcpa.o)
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-D/.extapps/pqc_kem/kyber512(polyvec.o)
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-D/.extapps/pqc_kem/kyber512(poly.o)
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-D/.extapps/pqc_kem/kyber512(ntt.o)
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-D/.extapps/pqc_kem/kyber512(cbd.o)
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-D/.extapps/pqc_kem/kyber512(reduce.o)
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-D/.extapps/pqc_kem/kyber512(verify.o)
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-D/.extapps/pqc_kem/kyber512(symmetric-shake.o)
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-D/.extapps/pqc_kem/kyber512(fips202.o)
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-D/.extapps/pqc_kem/kyber512(randombytes.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-D/.extapps/pqc_kem_d.elf elf32-littlearm)
+LOAD linker stubs

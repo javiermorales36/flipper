@@ -1,0 +1,318 @@
+================================================================================
+  FLIPPER ZERO — CRYPTO SUITE PERSONAL
+  Javier Morales · github.com/javiermorales36
+  SDK: Unleashed firmware fork · API 87.1 · STM32WB55 Cortex-M4F @ 64 MHz
+  Fecha: Abril 2025
+================================================================================
+
+Este documento describe las cuatro aplicaciones FAP que componen la Crypto Suite
+personal del Flipper Zero. Todas corren como apps externas (.fap) y solo requieren
+una tarjeta SD. Ninguna usa librerías del sistema que estén deshabilitadas para
+FAPs externas; toda la criptografía está vendorizada.
+
+────────────────────────────────────────────────────────────────────────────────
+  ARQUITECTURA GENERAL
+────────────────────────────────────────────────────────────────────────────────
+
+  Librería base compartida: monocypher (BSD-2/CC0, ~100 KB de fuente)
+  Cada app vendoriza su propia copia en lib/monocypher/ para evitar conflictos.
+
+  Primitivas disponibles en monocypher:
+  · XChaCha20-Poly1305    → AEAD (nonce 24B, MAC 16B)
+  · Argon2i/d/id          → KDF resistente a GPU
+  · Ed25519 + BLAKE2b     → firma digital
+  · X25519                → ECDH
+  · BLAKE2b               → hash de propósito general
+
+  Regla de memoria: Ningún buffer criptográfico grande va en el stack.
+  Todo se malloc() en heap y se wipe() con crypto_wipe() antes de free().
+  (Stack del FAP = 4 KB; el heap del sistema tiene ~75 KB libres.)
+
+────────────────────────────────────────────────────────────────────────────────
+  FASE 1 — crypto_engine_fap   (appid: crypto_engine_fap)
+────────────────────────────────────────────────────────────────────────────────
+
+  Propósito: Librería de referencia + banco de pruebas que verifica todas las
+  primitivas criptográficas en el hardware real.
+
+  Pruebas ejecutadas al arrancar:
+  1. test_classic   — ChaCha20, PBKDF2-HMAC-SHA256, LZ4
+  2. test_x25519    — Vectores RFC 7748 §6.1 + simetría DH
+  3. test_eddsa     — Firma Ed25519 + rechazo de mensaje alterado
+  4. test_aead      — Cifrado/descifrado XChaCha20-Poly1305 + rechazo de MAC malo
+  5. test_argon2i   — KDF Argon2i con nb_blocks=8 (8 KB heap)
+  6. test_blake2b   — Determinismo de hash
+
+  Despliegue:
+  · Copiar crypto_engine_fap.fap → /ext/apps/Crypto/
+  · Ejecutar desde el menú Apps > Crypto
+  · Debe mostrar "ALL TESTS PASSED" en pantalla
+
+  Archivos clave:
+    applications_user/crypto_engine_fap/
+    ├── application.fam
+    ├── main.c                     ← 6 self-tests
+    └── lib/
+        ├── crypto_engine/         ← API pública
+        │   ├── crypto_engine.h
+        │   ├── x25519.c
+        │   ├── eddsa.c
+        │   ├── aead.c
+        │   ├── argon2.c
+        │   ├── blake2b.c
+        │   ├── chacha20.c
+        │   ├── pbkdf2.c
+        │   ├── lz4.c
+        │   └── transform.c
+        ├── monocypher/
+        │   ├── monocypher.c
+        │   └── monocypher.h
+        └── bcon/
+            └── sha256.c
+
+────────────────────────────────────────────────────────────────────────────────
+  FASE 2 — totp_vault            (appid: totp_vault)
+────────────────────────────────────────────────────────────────────────────────
+
+  Propósito: Autenticador TOTP hardware (como Google Authenticator) con vault
+  PIN-bloqueado en la SD. Sustituye a una app de teléfono.
+
+  Criptografía del vault:
+  · Formato: "TVL2" | salt[16] | nonce[24] | body_len[4] | ciphertext | mac[16]
+  · KDF:  Argon2i(pin, salt, nb_blocks=32, nb_passes=2)  → key[32]   (32 KB heap)
+  · AEAD: XChaCha20-Poly1305 (el MAC autentica integridad + confidencialidad)
+  · Sin mbedtls: toda la criptografía viene de monocypher
+
+  Generación de TOTP:
+  · HMAC-SHA1 (RFC 2104) implementado en C puro (sha1.c + totp.c)
+  · RFC 6238 estándar, compatible con cualquier app de autenticación
+  · Decodificación base32 incluida
+
+  Capacidad: hasta 16 cuentas, 30 segundos por código, 6 dígitos.
+
+  Despliegue (primera vez):
+  1. Crear el archivo de importación en la SD:
+       /ext/totp_vault/import.txt
+     Formato (una cuenta por línea):
+       NombreCuenta|BASE32SECRET
+       NombreCuenta|Emisor|BASE32SECRET
+     Ejemplo:
+       GitHub|JBSWY3DPEHPK3PXP
+       Google|Mi cuenta|JBSWY3DPEHPK3PXP
+
+  2. Copiar totp_vault.fap → /ext/apps/Crypto/
+  3. Abrir la app en el Flipper.
+  4. Introducir un PIN de 4 dígitos (UP/DN cambia el dígito, OK/→ avanza).
+     · Este PIN queda guardado en el vault; no se puede cambiar sin re-importar.
+  5. Al confirmar el último dígito, la app importa import.txt, lo cifra con
+     el PIN y crea /ext/totp_vault/vault.bin.
+  6. El vault.bin ya cifrado puede moverse/copiarse libremente; sin el PIN
+     es ilegible.
+
+  Uso diario:
+  · Encender Flipper → Apps > Crypto > TOTP Vault
+  · Introducir PIN → lista de cuentas
+  · Seleccionar cuenta → pantalla de código con cuenta regresiva
+  · Código se actualiza automáticamente cada 30 segundos
+
+  Estructura de archivos:
+    applications_user/totp_vault/
+    ├── application.fam
+    ├── main.c                     ← UI: PIN + lista + código + countdown
+    └── lib/
+        ├── totp/
+        │   ├── sha1.h / sha1.c    ← HMAC-SHA1 puro
+        │   ├── totp.h / totp.c    ← RFC 6238 + base32
+        │   └── totp_store.h / totp_store.c  ← vault cifrado
+        └── monocypher/
+            ├── monocypher.c
+            └── monocypher.h
+
+────────────────────────────────────────────────────────────────────────────────
+  FASE 3 — key_locker            (appid: key_locker)
+────────────────────────────────────────────────────────────────────────────────
+
+  Propósito: Vault cifrado para claves asimétricas (Ed25519, X25519) y passwords
+  aleatorios. Generación de claves usando el TRNG del STM32WB55.
+
+  Criptografía del vault:
+  · Formato: "KLV1" | salt[16] | nonce[24] | body_len[4] | ciphertext | mac[16]
+  · KDF:  Argon2i(pin, salt, nb_blocks=32, nb_passes=2)  → key[32]
+  · AEAD: XChaCha20-Poly1305
+  · Mismo esquema que totp_vault; vault independiente en /ext/key_locker/vault.klv
+
+  Tipos de entrada:
+  · KlTypePassword — password UTF-8 generado aleatoriamente (charset 70 chars)
+  · KlTypeEd25519  — par Ed25519: sk[64] + pk[32], generado del TRNG
+  · KlTypeX25519   — par X25519:  sk[32] + pk[32], generado del TRNG
+
+  Capacidad: hasta 16 entradas.
+
+  Pantallas:
+  1. ScreenPin       — PIN de 4 dígitos (mismo control que totp_vault)
+  2. ScreenMenu      — Passwords / Keys / Generate
+  3. ScreenList      — Lista de entries del tipo seleccionado
+  4. ScreenDetail    — Nombre + primeros 16 bytes de pk en hex (para claves)
+                       o el password en texto plano
+  5. ScreenGenMenu   — Ed25519 / X25519 / Password
+  6. ScreenResult    — El seed/sk generado en hex (¡hacer backup inmediato!)
+
+  ¡IMPORTANTE — Backup de claves!
+  Cuando se genera una clave Ed25519, la pantalla ScreenResult muestra el
+  seed de 32 bytes en hexadecimal. Este es el ÚNICO momento en que el seed
+  es visible. Copiarlo a papel o a un gestor de passwords seguro.
+  Para X25519 se muestra la clave privada de 32 bytes.
+
+  Despliegue:
+  1. Copiar key_locker.fap → /ext/apps/Crypto/
+  2. Abrir la app. Primera vez: introduce el PIN (se crea vault vacío).
+  3. Ir a Generate → Ed25519 / X25519 / Password.
+  4. Anotar el seed/sk mostrado en ScreenResult.
+  5. Back desde cualquier pantalla de nivel raíz vuelve al PIN (re-bloquea).
+
+  Casos de uso:
+  · Generar un par Ed25519 para firmar commits de Git (exportar pk a GitHub)
+  · Generar un par X25519 para sesiones ECDH con otros dispositivos
+  · Generar passwords fuertes y consultarlos en sitio sin tener el teléfono
+
+  Archivos clave:
+    applications_user/key_locker/
+    ├── application.fam
+    ├── main.c
+    └── lib/
+        ├── klocker/
+        │   ├── kl_store.h
+        │   └── kl_store.c
+        └── monocypher/
+
+────────────────────────────────────────────────────────────────────────────────
+  FASE 4 — pqc_kem               (appid: pqc_kem)
+────────────────────────────────────────────────────────────────────────────────
+
+  Propósito: Demostración funcional de ML-KEM-512 (Kyber-512), el estándar
+  NIST post-cuántico de encapsulación de claves (FIPS 203). Prueba que el
+  Flipper Zero puede ejecutar criptografía post-cuántica en hardware real.
+
+  Implementación:
+  · Fuente: pq-crystals/kyber referencia limpia (C puro, sin SIMD)
+  · Nivel:  Kyber-512 / ML-KEM-512 (NIST Level 1, ~128 bits cuánticos)
+  · TRNG:   furi_hal_random_fill_buf() → randombytes() shim para el TRNG del STM32WB55
+  · Todos los buffers grandes en heap:
+      pk  = 800 bytes
+      sk  = 1632 bytes
+      ct  = 768 bytes
+      ss  = 32 bytes × 2
+
+  Flujo demostrado:
+  1. crypto_kem_keypair(pk, sk)     — Alice genera su par de claves
+  2. crypto_kem_enc(ct, ss_enc, pk) — Bob encapsula; obtiene ct + ss_enc
+  3. crypto_kem_dec(ss_dec, ct, sk) — Alice desencapsula; obtiene ss_dec
+  4. Verificar ss_enc == ss_dec     — shared secret idéntico sin transmitirlo
+
+  Pantalla de resultado:
+  · "SharedSecret: MATCH" / "FAIL"
+  · Primeros 8 bytes de ss en hex para verificación visual
+  · Tiempo de ejecución en milisegundos (esperado: 200-600 ms en M4F)
+
+  Despliegue:
+  1. Copiar pqc_kem.fap → /ext/apps/Crypto/
+  2. Abrir la app → pantalla informativa con tamaños de clave
+  3. Pulsar OK para ejecutar el ciclo KEM completo
+  4. Ver resultado: MATCH + hex del shared secret + tiempo
+
+  Nota sobre rendimiento:
+  El Cortex-M4F a 64 MHz ejecuta el NTT de Kyber en aritmética entera de 16 bits.
+  La implementación de referencia no usa SIMD (no hay en M4F), por lo que es
+  ~5-10× más lenta que una implementación optimizada en ARM Cortex-A.
+  Tiempo típico: keypair ~150 ms + enc ~150 ms + dec ~100 ms = ~400 ms total.
+
+  Archivos clave:
+    applications_user/pqc_kem/
+    ├── application.fam
+    ├── main.c
+    └── lib/
+        └── kyber512/              ← fuentes de referencia pq-crystals/kyber
+            ├── api.h, params.h, kem.h, kem.c
+            ├── indcpa.h/c, polyvec.h/c, poly.h/c
+            ├── ntt.h/c, cbd.h/c, reduce.h/c, verify.h/c
+            ├── symmetric.h, symmetric-shake.c
+            ├── fips202.h/c        ← SHAKE-128/256, SHA3
+            └── randombytes.h/c   ← shim TRNG Flipper
+
+────────────────────────────────────────────────────────────────────────────────
+  DESPLIEGUE COMPLETO — PASO A PASO
+────────────────────────────────────────────────────────────────────────────────
+
+  Prerrequisito: Flipper Zero con firmware Unleashed + tarjeta SD.
+
+  1. COMPILAR las cuatro apps (desde d:\prueb_con\flipper\flipper-sdk):
+
+       $env:FBT_NO_SYNC='1'
+       cmd /c fbt.cmd fap_crypto_engine_fap
+       cmd /c fbt.cmd fap_totp_vault
+       cmd /c fbt.cmd fap_key_locker
+       cmd /c fbt.cmd fap_pqc_kem
+
+     Los .fap quedan en:
+       build\f7-firmware-D\.extapps\<nombre>.fap
+
+  2. COPIAR a la SD (conectar Flipper como dispositivo de almacenamiento):
+
+       SD:\apps\Crypto\crypto_engine_fap.fap
+       SD:\apps\Crypto\totp_vault.fap
+       SD:\apps\Crypto\key_locker.fap
+       SD:\apps\Crypto\pqc_kem.fap
+
+  3. PREPARAR TOTP (solo primera vez):
+     Crear SD:\totp_vault\import.txt con las cuentas:
+       GitHub|<BASE32_SECRET_DE_GITHUB>
+       Google|<BASE32_SECRET_DE_GOOGLE>
+     El secret base32 lo encuentras en la pantalla de 2FA de cada servicio
+     cuando configuras el autenticador (el QR contiene este valor).
+
+  4. ORDEN DE USO RECOMENDADO:
+     a. crypto_engine_fap → verificar que todos los tests pasan en tu hardware
+     b. totp_vault        → configurar cuentas TOTP
+     c. key_locker        → generar y almacenar claves asimétricas
+     d. pqc_kem           → explorar criptografía post-cuántica
+
+────────────────────────────────────────────────────────────────────────────────
+  SEGURIDAD Y CONSIDERACIONES
+────────────────────────────────────────────────────────────────────────────────
+
+  · El PIN de 4 dígitos tiene 10^4 = 10.000 combinaciones. El Argon2i
+    con nb_blocks=32 (32 KB) y 2 passes hace el brute-force offline caro
+    en hardware limitado. No es seguridad bancaria, pero protege ante
+    acceso físico casual.
+
+  · Los vaults (vault.bin y vault.klv) están cifrados con XChaCha20-Poly1305.
+    Sin el PIN, son datos aleatorios. El MAC impide modificaciones silenciosas.
+
+  · El TRNG del STM32WB55 (furi_hal_random_fill_buf) está certificado y es
+    la fuente de entropía para todas las generaciones de claves.
+
+  · crypto_wipe() de monocypher usa barreras de compilador para evitar
+    que el compilador optimice away los borrados de memoria sensible.
+
+  · totp_vault v2 y key_locker usan formatos de vault incompatibles con
+    totp_vault v1 (que usaba mbedtls, hoy no disponible para FAPs externas).
+
+  · pqc_kem es una DEMO. No almacena claves. Para uso real de ML-KEM-512
+    en producción, integrar con key_locker en una fase futura.
+
+────────────────────────────────────────────────────────────────────────────────
+  ROADMAP
+────────────────────────────────────────────────────────────────────────────────
+
+   Phase 1 — crypto_engine_fap   (primitivas + self-test)
+   Phase 2 — totp_vault          (TOTP hardware + vault Argon2i/XChaCha20)
+  Phase 3 — key_locker          (vault de claves asimétricas + gen passwords)
+   Phase 4 — pqc_kem             (ML-KEM-512 demo funcional)
+
+  Posibles fases futuras:
+  · Phase 5 — pqc_sign:  ML-DSA (Dilithium) firma post-cuántica
+  · Phase 6 — key_locker v2: integrar ML-KEM-512 para almacenar claves PQC
+  · Phase 7 — ble_crypto: intercambio de claves vía BLE con otro Flipper/teléfono
+  · Phase 8 — fido2_stub: emulación HID con Ed25519 para autenticación FIDO2
+
+================================================================================

@@ -1,0 +1,27 @@
+App(
+    appid="totp_vault",
+    name="TOTP Vault",
+    apptype=FlipperAppType.EXTERNAL,
+    targets=["f7"],
+    entry_point="totp_vault_app",
+    requires=["gui"],
+    stack_size=4 * 1024,
+    fap_version=(1, 0),
+    fap_category="Crypto",
+    fap_description="Hardware TOTP authenticator with PIN-locked AES-256-CTR encrypted vault.",
+    fap_author="Javier Morales",
+    fap_weburl="https://github.com/javiermorales36",
+    fap_private_libs=[
+        Lib(
+            name="totp",
+            sources=[
+                "sha1.c",
+                "totp.c",
+                "totp_store.c",
+                "../monocypher/monocypher.c",
+            ],
+            cdefines=["BLAKE2_NO_UNROLLING"],
+            cflags=["-Wno-error"],
+        ),
+    ],
+)
