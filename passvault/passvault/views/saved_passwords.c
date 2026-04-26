@@ -96,11 +96,11 @@ static bool sp_input(InputEvent* event, void* context) {
             return true;
 
         case InputKeyLeft:
-            /* toggle bookmark */
+            /* toggle bookmark and persist to vault */
             if(app->credentials_number > 0) {
                 app->credentials[app->selected].bookmarked =
                     !app->credentials[app->selected].bookmarked;
-                pv_save_bookmarks(app->credentials, app->credentials_number);
+                pv_save_bookmarks(app);
             }
             return true;
 

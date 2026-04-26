@@ -16,21 +16,12 @@ static void cb_username(void* ctx) {
                                    ViewTextInputPassword);
 }
 
-/* ---- password submitted: save to file and return home ---- */
+/* ---- password submitted: add to in-memory array, re-encrypt vault ---- */
 static void cb_password(void* ctx) {
     AppContext* app = ctx;
 
-    pv_write_credential(app->tmp_name, app->tmp_username, app->tmp_password);
-
-    /* add to in-memory list so list is immediately up to date */
-    if(app->credentials_number < MAX_CREDENTIALS) {
-        size_t i = app->credentials_number;
-        strncpy(app->credentials[i].name,     app->tmp_name,     FIELD_SIZE - 1);
-        strncpy(app->credentials[i].username, app->tmp_username, FIELD_SIZE - 1);
-        strncpy(app->credentials[i].password, app->tmp_password, FIELD_SIZE - 1);
-        app->credentials[i].bookmarked = false;
-        app->credentials_number++;
-    }
+    /* pv_write_credential appends to app->credentials[] and saves the vault */
+    pv_write_credential(app, app->tmp_name, app->tmp_username, app->tmp_password);
 
     /* clear tmp buffers */
     app->tmp_name[0]     = '\0';

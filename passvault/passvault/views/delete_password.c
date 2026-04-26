@@ -83,14 +83,9 @@ static bool dp_input(InputEvent* event, void* context) {
     /* ---- confirmation dialog active ---- */
     if(app->confirm_delete) {
         if(event->key == InputKeyOk) {
-            pv_delete_credential(app->selected);
+            /* pv_delete_credential removes from app->credentials[] and saves vault */
+            pv_delete_credential(app, app->selected);
 
-            /* remove from in-memory list */
-            for(size_t i = app->selected;
-                i + 1 < app->credentials_number; i++) {
-                app->credentials[i] = app->credentials[i + 1];
-            }
-            app->credentials_number--;
             if(app->selected >= app->credentials_number && app->selected > 0)
                 app->selected--;
             if(app->scroll_offset > app->selected)
