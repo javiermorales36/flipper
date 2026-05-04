@@ -41,10 +41,7 @@ static void ir_draw(Canvas* canvas, void* model) {
 static bool ir_input(InputEvent* event, void* context) {
     AppContext* app = context;
     if(event->type == InputTypeShort) {
-        /* reload credentials so list is up to date */
-        app->credentials_number =
-            pv_read_credentials(app->credentials, MAX_CREDENTIALS);
-        pv_load_bookmarks(app->credentials, app->credentials_number);
+        /* credentials are already up to date in memory after pv_import_csv */
         app->selected      = 0;
         app->scroll_offset = 0;
         view_dispatcher_switch_to_view(app->view_dispatcher, ViewMainMenu);

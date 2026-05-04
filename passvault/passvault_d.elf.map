@@ -1,93 +1,479 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+                              /home/javi/.ufbt/build/passvault/main.o (pv_vault_exists)
+/home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+                              /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o) (sha256_init)
+/home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+                              /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o) (crypto_chacha20_ietf)
 
 Discarded input sections
 
- .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
- .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
- .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+ .text          0x00000000        0x0 /home/javi/.ufbt/build/passvault/badusb/badusb.o
+ .data          0x00000000        0x0 /home/javi/.ufbt/build/passvault/badusb/badusb.o
+ .bss           0x00000000        0x0 /home/javi/.ufbt/build/passvault/badusb/badusb.o
  .text.pv_initialize_hid
-                0x00000000       0x34 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+                0x00000000       0x38 /home/javi/.ufbt/build/passvault/badusb/badusb.o
  .text.pv_release_all_keys
-                0x00000000        0xc build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+                0x00000000        0x8 /home/javi/.ufbt/build/passvault/badusb/badusb.o
  .text.pv_type_string
-                0x00000000       0x54 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+                0x00000000       0x48 /home/javi/.ufbt/build/passvault/badusb/badusb.o
  .text.pv_press_key
-                0x00000000       0x24 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+                0x00000000       0x24 /home/javi/.ufbt/build/passvault/badusb/badusb.o
  .rodata.hid_asciimap
-                0x00000000      0x100 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
- .debug_info    0x00000000      0xa53 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
- .debug_abbrev  0x00000000      0x274 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+                0x00000000      0x100 /home/javi/.ufbt/build/passvault/badusb/badusb.o
+ .debug_info    0x00000000      0xa44 /home/javi/.ufbt/build/passvault/badusb/badusb.o
+ .debug_abbrev  0x00000000      0x28a /home/javi/.ufbt/build/passvault/badusb/badusb.o
  .debug_loclists
-                0x00000000       0x56 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+                0x00000000       0x73 /home/javi/.ufbt/build/passvault/badusb/badusb.o
  .debug_aranges
-                0x00000000       0x38 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+                0x00000000       0x38 /home/javi/.ufbt/build/passvault/badusb/badusb.o
  .debug_rnglists
-                0x00000000       0x25 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
- .debug_line    0x00000000      0x241 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
- .debug_str     0x00000000      0x87d build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
- .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+                0x00000000       0x34 /home/javi/.ufbt/build/passvault/badusb/badusb.o
+ .debug_line    0x00000000      0x2f2 /home/javi/.ufbt/build/passvault/badusb/badusb.o
+ .debug_str     0x00000000      0x8ae /home/javi/.ufbt/build/passvault/badusb/badusb.o
+ .comment       0x00000000       0x1c /home/javi/.ufbt/build/passvault/badusb/badusb.o
  .debug_line.text.pv_initialize_hid
-                0x00000000       0x42 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+                0x00000000       0x4e /home/javi/.ufbt/build/passvault/badusb/badusb.o
  .debug_line.text.pv_release_all_keys
-                0x00000000       0x16 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+                0x00000000       0x12 /home/javi/.ufbt/build/passvault/badusb/badusb.o
  .debug_line.text.pv_type_string
-                0x00000000       0x7a build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+                0x00000000       0x4d /home/javi/.ufbt/build/passvault/badusb/badusb.o
  .debug_line.text.pv_press_key
-                0x00000000       0x1d build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+                0x00000000       0x2b /home/javi/.ufbt/build/passvault/badusb/badusb.o
  .debug_line_end
-                0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
- .debug_frame   0x00000000       0x74 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
- .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
- .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
- .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
- .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
- .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
- .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
- .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
- .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
- .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
- .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
- .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
- .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
- .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
- .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
- .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
- .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/views/delete_password.o
- .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
- .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
- .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
- .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/views/generate_password.o
- .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/import_result.o
- .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/import_result.o
- .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/import_result.o
- .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/views/import_result.o
- .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
- .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
- .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
- .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/views/pin_view.o
- .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
- .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
- .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
- .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
- .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/main.o
- .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/main.o
- .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/main.o
- .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/main.o
- .text          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/passvault_icons.o
- .data          0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/passvault_icons.o
- .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/passvault_icons.o
- .debug_info    0x00000000       0x6c build/f7-firmware-D/.extapps/passvault/passvault_icons.o
- .debug_abbrev  0x00000000       0x26 build/f7-firmware-D/.extapps/passvault/passvault_icons.o
+                0x00000000        0x0 /home/javi/.ufbt/build/passvault/badusb/badusb.o
+ .debug_frame   0x00000000       0x78 /home/javi/.ufbt/build/passvault/badusb/badusb.o
+ .text          0x00000000        0x0 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
+ .data          0x00000000        0x0 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
+ .bss           0x00000000        0x0 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
+ .comment       0x00000000       0x1c /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
+ .text          0x00000000        0x0 /home/javi/.ufbt/build/passvault/textInput/textInput.o
+ .data          0x00000000        0x0 /home/javi/.ufbt/build/passvault/textInput/textInput.o
+ .bss           0x00000000        0x0 /home/javi/.ufbt/build/passvault/textInput/textInput.o
+ .comment       0x00000000       0x1c /home/javi/.ufbt/build/passvault/textInput/textInput.o
+ .text          0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/bookmarks.o
+ .data          0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/bookmarks.o
+ .bss           0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/bookmarks.o
+ .comment       0x00000000       0x1c /home/javi/.ufbt/build/passvault/views/bookmarks.o
+ .text          0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/credential_detail.o
+ .data          0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/credential_detail.o
+ .bss           0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/credential_detail.o
+ .comment       0x00000000       0x1c /home/javi/.ufbt/build/passvault/views/credential_detail.o
+ .text          0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/delete_password.o
+ .data          0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/delete_password.o
+ .bss           0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/delete_password.o
+ .comment       0x00000000       0x1c /home/javi/.ufbt/build/passvault/views/delete_password.o
+ .text          0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/generate_password.o
+ .data          0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/generate_password.o
+ .bss           0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/generate_password.o
+ .comment       0x00000000       0x1c /home/javi/.ufbt/build/passvault/views/generate_password.o
+ .text          0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/import_result.o
+ .data          0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/import_result.o
+ .bss           0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/import_result.o
+ .comment       0x00000000       0x1c /home/javi/.ufbt/build/passvault/views/import_result.o
+ .text          0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/pin_view.o
+ .data          0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/pin_view.o
+ .bss           0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/pin_view.o
+ .comment       0x00000000       0x1c /home/javi/.ufbt/build/passvault/views/pin_view.o
+ .text          0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/saved_passwords.o
+ .data          0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/saved_passwords.o
+ .bss           0x00000000        0x0 /home/javi/.ufbt/build/passvault/views/saved_passwords.o
+ .comment       0x00000000       0x1c /home/javi/.ufbt/build/passvault/views/saved_passwords.o
+ .text          0x00000000        0x0 /home/javi/.ufbt/build/passvault/passvault_icons.o
+ .data          0x00000000        0x0 /home/javi/.ufbt/build/passvault/passvault_icons.o
+ .bss           0x00000000        0x0 /home/javi/.ufbt/build/passvault/passvault_icons.o
+ .debug_info    0x00000000       0x6c /home/javi/.ufbt/build/passvault/passvault_icons.o
+ .debug_abbrev  0x00000000       0x26 /home/javi/.ufbt/build/passvault/passvault_icons.o
  .debug_aranges
-                0x00000000       0x18 build/f7-firmware-D/.extapps/passvault/passvault_icons.o
- .debug_line    0x00000000       0x59 build/f7-firmware-D/.extapps/passvault/passvault_icons.o
- .debug_str     0x00000000      0x1d8 build/f7-firmware-D/.extapps/passvault/passvault_icons.o
- .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/passvault/passvault_icons.o
+                0x00000000       0x18 /home/javi/.ufbt/build/passvault/passvault_icons.o
+ .debug_line    0x00000000       0x53 /home/javi/.ufbt/build/passvault/passvault_icons.o
+ .debug_str     0x00000000      0x1cc /home/javi/.ufbt/build/passvault/passvault_icons.o
+ .comment       0x00000000       0x1c /home/javi/.ufbt/build/passvault/passvault_icons.o
  .debug_line_end
-                0x00000000        0x0 build/f7-firmware-D/.extapps/passvault/passvault_icons.o
+                0x00000000        0x0 /home/javi/.ufbt/build/passvault/passvault_icons.o
+ .text          0x00000000        0x0 /home/javi/.ufbt/build/passvault/main.o
+ .data          0x00000000        0x0 /home/javi/.ufbt/build/passvault/main.o
+ .bss           0x00000000        0x0 /home/javi/.ufbt/build/passvault/main.o
+ .comment       0x00000000       0x1c /home/javi/.ufbt/build/passvault/main.o
+ .text          0x00000000        0x0 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .data          0x00000000        0x0 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .bss           0x00000000        0x0 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.pv_vault_is_unlocked
+                0x00000000        0xc /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .comment       0x00000000       0x1c /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.pv_vault_is_unlocked
+                0x00000000       0x19 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text          0x00000000        0x0 /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .data          0x00000000        0x0 /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .bss           0x00000000        0x0 /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .comment       0x00000000       0x1c /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .text          0x00000000        0x0 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .data          0x00000000        0x0 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .bss           0x00000000        0x0 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.load24_le
+                0x00000000       0x10 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.load64_le_buf
+                0x00000000       0x24 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.store32_le_buf
+                0x00000000       0x20 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.store64_le_buf
+                0x00000000       0x2c /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.x32      0x00000000       0x28 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.blake2b_compress
+                0x00000000      0x7c4 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.copy_block
+                0x00000000        0xc /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.xor_block
+                0x00000000       0x26 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.g_rounds
+                0x00000000      0xc5e /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.fe_0     0x00000000        0xc /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.fe_1     0x00000000       0x14 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.fe_copy  0x00000000       0x12 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.fe_neg   0x00000000       0x14 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.fe_add   0x00000000       0x1a /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.fe_sub   0x00000000       0x1a /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.fe_cswap
+                0x00000000       0x28 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.fe_ccopy
+                0x00000000       0x20 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.fe_frombytes_mask
+                0x00000000      0x22c /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.fe_mul_small
+                0x00000000      0x1d2 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.fe_mul   0x00000000      0x54c /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.fe_sq    0x00000000      0x396 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.scalar_bit
+                0x00000000       0x18 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.multiply
+                0x00000000       0x48 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.is_above_l
+                0x00000000       0x30 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.remove_l
+                0x00000000       0x50 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.ge_zero  0x00000000       0x2c /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.ge_cache
+                0x00000000       0x48 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.ge_add   0x00000000       0xac /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.ge_madd  0x00000000       0xac /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.ge_double
+                0x00000000       0xb4 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.slide_init
+                0x00000000       0x28 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.slide_step
+                0x00000000       0xc0 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.lookup_add
+                0x00000000       0xe8 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.add_xl   0x00000000       0x50 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_blake2b_update.part.0
+                0x00000000      0x17c /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_verify32
+                0x00000000       0x18 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_verify64
+                0x00000000       0x34 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.fe_tobytes
+                0x00000000       0xf0 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.fe_isequal
+                0x00000000       0x40 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.invsqrt  0x00000000      0x1c8 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.fe_invert
+                0x00000000       0x44 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.scalarmult
+                0x00000000      0x170 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.mod_l    0x00000000      0x108 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.fe_isodd
+                0x00000000       0x2c /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.ge_frombytes_neg_vartime
+                0x00000000       0xb4 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.ge_tobytes
+                0x00000000       0x64 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.select_lop
+                0x00000000       0x54 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.redc     0x00000000       0xc0 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.blake_update_32
+                0x00000000       0x30 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_chacha20_h
+                0x00000000       0x60 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_chacha20_x
+                0x00000000       0x50 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_poly1305
+                0x00000000       0x34 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_blake2b_keyed_init
+                0x00000000       0xa0 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_blake2b_init
+                0x00000000       0x14 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_blake2b_update
+                0x00000000        0xc /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.blake_update_32_buf
+                0x00000000       0x24 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_blake2b_final
+                0x00000000       0x74 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_blake2b_keyed
+                0x00000000       0x30 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_blake2b
+                0x00000000       0x18 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.extended_hash
+                0x00000000       0xb4 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_argon2
+                0x00000000      0x460 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_eddsa_trim_scalar
+                0x00000000       0x2a /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_x25519
+                0x00000000       0x34 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_x25519_public_key
+                0x00000000       0x10 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_eddsa_reduce
+                0x00000000       0x30 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.hash_reduce.constprop.0
+                0x00000000       0x5c /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_eddsa_mul_add
+                0x00000000       0x70 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.ge_scalarmult_base
+                0x00000000       0xe4 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_eddsa_check_equation
+                0x00000000      0x1dc /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_eddsa_scalarbase
+                0x00000000       0x2c /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_eddsa_key_pair
+                0x00000000       0x90 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_eddsa_sign
+                0x00000000       0xa0 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_eddsa_check
+                0x00000000       0x30 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_eddsa_to_x25519
+                0x00000000       0x68 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_x25519_to_eddsa
+                0x00000000       0x68 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_x25519_dirty_small
+                0x00000000       0x44 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_x25519_dirty_fast
+                0x00000000       0xec /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_elligator_map
+                0x00000000      0x108 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_elligator_rev
+                0x00000000       0xc8 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_elligator_key_pair
+                0x00000000       0xc0 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_x25519_inverse
+                0x00000000      0x130 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_aead_init_x
+                0x00000000       0x30 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_aead_init_djb
+                0x00000000       0x32 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_aead_lock
+                0x00000000       0x44 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_aead_unlock
+                0x00000000       0x48 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.k.0    0x00000000       0x20 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.Lm2.1  0x00000000       0x20 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.dirty_base_point.2
+                0x00000000       0x20 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.half_ones.3
+                0x00000000       0x20 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.half_mod_L.4
+                0x00000000       0x20 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.zero_point.5
+                0x00000000       0x20 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.r.6    0x00000000       0x24 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.base_point.7
+                0x00000000       0x20 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.sigma.8
+                0x00000000       0xc0 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.A      0x00000000       0x28 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.b_comb_high
+                0x00000000      0x3c0 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.b_comb_low
+                0x00000000      0x3c0 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.b_window
+                0x00000000      0x3c0 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.L      0x00000000       0x20 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.A2     0x00000000       0x28 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.ufactor
+                0x00000000       0x28 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.lop_y  0x00000000       0x28 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.lop_x  0x00000000       0x28 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.D2     0x00000000       0x28 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.d      0x00000000       0x28 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.sqrtm1
+                0x00000000       0x28 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.fe_one
+                0x00000000       0x28 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.crypto_argon2_no_extras
+                0x00000000       0x10 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.iv     0x00000000       0x40 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata        0x00000000       0x20 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .comment       0x00000000       0x1c /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.load24_le
+                0x00000000       0x24 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.load64_le_buf
+                0x00000000       0x49 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.store32_le_buf
+                0x00000000       0x39 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.store64_le_buf
+                0x00000000       0x58 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.x32
+                0x00000000       0x2a /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.blake2b_compress
+                0x00000000      0xae3 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.copy_block
+                0x00000000       0x1c /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.xor_block
+                0x00000000       0x4b /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.g_rounds
+                0x00000000     0x11bb /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.fe_0
+                0x00000000       0x19 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.fe_1
+                0x00000000       0x21 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.fe_copy
+                0x00000000       0x3e /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.fe_neg
+                0x00000000       0x3e /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.fe_add
+                0x00000000       0x46 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.fe_sub
+                0x00000000       0x46 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.fe_cswap
+                0x00000000       0x8f /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.fe_ccopy
+                0x00000000       0x80 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.fe_frombytes_mask
+                0x00000000      0x10f /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.fe_mul_small
+                0x00000000       0xd4 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.fe_mul
+                0x00000000      0x3c4 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.fe_sq
+                0x00000000      0x270 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.scalar_bit
+                0x00000000       0x33 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.multiply
+                0x00000000       0xb3 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.is_above_l
+                0x00000000       0x60 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.remove_l
+                0x00000000       0xb6 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.ge_zero
+                0x00000000       0x2b /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.ge_cache
+                0x00000000       0x38 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.ge_add
+                0x00000000       0x61 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.ge_madd
+                0x00000000       0x76 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.ge_double
+                0x00000000       0x56 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.slide_init
+                0x00000000       0x67 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.slide_step
+                0x00000000       0xf5 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.lookup_add
+                0x00000000       0xc7 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.add_xl
+                0x00000000       0x87 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_blake2b_update.part.0
+                0x00000000      0x18c /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_verify32
+                0x00000000       0x31 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_verify64
+                0x00000000       0x49 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.fe_tobytes
+                0x00000000      0x175 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.fe_isequal
+                0x00000000       0x47 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.invsqrt
+                0x00000000      0x383 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.fe_invert
+                0x00000000       0x33 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.scalarmult
+                0x00000000      0x159 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.mod_l
+                0x00000000      0x195 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.fe_isodd
+                0x00000000       0x35 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.ge_frombytes_neg_vartime
+                0x00000000       0x82 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.ge_tobytes
+                0x00000000       0x41 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.select_lop
+                0x00000000       0x32 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.redc
+                0x00000000      0x120 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.blake_update_32
+                0x00000000       0x3c /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_chacha20_h
+                0x00000000       0x36 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_chacha20_x
+                0x00000000       0x43 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_poly1305
+                0x00000000       0x29 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_blake2b_keyed_init
+                0x00000000       0x82 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_blake2b_init
+                0x00000000       0x23 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_blake2b_update
+                0x00000000       0x1e /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.blake_update_32_buf
+                0x00000000       0x2d /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_blake2b_final
+                0x00000000       0xa3 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_blake2b_keyed
+                0x00000000       0x27 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_blake2b
+                0x00000000       0x21 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.extended_hash
+                0x00000000       0x92 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_argon2
+                0x00000000      0x3fe /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_eddsa_trim_scalar
+                0x00000000       0x47 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_x25519
+                0x00000000       0x2a /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_x25519_public_key
+                0x00000000       0x18 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_eddsa_reduce
+                0x00000000       0x2c /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.hash_reduce.constprop.0
+                0x00000000       0x4f /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_eddsa_mul_add
+                0x00000000       0x50 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.ge_scalarmult_base
+                0x00000000       0x8d /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_eddsa_check_equation
+                0x00000000      0x26b /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_eddsa_scalarbase
+                0x00000000       0x27 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_eddsa_key_pair
+                0x00000000       0x4f /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_eddsa_sign
+                0x00000000       0x52 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_eddsa_check
+                0x00000000       0x31 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_eddsa_to_x25519
+                0x00000000       0x38 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_x25519_to_eddsa
+                0x00000000       0x38 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_x25519_dirty_small
+                0x00000000       0x32 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_x25519_dirty_fast
+                0x00000000       0x4e /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_elligator_map
+                0x00000000       0x68 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_elligator_rev
+                0x00000000       0x73 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_elligator_key_pair
+                0x00000000       0x5b /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_x25519_inverse
+                0x00000000       0xb5 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_aead_init_x
+                0x00000000       0x45 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_aead_init_djb
+                0x00000000       0x65 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_aead_lock
+                0x00000000       0x31 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_aead_unlock
+                0x00000000       0x40 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
 
 Memory Configuration
 
@@ -96,221 +482,343 @@ Name             Origin             Length             Attributes
 
 Linker script and memory map
 
-LOAD build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
-LOAD build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
-LOAD build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
-LOAD build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
-LOAD build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
-LOAD build/f7-firmware-D/.extapps/passvault/views/delete_password.o
-LOAD build/f7-firmware-D/.extapps/passvault/views/generate_password.o
-LOAD build/f7-firmware-D/.extapps/passvault/views/import_result.o
-LOAD build/f7-firmware-D/.extapps/passvault/views/pin_view.o
-LOAD build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
-LOAD build/f7-firmware-D/.extapps/passvault/main.o
-LOAD build/f7-firmware-D/.extapps/passvault/passvault_icons.o
-LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
-LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a
-LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a
-LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libsupc++_nano.a
+LOAD /home/javi/.ufbt/build/passvault/badusb/badusb.o
+LOAD /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
+LOAD /home/javi/.ufbt/build/passvault/textInput/textInput.o
+LOAD /home/javi/.ufbt/build/passvault/views/bookmarks.o
+LOAD /home/javi/.ufbt/build/passvault/views/credential_detail.o
+LOAD /home/javi/.ufbt/build/passvault/views/delete_password.o
+LOAD /home/javi/.ufbt/build/passvault/views/generate_password.o
+LOAD /home/javi/.ufbt/build/passvault/views/import_result.o
+LOAD /home/javi/.ufbt/build/passvault/views/pin_view.o
+LOAD /home/javi/.ufbt/build/passvault/views/saved_passwords.o
+LOAD /home/javi/.ufbt/build/passvault/passvault_icons.o
+LOAD /home/javi/.ufbt/build/passvault/main.o
+LOAD /home/javi/.ufbt/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/javi/.ufbt/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/javi/.ufbt/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/javi/.ufbt/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD /home/javi/.ufbt/build/passvault/vault_crypto
 
-.text           0x00000000     0x22d0
+.text           0x00000000     0x487c
  *(.text)
  *(.stub)
  *(.text*)
- .text.parse_csv3
-                0x00000000       0x94 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- .text.read_line
-                0x00000094       0x5c build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- .text.write_escaped
-                0x000000f0       0x48 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
  .text.pv_ensure_vault_dir
-                0x00000138       0x2c build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
-                0x00000138                pv_ensure_vault_dir
- .text.pv_read_credentials
-                0x00000164       0xc8 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
-                0x00000164                pv_read_credentials
+                0x00000000       0x30 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
+                0x00000000                pv_ensure_vault_dir
  .text.pv_write_credential
-                0x0000022c       0xc8 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
-                0x0000022c                pv_write_credential
+                0x00000030       0x7c /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
+                0x00000030                pv_write_credential
  .text.pv_delete_credential
-                0x000002f4       0xec build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
-                0x000002f4                pv_delete_credential
- .text.pv_load_bookmarks
-                0x000003e0       0x9c build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
-                0x000003e0                pv_load_bookmarks
+                0x000000ac       0x68 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
+                0x000000ac                pv_delete_credential
  .text.pv_save_bookmarks
-                0x0000047c       0x9c build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
-                0x0000047c                pv_save_bookmarks
- .text.pv_load_pin
-                0x00000518       0x9c build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
-                0x00000518                pv_load_pin
- .text.pv_save_pin
-                0x000005b4       0x78 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
-                0x000005b4                pv_save_pin
+                0x00000114       0x18 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
+                0x00000114                pv_save_bookmarks
  .text.pv_import_csv
-                0x0000062c       0xe0 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
-                0x0000062c                pv_import_csv
+                0x0000012c      0x1f0 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
+                0x0000012c                pv_import_csv
  .text.cb_cred_name
-                0x0000070c       0x10 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+                0x0000031c        0xc /home/javi/.ufbt/build/passvault/textInput/textInput.o
  .text.cb_username
-                0x0000071c       0x10 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+                0x00000328        0xc /home/javi/.ufbt/build/passvault/textInput/textInput.o
  .text.cb_password
-                0x0000072c       0xac build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+                0x00000334       0x44 /home/javi/.ufbt/build/passvault/textInput/textInput.o
  .text.pv_ti_cred_name_alloc
-                0x000007d8       0x44 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
-                0x000007d8                pv_ti_cred_name_alloc
+                0x00000378       0x44 /home/javi/.ufbt/build/passvault/textInput/textInput.o
+                0x00000378                pv_ti_cred_name_alloc
  .text.pv_ti_username_alloc
-                0x0000081c       0x50 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
-                0x0000081c                pv_ti_username_alloc
+                0x000003bc       0x50 /home/javi/.ufbt/build/passvault/textInput/textInput.o
+                0x000003bc                pv_ti_username_alloc
  .text.pv_ti_password_alloc
-                0x0000086c       0x44 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
-                0x0000086c                pv_ti_password_alloc
- .text.collect_bookmarks
-                0x000008b0       0x32 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
- *fill*         0x000008e2        0x2 
+                0x0000040c       0x44 /home/javi/.ufbt/build/passvault/textInput/textInput.o
+                0x0000040c                pv_ti_password_alloc
  .text.bkm_input
-                0x000008e4       0xc4 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+                0x00000450       0xb8 /home/javi/.ufbt/build/passvault/views/bookmarks.o
  .text.bkm_draw
-                0x000009a8      0x174 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+                0x00000508      0x170 /home/javi/.ufbt/build/passvault/views/bookmarks.o
  .text.pv_bookmarks_view_alloc
-                0x00000b1c       0x58 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
-                0x00000b1c                pv_bookmarks_view_alloc
+                0x00000678       0x58 /home/javi/.ufbt/build/passvault/views/bookmarks.o
+                0x00000678                pv_bookmarks_view_alloc
  .text.cd_input
-                0x00000b74       0x46 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
- *fill*         0x00000bba        0x2 
- .text.cd_draw  0x00000bbc      0x1ac build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+                0x000006d0       0x36 /home/javi/.ufbt/build/passvault/views/credential_detail.o
+ *fill*         0x00000706        0x2 
+ .text.cd_draw  0x00000708      0x17c /home/javi/.ufbt/build/passvault/views/credential_detail.o
  .text.pv_credential_detail_view_alloc
-                0x00000d68       0x5c build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
-                0x00000d68                pv_credential_detail_view_alloc
+                0x00000884       0x5c /home/javi/.ufbt/build/passvault/views/credential_detail.o
+                0x00000884                pv_credential_detail_view_alloc
  .text.dp_input
-                0x00000dc4      0x134 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
- .text.dp_draw  0x00000ef8      0x1d8 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+                0x000008e0       0xbc /home/javi/.ufbt/build/passvault/views/delete_password.o
+ .text.dp_draw  0x0000099c      0x1bc /home/javi/.ufbt/build/passvault/views/delete_password.o
  .text.pv_delete_password_view_alloc
-                0x000010d0       0x58 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
-                0x000010d0                pv_delete_password_view_alloc
- .text.gp_draw  0x00001128       0xdc build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+                0x00000b58       0x58 /home/javi/.ufbt/build/passvault/views/delete_password.o
+                0x00000b58                pv_delete_password_view_alloc
+ .text.gp_draw  0x00000bb0       0xdc /home/javi/.ufbt/build/passvault/views/generate_password.o
  .text.pv_gen_build_alphabet
-                0x00001204       0x48 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
-                0x00001204                pv_gen_build_alphabet
+                0x00000c8c       0x30 /home/javi/.ufbt/build/passvault/views/generate_password.o
+                0x00000c8c                pv_gen_build_alphabet
  .text.pv_gen_generate
-                0x0000124c       0x94 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
-                0x0000124c                pv_gen_generate
+                0x00000cbc       0x84 /home/javi/.ufbt/build/passvault/views/generate_password.o
+                0x00000cbc                pv_gen_generate
  .text.gp_input
-                0x000012e0      0x1a4 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+                0x00000d40      0x100 /home/javi/.ufbt/build/passvault/views/generate_password.o
  .text.pv_generate_password_view_alloc
-                0x00001484       0x58 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
-                0x00001484                pv_generate_password_view_alloc
+                0x00000e40       0x58 /home/javi/.ufbt/build/passvault/views/generate_password.o
+                0x00000e40                pv_generate_password_view_alloc
+ .text.ir_draw  0x00000e98      0x104 /home/javi/.ufbt/build/passvault/views/import_result.o
  .text.ir_input
-                0x000014dc       0x48 build/f7-firmware-D/.extapps/passvault/views/import_result.o
- .text.ir_draw  0x00001524      0x108 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+                0x00000f9c       0x24 /home/javi/.ufbt/build/passvault/views/import_result.o
  .text.pv_import_result_view_alloc
-                0x0000162c       0x58 build/f7-firmware-D/.extapps/passvault/views/import_result.o
-                0x0000162c                pv_import_result_view_alloc
- .text.pin_input
-                0x00001684      0x1a8 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+                0x00000fc0       0x58 /home/javi/.ufbt/build/passvault/views/import_result.o
+                0x00000fc0                pv_import_result_view_alloc
  .text.pin_draw
-                0x0000182c      0x134 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+                0x00001018      0x11c /home/javi/.ufbt/build/passvault/views/pin_view.o
+ .text.pin_input
+                0x00001134      0x170 /home/javi/.ufbt/build/passvault/views/pin_view.o
  .text.pv_pin_view_alloc
-                0x00001960       0x58 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
-                0x00001960                pv_pin_view_alloc
+                0x000012a4       0x58 /home/javi/.ufbt/build/passvault/views/pin_view.o
+                0x000012a4                pv_pin_view_alloc
  .text.sp_input
-                0x000019b8       0xbc build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
- .text.sp_draw  0x00001a74      0x1ac build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+                0x000012fc       0xa8 /home/javi/.ufbt/build/passvault/views/saved_passwords.o
+ .text.sp_draw  0x000013a4      0x188 /home/javi/.ufbt/build/passvault/views/saved_passwords.o
  .text.pv_saved_passwords_view_alloc
-                0x00001c20       0x58 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
-                0x00001c20                pv_saved_passwords_view_alloc
- .text.nav_cb   0x00001c78       0x40 build/f7-firmware-D/.extapps/passvault/main.o
+                0x0000152c       0x58 /home/javi/.ufbt/build/passvault/views/saved_passwords.o
+                0x0000152c                pv_saved_passwords_view_alloc
+ .text.pv_show_result
+                0x00001584       0x4c /home/javi/.ufbt/build/passvault/main.o
+ .text.pv_run_folder_action
+                0x000015d0       0x94 /home/javi/.ufbt/build/passvault/main.o
+ .text.mm_draw  0x00001664      0x108 /home/javi/.ufbt/build/passvault/main.o
+ .text.nav_cb   0x0000176c       0x44 /home/javi/.ufbt/build/passvault/main.o
+ .text.pv_shorten_path.part.0.constprop.0
+                0x000017b0       0x34 /home/javi/.ufbt/build/passvault/main.o
+ .text.pv_file_browser_cb
+                0x000017e4      0x168 /home/javi/.ufbt/build/passvault/main.o
  .text.mm_input
-                0x00001cb8      0x1c8 build/f7-firmware-D/.extapps/passvault/main.o
- .text.mm_draw  0x00001e80      0x114 build/f7-firmware-D/.extapps/passvault/main.o
+                0x0000194c      0x1bc /home/javi/.ufbt/build/passvault/main.o
  .text.passvault_app
-                0x00001f94      0x33c build/f7-firmware-D/.extapps/passvault/main.o
-                0x00001f94                passvault_app
+                0x00001b08      0x40c /home/javi/.ufbt/build/passvault/main.o
+                0x00001b08                passvault_app
+ .text.safe_zero
+                0x00001f14       0x10 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.escaped_len
+                0x00001f24       0x1a /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.append_escaped
+                0x00001f3e       0x2a /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.read_le64_at
+                0x00001f68        0x8 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.write_le64_at
+                0x00001f70       0x1e /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ *fill*         0x00001f8e        0x2 
+ .text.hmac_sha256
+                0x00001f90       0xe4 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.derive_key
+                0x00002074       0xc4 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.vault_write_path
+                0x00002138      0x160 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.read_entire_file
+                0x00002298       0xc4 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.decrypt_file_to_bytes
+                0x0000235c       0xcc /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.path_has_suffix.constprop.0
+                0x00002428       0x30 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.rekey_tree_prepare_recursive
+                0x00002458      0x58c /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.rekey_tree_cleanup_recursive
+                0x000029e4      0x108 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.rekey_tree_commit_recursive
+                0x00002aec      0x130 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.should_skip_encrypt_path
+                0x00002c1c       0x34 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.build_file_output_path
+                0x00002c50       0x78 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.serialize_creds.constprop.0
+                0x00002cc8       0xb8 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.process_single_file_with_key.constprop.0
+                0x00002d80      0x554 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.process_single_file.constprop.0
+                0x000032d4       0x44 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.walk_tree_recursive
+                0x00003318      0x12c /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .text.pv_vault_exists
+                0x00003444       0x30 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+                0x00003444                pv_vault_exists
+ .text.pv_vault_create
+                0x00003474       0x9c /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+                0x00003474                pv_vault_create
+ .text.pv_vault_unlock
+                0x00003510      0x3d4 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+                0x00003510                pv_vault_unlock
+ .text.pv_vault_save_current
+                0x000038e4       0x64 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+                0x000038e4                pv_vault_save_current
+ .text.pv_vault_change_pin
+                0x00003948      0x1b8 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+                0x00003948                pv_vault_change_pin
+ .text.pv_vault_build_file_output_path
+                0x00003b00       0x10 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+                0x00003b00                pv_vault_build_file_output_path
+ .text.pv_vault_encrypt_file
+                0x00003b10       0x54 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+                0x00003b10                pv_vault_encrypt_file
+ .text.pv_vault_decrypt_file
+                0x00003b64       0x38 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+                0x00003b64                pv_vault_decrypt_file
+ .text.pv_vault_encrypt_tree
+                0x00003b9c       0x40 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+                0x00003b9c                pv_vault_encrypt_tree
+ .text.pv_vault_decrypt_tree
+                0x00003bdc       0x3c /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+                0x00003bdc                pv_vault_decrypt_tree
+ .text.pv_vault_lock
+                0x00003c18       0x28 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+                0x00003c18                pv_vault_lock
+ .text.sha256_transform
+                0x00003c40      0x13c /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+                0x00003c40                sha256_transform
+ .text.sha256_init
+                0x00003d7c       0x58 /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+                0x00003d7c                sha256_init
+ .text.sha256_update
+                0x00003dd4       0x3c /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+                0x00003dd4                sha256_update
+ .text.sha256_final
+                0x00003e10       0xb8 /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+                0x00003e10                sha256_final
+ .text.load32_le
+                0x00003ec8        0x4 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.load64_le
+                0x00003ecc       0x18 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.store32_le
+                0x00003ee4       0x10 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.load32_le_buf
+                0x00003ef4       0x20 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.x16      0x00003f14       0x3c /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.chacha20_rounds
+                0x00003f50      0x1b0 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.poly_blocks
+                0x00004100      0x264 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_poly1305_update.part.0
+                0x00004364       0x68 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_verify16
+                0x000043cc       0x18 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+                0x000043cc                crypto_verify16
+ .text.crypto_wipe
+                0x000043e4       0x10 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+                0x000043e4                crypto_wipe
+ .text.crypto_chacha20_djb
+                0x000043f4      0x14c /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+                0x000043f4                crypto_chacha20_djb
+ .text.crypto_chacha20_ietf
+                0x00004540       0x28 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+                0x00004540                crypto_chacha20_ietf
+ .text.crypto_poly1305_init
+                0x00004568       0x50 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+                0x00004568                crypto_poly1305_init
+ .text.crypto_poly1305_update
+                0x000045b8        0xc /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+                0x000045b8                crypto_poly1305_update
+ .text.crypto_poly1305_final
+                0x000045c4       0xb0 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+                0x000045c4                crypto_poly1305_final
+ .text.lock_auth
+                0x00004674       0x90 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .text.crypto_aead_init_ietf
+                0x00004704       0x40 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+                0x00004704                crypto_aead_init_ietf
+ .text.crypto_aead_write
+                0x00004744       0x8c /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+                0x00004744                crypto_aead_write
+ .text.crypto_aead_read
+                0x000047d0       0xac /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+                0x000047d0                crypto_aead_read
  *(.text.*)
  *(.text._*)
  *(.init)
  *(.fini)
 
-.rodata         0x000022d0      0x4b4
+.rodata         0x0000487c      0x815
  *(.rodata)
- .rodata        0x000022d0        0xc build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+ .rodata        0x0000487c        0xc /home/javi/.ufbt/build/passvault/views/credential_detail.o
  *(.rodata1)
  *(.rodata.*)
- .rodata.pv_ensure_vault_dir.str1.4
-                0x000022dc       0x17 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- *fill*         0x000022f3        0x1 
- .rodata.pv_read_credentials.str1.4
-                0x000022f4       0x1d build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- *fill*         0x00002311        0x3 
- .rodata.pv_write_credential.str1.4
-                0x00002314        0x6 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- *fill*         0x0000231a        0x2 
- .rodata.pv_delete_credential.str1.4
-                0x0000231c       0x1d build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- *fill*         0x00002339        0x3 
- .rodata.pv_load_bookmarks.str1.4
-                0x0000233c       0x1d build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- *fill*         0x00002359        0x3 
- .rodata.pv_load_pin.str1.4
-                0x0000235c       0x17 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- *fill*         0x00002373        0x1 
- .rodata.pv_ti_cred_name_alloc.str1.4
-                0x00002374       0x13 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
- *fill*         0x00002387        0x1 
- .rodata.pv_ti_username_alloc.str1.4
-                0x00002388       0x15 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
- *fill*         0x0000239d        0x3 
- .rodata.pv_ti_password_alloc.str1.4
-                0x000023a0        0xa build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
- *fill*         0x000023aa        0x2 
- .rodata.bkm_draw.str1.4
-                0x000023ac       0x36 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
- *fill*         0x000023e2        0x2 
- .rodata.cd_draw.str1.4
-                0x000023e4       0x3d build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
- *fill*         0x00002421        0x3 
- .rodata.str1.4
-                0x00002424       0x1a build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
- *fill*         0x0000243e        0x2 
- .rodata.dp_draw.str1.4
-                0x00002440       0x4d build/f7-firmware-D/.extapps/passvault/views/delete_password.o
- *fill*         0x0000248d        0x3 
- .rodata.gp_draw.str1.4
-                0x00002490       0x27 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
- *fill*         0x000024b7        0x1 
- .rodata.str1.4
-                0x000024b8      0x101 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
- *fill*         0x000025b9        0x3 
+ .rodata.pv_ensure_vault_dir.str1.1
+                0x00004888       0x17 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
+ .rodata.pv_ti_cred_name_alloc.str1.1
+                0x0000489f       0x13 /home/javi/.ufbt/build/passvault/textInput/textInput.o
+ .rodata.pv_ti_username_alloc.str1.1
+                0x000048b2       0x15 /home/javi/.ufbt/build/passvault/textInput/textInput.o
+ .rodata.pv_ti_password_alloc.str1.1
+                0x000048c7        0xa /home/javi/.ufbt/build/passvault/textInput/textInput.o
+ .rodata.bkm_draw.str1.1
+                0x000048d1       0x33 /home/javi/.ufbt/build/passvault/views/bookmarks.o
+ .rodata.cd_draw.str1.1
+                0x00004904       0x3a /home/javi/.ufbt/build/passvault/views/credential_detail.o
+ .rodata.str1.1
+                0x0000493e       0x15 /home/javi/.ufbt/build/passvault/views/credential_detail.o
+ .rodata.dp_draw.str1.1
+                0x00004953       0x47 /home/javi/.ufbt/build/passvault/views/delete_password.o
+ .rodata.gp_draw.str1.1
+                0x0000499a       0x26 /home/javi/.ufbt/build/passvault/views/generate_password.o
+ .rodata.str1.1
+                0x000049c0       0xec /home/javi/.ufbt/build/passvault/views/generate_password.o
  .rodata.pg_level_names
-                0x000025bc       0x14 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+                0x00004aac       0x14 /home/javi/.ufbt/build/passvault/views/generate_password.o
  .rodata.pg_alphabets
-                0x000025d0       0x14 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
- .rodata.ir_draw.str1.4
-                0x000025e4       0x8a build/f7-firmware-D/.extapps/passvault/views/import_result.o
- *fill*         0x0000266e        0x2 
- .rodata.pin_draw.str1.4
-                0x00002670       0x36 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
- *fill*         0x000026a6        0x2 
- .rodata.sp_draw.str1.4
-                0x000026a8       0x37 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
- *fill*         0x000026df        0x1 
- .rodata.mm_input.str1.4
-                0x000026e0       0x1a build/f7-firmware-D/.extapps/passvault/main.o
- *fill*         0x000026fa        0x2 
- .rodata.mm_draw.str1.4
-                0x000026fc        0xa build/f7-firmware-D/.extapps/passvault/main.o
- *fill*         0x00002706        0x2 
- .rodata.passvault_app.str1.4
-                0x00002708       0x7c build/f7-firmware-D/.extapps/passvault/main.o
+                0x00004ac0       0x14 /home/javi/.ufbt/build/passvault/views/generate_password.o
+ .rodata.ir_draw.str1.1
+                0x00004ad4       0x81 /home/javi/.ufbt/build/passvault/views/import_result.o
+ .rodata.pin_draw.str1.1
+                0x00004b55       0x34 /home/javi/.ufbt/build/passvault/views/pin_view.o
+ .rodata.sp_draw.str1.1
+                0x00004b89       0x34 /home/javi/.ufbt/build/passvault/views/saved_passwords.o
+ .rodata.pv_show_result.str1.1
+                0x00004bbd        0x3 /home/javi/.ufbt/build/passvault/main.o
+ .rodata.pv_run_folder_action.str1.1
+                0x00004bc0       0xee /home/javi/.ufbt/build/passvault/main.o
+ .rodata.mm_draw.str1.1
+                0x00004cae        0xa /home/javi/.ufbt/build/passvault/main.o
+ .rodata.pv_shorten_path.part.0.constprop.0.str1.1
+                0x00004cb8        0x6 /home/javi/.ufbt/build/passvault/main.o
+ .rodata.pv_file_browser_cb.str1.1
+                0x00004cbe       0xdf /home/javi/.ufbt/build/passvault/main.o
+ .rodata.mm_input.str1.1
+                0x00004d9d       0x41 /home/javi/.ufbt/build/passvault/main.o
+ .rodata.passvault_app.str1.1
+                0x00004dde       0xa8 /home/javi/.ufbt/build/passvault/main.o
+ .rodata.vault_write_path.str1.1
+                0x00004e86        0x8 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .rodata.path_has_suffix.constprop.0.str1.1
+                0x00004e8e        0x5 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .rodata.rekey_tree_prepare_recursive.str1.1
+                0x00004e93       0x14 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .rodata.should_skip_encrypt_path.str1.1
+                0x00004ea7       0x33 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .rodata.build_file_output_path.str1.1
+                0x00004eda       0x15 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .rodata.pv_vault_change_pin.str1.1
+                0x00004eef        0xf /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ *fill*         0x00004efe        0x2 
+ .rodata.k      0x00004f00      0x100 /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .rodata.crypto_chacha20_h.str1.1
+                0x00005000       0x11 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .rodata.zero   0x00005011       0x80 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
 
 .data
  *(.data)
  *(.data1)
  *(.data.*)
 
-.bss
+.bss            0x00005091       0x31
  *(.bss)
  *(.bss*)
+ .bss.s_unlocked
+                0x00005091        0x1 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .bss.s_session_salt
+                0x00005092       0x10 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .bss.s_session_key
+                0x000050a2       0x20 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
  *(.sbss)
  *(.sbss*)
  *(COMMON)
@@ -348,208 +856,335 @@ LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/ar
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0x260
+.debug_aranges  0x00000000      0x6e8
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x78 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+                0x00000000       0x40 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
  .debug_aranges
-                0x00000078       0x48 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+                0x00000040       0x48 /home/javi/.ufbt/build/passvault/textInput/textInput.o
  .debug_aranges
-                0x000000c0       0x38 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+                0x00000088       0x30 /home/javi/.ufbt/build/passvault/views/bookmarks.o
  .debug_aranges
-                0x000000f8       0x30 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+                0x000000b8       0x30 /home/javi/.ufbt/build/passvault/views/credential_detail.o
  .debug_aranges
-                0x00000128       0x30 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+                0x000000e8       0x30 /home/javi/.ufbt/build/passvault/views/delete_password.o
  .debug_aranges
-                0x00000158       0x40 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+                0x00000118       0x40 /home/javi/.ufbt/build/passvault/views/generate_password.o
  .debug_aranges
-                0x00000198       0x30 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+                0x00000158       0x30 /home/javi/.ufbt/build/passvault/views/import_result.o
  .debug_aranges
-                0x000001c8       0x30 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+                0x00000188       0x30 /home/javi/.ufbt/build/passvault/views/pin_view.o
  .debug_aranges
-                0x000001f8       0x30 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+                0x000001b8       0x30 /home/javi/.ufbt/build/passvault/views/saved_passwords.o
  .debug_aranges
-                0x00000228       0x38 build/f7-firmware-D/.extapps/passvault/main.o
+                0x000001e8       0x58 /home/javi/.ufbt/build/passvault/main.o
+ .debug_aranges
+                0x00000240      0x118 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_aranges
+                0x00000358       0x38 /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .debug_aranges
+                0x00000390      0x358 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0xa531
+.debug_info     0x00000000    0x1b5bd
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000     0x1616 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- .debug_info    0x00001616      0xa4b build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
- .debug_info    0x00002061      0xf00 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
- .debug_info    0x00002f61      0xda5 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
- .debug_info    0x00003d06      0xffb build/f7-firmware-D/.extapps/passvault/views/delete_password.o
- .debug_info    0x00004d01     0x1315 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
- .debug_info    0x00006016      0xdd4 build/f7-firmware-D/.extapps/passvault/views/import_result.o
- .debug_info    0x00006dea     0x1157 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
- .debug_info    0x00007f41      0xee4 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
- .debug_info    0x00008e25     0x170c build/f7-firmware-D/.extapps/passvault/main.o
+ .debug_info    0x00000000      0xfa1 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
+ .debug_info    0x00000fa1      0xaa4 /home/javi/.ufbt/build/passvault/textInput/textInput.o
+ .debug_info    0x00001a45     0x1059 /home/javi/.ufbt/build/passvault/views/bookmarks.o
+ .debug_info    0x00002a9e      0xed6 /home/javi/.ufbt/build/passvault/views/credential_detail.o
+ .debug_info    0x00003974     0x1082 /home/javi/.ufbt/build/passvault/views/delete_password.o
+ .debug_info    0x000049f6     0x1393 /home/javi/.ufbt/build/passvault/views/generate_password.o
+ .debug_info    0x00005d89      0xe78 /home/javi/.ufbt/build/passvault/views/import_result.o
+ .debug_info    0x00006c01     0x12ae /home/javi/.ufbt/build/passvault/views/pin_view.o
+ .debug_info    0x00007eaf      0xf84 /home/javi/.ufbt/build/passvault/views/saved_passwords.o
+ .debug_info    0x00008e33     0x2139 /home/javi/.ufbt/build/passvault/main.o
+ .debug_info    0x0000af6c     0x5707 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_info    0x00010673      0x3dd /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .debug_info    0x00010a50     0xab6d /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
 
-.debug_abbrev   0x00000000     0x1d43
+.debug_abbrev   0x00000000     0x2ccd
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x317 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- .debug_abbrev  0x00000317      0x221 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
- .debug_abbrev  0x00000538      0x304 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
- .debug_abbrev  0x0000083c      0x2e4 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
- .debug_abbrev  0x00000b20      0x306 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
- .debug_abbrev  0x00000e26      0x343 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
- .debug_abbrev  0x00001169      0x2f1 build/f7-firmware-D/.extapps/passvault/views/import_result.o
- .debug_abbrev  0x0000145a      0x308 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
- .debug_abbrev  0x00001762      0x2e8 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
- .debug_abbrev  0x00001a4a      0x2f9 build/f7-firmware-D/.extapps/passvault/main.o
+ .debug_abbrev  0x00000000      0x305 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
+ .debug_abbrev  0x00000305      0x223 /home/javi/.ufbt/build/passvault/textInput/textInput.o
+ .debug_abbrev  0x00000528      0x373 /home/javi/.ufbt/build/passvault/views/bookmarks.o
+ .debug_abbrev  0x0000089b      0x2dc /home/javi/.ufbt/build/passvault/views/credential_detail.o
+ .debug_abbrev  0x00000b77      0x2fe /home/javi/.ufbt/build/passvault/views/delete_password.o
+ .debug_abbrev  0x00000e75      0x33b /home/javi/.ufbt/build/passvault/views/generate_password.o
+ .debug_abbrev  0x000011b0      0x348 /home/javi/.ufbt/build/passvault/views/import_result.o
+ .debug_abbrev  0x000014f8      0x365 /home/javi/.ufbt/build/passvault/views/pin_view.o
+ .debug_abbrev  0x0000185d      0x2ec /home/javi/.ufbt/build/passvault/views/saved_passwords.o
+ .debug_abbrev  0x00001b49      0x4a6 /home/javi/.ufbt/build/passvault/main.o
+ .debug_abbrev  0x00001fef      0x56f /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_abbrev  0x0000255e      0x150 /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .debug_abbrev  0x000026ae      0x61f /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
 
-.debug_line     0x00000000     0x415b
+.debug_line     0x00000000     0x8ef9
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x00000000      0x306 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- .debug_line.text.parse_csv3
-                0x00000306      0x11c build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- .debug_line.text.read_line
-                0x00000422       0x9a build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- .debug_line.text.write_escaped
-                0x000004bc       0x71 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+ .debug_line    0x00000000      0x594 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
  .debug_line.text.pv_ensure_vault_dir
-                0x0000052d       0x22 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- .debug_line.text.pv_read_credentials
-                0x0000054f       0x85 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+                0x00000594       0x25 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
  .debug_line.text.pv_write_credential
-                0x000005d4       0x62 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+                0x000005b9       0x91 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
  .debug_line.text.pv_delete_credential
-                0x00000636       0xa4 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- .debug_line.text.pv_load_bookmarks
-                0x000006da       0x75 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+                0x0000064a       0x59 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
  .debug_line.text.pv_save_bookmarks
-                0x0000074f       0x70 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- .debug_line.text.pv_load_pin
-                0x000007bf       0x9f build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- .debug_line.text.pv_save_pin
-                0x0000085e       0x4f build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+                0x000006a3       0x21 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
  .debug_line.text.pv_import_csv
-                0x000008ad       0xc5 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+                0x000006c4      0x24d /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
  .debug_line_end
-                0x00000972        0x0 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- .debug_line    0x00000972      0x377 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+                0x00000911        0x0 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
+ .debug_line    0x00000911      0x4ba /home/javi/.ufbt/build/passvault/textInput/textInput.o
  .debug_line.text.cb_cred_name
-                0x00000ce9       0x1b build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+                0x00000dcb       0x15 /home/javi/.ufbt/build/passvault/textInput/textInput.o
  .debug_line.text.cb_username
-                0x00000d04       0x1d build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+                0x00000de0       0x17 /home/javi/.ufbt/build/passvault/textInput/textInput.o
  .debug_line.text.cb_password
-                0x00000d21       0x93 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+                0x00000df7       0x4d /home/javi/.ufbt/build/passvault/textInput/textInput.o
  .debug_line.text.pv_ti_cred_name_alloc
-                0x00000db4       0x2a build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+                0x00000e44       0x35 /home/javi/.ufbt/build/passvault/textInput/textInput.o
  .debug_line.text.pv_ti_username_alloc
-                0x00000dde       0x2b build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+                0x00000e79       0x36 /home/javi/.ufbt/build/passvault/textInput/textInput.o
  .debug_line.text.pv_ti_password_alloc
-                0x00000e09       0x2a build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+                0x00000eaf       0x35 /home/javi/.ufbt/build/passvault/textInput/textInput.o
  .debug_line_end
-                0x00000e33        0x0 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
- .debug_line    0x00000e33      0x316 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
- .debug_line.text.collect_bookmarks
-                0x00001149       0x75 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+                0x00000ee4        0x0 /home/javi/.ufbt/build/passvault/textInput/textInput.o
+ .debug_line    0x00000ee4      0x4e4 /home/javi/.ufbt/build/passvault/views/bookmarks.o
  .debug_line.text.bkm_input
-                0x000011be       0xfc build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+                0x000013c8      0x125 /home/javi/.ufbt/build/passvault/views/bookmarks.o
  .debug_line.text.bkm_draw
-                0x000012ba      0x10c build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+                0x000014ed      0x145 /home/javi/.ufbt/build/passvault/views/bookmarks.o
  .debug_line.text.pv_bookmarks_view_alloc
-                0x000013c6       0x3c build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+                0x00001632       0x48 /home/javi/.ufbt/build/passvault/views/bookmarks.o
  .debug_line_end
-                0x00001402        0x0 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
- .debug_line    0x00001402      0x31e build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+                0x0000167a        0x0 /home/javi/.ufbt/build/passvault/views/bookmarks.o
+ .debug_line    0x0000167a      0x4ec /home/javi/.ufbt/build/passvault/views/credential_detail.o
  .debug_line.text.cd_input
-                0x00001720       0x91 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+                0x00001b66       0x76 /home/javi/.ufbt/build/passvault/views/credential_detail.o
  .debug_line.text.cd_draw
-                0x000017b1      0x11e build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+                0x00001bdc      0x138 /home/javi/.ufbt/build/passvault/views/credential_detail.o
  .debug_line.text.pv_credential_detail_view_alloc
-                0x000018cf       0x44 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+                0x00001d14       0x50 /home/javi/.ufbt/build/passvault/views/credential_detail.o
  .debug_line_end
-                0x00001913        0x0 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
- .debug_line    0x00001913      0x3cf build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+                0x00001d64        0x0 /home/javi/.ufbt/build/passvault/views/credential_detail.o
+ .debug_line    0x00001d64      0x5c2 /home/javi/.ufbt/build/passvault/views/delete_password.o
  .debug_line.text.dp_input
-                0x00001ce2      0x1ae build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+                0x00002326      0x12d /home/javi/.ufbt/build/passvault/views/delete_password.o
  .debug_line.text.dp_draw
-                0x00001e90      0x129 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+                0x00002453      0x11d /home/javi/.ufbt/build/passvault/views/delete_password.o
  .debug_line.text.pv_delete_password_view_alloc
-                0x00001fb9       0x3c build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+                0x00002570       0x48 /home/javi/.ufbt/build/passvault/views/delete_password.o
  .debug_line_end
-                0x00001ff5        0x0 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
- .debug_line    0x00001ff5      0x3c3 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+                0x000025b8        0x0 /home/javi/.ufbt/build/passvault/views/delete_password.o
+ .debug_line    0x000025b8      0x57f /home/javi/.ufbt/build/passvault/views/generate_password.o
  .debug_line.text.gp_draw
-                0x000023b8       0x46 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+                0x00002b37       0x57 /home/javi/.ufbt/build/passvault/views/generate_password.o
  .debug_line.text.pv_gen_build_alphabet
-                0x000023fe       0x58 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+                0x00002b8e       0x59 /home/javi/.ufbt/build/passvault/views/generate_password.o
  .debug_line.text.pv_gen_generate
-                0x00002456       0xbc build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+                0x00002be7       0xb5 /home/javi/.ufbt/build/passvault/views/generate_password.o
  .debug_line.text.gp_input
-                0x00002512      0x13a build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+                0x00002c9c       0xf5 /home/javi/.ufbt/build/passvault/views/generate_password.o
  .debug_line.text.pv_generate_password_view_alloc
-                0x0000264c       0x3c build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+                0x00002d91       0x48 /home/javi/.ufbt/build/passvault/views/generate_password.o
  .debug_line_end
-                0x00002688        0x0 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
- .debug_line    0x00002688      0x3cd build/f7-firmware-D/.extapps/passvault/views/import_result.o
- .debug_line.text.ir_input
-                0x00002a55       0x54 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+                0x00002dd9        0x0 /home/javi/.ufbt/build/passvault/views/generate_password.o
+ .debug_line    0x00002dd9      0x53f /home/javi/.ufbt/build/passvault/views/import_result.o
  .debug_line.text.ir_draw
-                0x00002aa9       0x5a build/f7-firmware-D/.extapps/passvault/views/import_result.o
+                0x00003318       0x67 /home/javi/.ufbt/build/passvault/views/import_result.o
+ .debug_line.text.ir_input
+                0x0000337f       0x3a /home/javi/.ufbt/build/passvault/views/import_result.o
  .debug_line.text.pv_import_result_view_alloc
-                0x00002b03       0x3b build/f7-firmware-D/.extapps/passvault/views/import_result.o
+                0x000033b9       0x47 /home/javi/.ufbt/build/passvault/views/import_result.o
  .debug_line_end
-                0x00002b3e        0x0 build/f7-firmware-D/.extapps/passvault/views/import_result.o
- .debug_line    0x00002b3e      0x3e4 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
- .debug_line.text.pin_input
-                0x00002f22      0x195 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+                0x00003400        0x0 /home/javi/.ufbt/build/passvault/views/import_result.o
+ .debug_line    0x00003400      0x5be /home/javi/.ufbt/build/passvault/views/pin_view.o
  .debug_line.text.pin_draw
-                0x000030b7       0xb8 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+                0x000039be       0xeb /home/javi/.ufbt/build/passvault/views/pin_view.o
+ .debug_line.text.pin_input
+                0x00003aa9      0x195 /home/javi/.ufbt/build/passvault/views/pin_view.o
  .debug_line.text.pv_pin_view_alloc
-                0x0000316f       0x3c build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+                0x00003c3e       0x48 /home/javi/.ufbt/build/passvault/views/pin_view.o
  .debug_line_end
-                0x000031ab        0x0 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
- .debug_line    0x000031ab      0x3d0 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+                0x00003c86        0x0 /home/javi/.ufbt/build/passvault/views/pin_view.o
+ .debug_line    0x00003c86      0x5c3 /home/javi/.ufbt/build/passvault/views/saved_passwords.o
  .debug_line.text.sp_input
-                0x0000357b      0x113 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+                0x00004249       0xe4 /home/javi/.ufbt/build/passvault/views/saved_passwords.o
  .debug_line.text.sp_draw
-                0x0000368e      0x12e build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+                0x0000432d      0x12b /home/javi/.ufbt/build/passvault/views/saved_passwords.o
  .debug_line.text.pv_saved_passwords_view_alloc
-                0x000037bc       0x3c build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+                0x00004458       0x48 /home/javi/.ufbt/build/passvault/views/saved_passwords.o
  .debug_line_end
-                0x000037f8        0x0 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
- .debug_line    0x000037f8      0x492 build/f7-firmware-D/.extapps/passvault/main.o
- .debug_line.text.nav_cb
-                0x00003c8a       0x6e build/f7-firmware-D/.extapps/passvault/main.o
- .debug_line.text.mm_input
-                0x00003cf8      0x1d6 build/f7-firmware-D/.extapps/passvault/main.o
+                0x000044a0        0x0 /home/javi/.ufbt/build/passvault/views/saved_passwords.o
+ .debug_line    0x000044a0      0x73d /home/javi/.ufbt/build/passvault/main.o
+ .debug_line.text.pv_show_result
+                0x00004bdd       0x3f /home/javi/.ufbt/build/passvault/main.o
+ .debug_line.text.pv_run_folder_action
+                0x00004c1c       0x6d /home/javi/.ufbt/build/passvault/main.o
  .debug_line.text.mm_draw
-                0x00003ece       0xd9 build/f7-firmware-D/.extapps/passvault/main.o
+                0x00004c89       0xb7 /home/javi/.ufbt/build/passvault/main.o
+ .debug_line.text.nav_cb
+                0x00004d40       0x6c /home/javi/.ufbt/build/passvault/main.o
+ .debug_line.text.pv_shorten_path.part.0.constprop.0
+                0x00004dac       0x44 /home/javi/.ufbt/build/passvault/main.o
+ .debug_line.text.pv_file_browser_cb
+                0x00004df0      0x10d /home/javi/.ufbt/build/passvault/main.o
+ .debug_line.text.mm_input
+                0x00004efd      0x1c7 /home/javi/.ufbt/build/passvault/main.o
  .debug_line.text.passvault_app
-                0x00003fa7      0x1b4 build/f7-firmware-D/.extapps/passvault/main.o
+                0x000050c4      0x28f /home/javi/.ufbt/build/passvault/main.o
  .debug_line_end
-                0x0000415b        0x0 build/f7-firmware-D/.extapps/passvault/main.o
+                0x00005353        0x0 /home/javi/.ufbt/build/passvault/main.o
+ .debug_line    0x00005353      0x4ff /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.safe_zero
+                0x00005852       0x3f /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.escaped_len
+                0x00005891       0x5d /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.append_escaped
+                0x000058ee       0x71 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.read_le64_at
+                0x0000595f       0x1f /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.write_le64_at
+                0x0000597e       0x54 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.hmac_sha256
+                0x000059d2       0xe5 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.derive_key
+                0x00005ab7       0xc8 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.vault_write_path
+                0x00005b7f       0xf0 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.read_entire_file
+                0x00005c6f       0xc8 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.decrypt_file_to_bytes
+                0x00005d37      0x108 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.path_has_suffix.constprop.0
+                0x00005e3f       0x41 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.rekey_tree_prepare_recursive
+                0x00005e80      0x4d6 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.rekey_tree_cleanup_recursive
+                0x00006356       0xcc /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.rekey_tree_commit_recursive
+                0x00006422       0xf7 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.should_skip_encrypt_path
+                0x00006519       0x44 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.build_file_output_path
+                0x0000655d       0x78 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.serialize_creds.constprop.0
+                0x000065d5       0xff /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.process_single_file_with_key.constprop.0
+                0x000066d4      0x4d9 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.process_single_file.constprop.0
+                0x00006bad       0x4f /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.walk_tree_recursive
+                0x00006bfc      0x12c /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.pv_vault_exists
+                0x00006d28       0x34 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.pv_vault_create
+                0x00006d5c       0x72 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.pv_vault_unlock
+                0x00006dce      0x3cc /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.pv_vault_save_current
+                0x0000719a       0x71 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.pv_vault_change_pin
+                0x0000720b      0x123 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.pv_vault_build_file_output_path
+                0x0000732e       0x23 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.pv_vault_encrypt_file
+                0x00007351       0x5f /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.pv_vault_decrypt_file
+                0x000073b0       0x50 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.pv_vault_encrypt_tree
+                0x00007400       0x49 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.pv_vault_decrypt_tree
+                0x00007449       0x4a /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line.text.pv_vault_lock
+                0x00007493       0x26 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line_end
+                0x000074b9        0x0 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_line    0x000074b9      0x142 /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .debug_line.text.sha256_transform
+                0x000075fb      0x276 /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .debug_line.text.sha256_init
+                0x00007871       0x55 /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .debug_line.text.sha256_update
+                0x000078c6       0x6f /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .debug_line.text.sha256_final
+                0x00007935      0x16b /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .debug_line_end
+                0x00007aa0        0x0 /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .debug_line    0x00007aa0      0x1af /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.load32_le
+                0x00007c4f       0x1a /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.load64_le
+                0x00007c69       0x29 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.store32_le
+                0x00007c92       0x3b /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.load32_le_buf
+                0x00007ccd       0x49 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.x16
+                0x00007d16       0x48 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.chacha20_rounds
+                0x00007d5e      0x6f5 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.poly_blocks
+                0x00008453      0x3f1 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_poly1305_update.part.0
+                0x00008844       0xbe /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_verify16
+                0x00008902       0x31 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_wipe
+                0x00008933       0x36 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_chacha20_djb
+                0x00008969      0x1fe /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_chacha20_ietf
+                0x00008b67       0x37 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_poly1305_init
+                0x00008b9e       0x7e /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_poly1305_update
+                0x00008c1c       0x1e /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_poly1305_final
+                0x00008c3a       0xfb /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.lock_auth
+                0x00008d35       0xac /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_aead_init_ietf
+                0x00008de1       0x64 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_aead_write
+                0x00008e45       0x4d /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line.text.crypto_aead_read
+                0x00008e92       0x67 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
+ .debug_line_end
+                0x00008ef9        0x0 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
 
-.debug_frame    0x00000000      0x6a0
+.debug_frame    0x00000000     0x19c0
  *(.debug_frame)
- .debug_frame   0x00000000      0x1e0 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- .debug_frame   0x000001e0       0xc0 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
- .debug_frame   0x000002a0       0x90 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
- .debug_frame   0x00000330       0x68 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
- .debug_frame   0x00000398       0x7c build/f7-firmware-D/.extapps/passvault/views/delete_password.o
- .debug_frame   0x00000414       0xa8 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
- .debug_frame   0x000004bc       0x70 build/f7-firmware-D/.extapps/passvault/views/import_result.o
- .debug_frame   0x0000052c       0x70 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
- .debug_frame   0x0000059c       0x70 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
- .debug_frame   0x0000060c       0x94 build/f7-firmware-D/.extapps/passvault/main.o
+ .debug_frame   0x00000000       0xb0 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
+ .debug_frame   0x000000b0       0xa8 /home/javi/.ufbt/build/passvault/textInput/textInput.o
+ .debug_frame   0x00000158       0x84 /home/javi/.ufbt/build/passvault/views/bookmarks.o
+ .debug_frame   0x000001dc       0x6c /home/javi/.ufbt/build/passvault/views/credential_detail.o
+ .debug_frame   0x00000248       0x78 /home/javi/.ufbt/build/passvault/views/delete_password.o
+ .debug_frame   0x000002c0       0xa8 /home/javi/.ufbt/build/passvault/views/generate_password.o
+ .debug_frame   0x00000368       0x70 /home/javi/.ufbt/build/passvault/views/import_result.o
+ .debug_frame   0x000003d8       0x7c /home/javi/.ufbt/build/passvault/views/pin_view.o
+ .debug_frame   0x00000454       0x88 /home/javi/.ufbt/build/passvault/views/saved_passwords.o
+ .debug_frame   0x000004dc      0x144 /home/javi/.ufbt/build/passvault/main.o
+ .debug_frame   0x00000620      0x4bc /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_frame   0x00000adc       0x90 /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .debug_frame   0x00000b6c      0xe54 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
 
-.debug_str      0x00000000     0x664c
+.debug_str      0x00000000     0x9b22
  *(.debug_str)
- .debug_str     0x00000000      0x645 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
- .debug_str     0x00000645      0x6eb build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
- .debug_str     0x00000d30      0x989 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
- .debug_str     0x000016b9      0x872 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
- .debug_str     0x00001f2b      0x9c4 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
- .debug_str     0x000028ef      0xf32 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
- .debug_str     0x00003821      0x962 build/f7-firmware-D/.extapps/passvault/views/import_result.o
- .debug_str     0x00004183      0xe37 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
- .debug_str     0x00004fba      0x99b build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
- .debug_str     0x00005955      0xcf7 build/f7-firmware-D/.extapps/passvault/main.o
+ .debug_str     0x00000000      0x9bf /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
+ .debug_str     0x000009bf      0x840 /home/javi/.ufbt/build/passvault/textInput/textInput.o
+ .debug_str     0x000011ff      0xaf8 /home/javi/.ufbt/build/passvault/views/bookmarks.o
+ .debug_str     0x00001cf7      0xab2 /home/javi/.ufbt/build/passvault/views/credential_detail.o
+ .debug_str     0x000027a9      0xb1b /home/javi/.ufbt/build/passvault/views/delete_password.o
+ .debug_str     0x000032c4     0x10b2 /home/javi/.ufbt/build/passvault/views/generate_password.o
+ .debug_str     0x00004376      0xaab /home/javi/.ufbt/build/passvault/views/import_result.o
+ .debug_str     0x00004e21      0xffb /home/javi/.ufbt/build/passvault/views/pin_view.o
+ .debug_str     0x00005e1c      0xb0a /home/javi/.ufbt/build/passvault/views/saved_passwords.o
+ .debug_str     0x00006926     0x11b0 /home/javi/.ufbt/build/passvault/main.o
+ .debug_str     0x00007ad6      0xe6c /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_str     0x00008942      0x294 /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .debug_str     0x00008bd6      0xf4c /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
 
 .debug_loc
  *(.debug_loc)
@@ -582,28 +1217,34 @@ LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/ar
  *(.debug_line_str)
 
 .debug_loclists
-                0x00000000     0x1f83
+                0x00000000     0xabda
  *(.debug_loclists)
  .debug_loclists
-                0x00000000      0x69e build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+                0x00000000      0x3df /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
  .debug_loclists
-                0x0000069e      0x168 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+                0x000003df      0x17a /home/javi/.ufbt/build/passvault/textInput/textInput.o
  .debug_loclists
-                0x00000806      0x31e build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+                0x00000559      0x3fb /home/javi/.ufbt/build/passvault/views/bookmarks.o
  .debug_loclists
-                0x00000b24      0x1cd build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+                0x00000954      0x1a1 /home/javi/.ufbt/build/passvault/views/credential_detail.o
  .debug_loclists
-                0x00000cf1      0x292 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+                0x00000af5      0x270 /home/javi/.ufbt/build/passvault/views/delete_password.o
  .debug_loclists
-                0x00000f83      0x4ed build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+                0x00000d65      0x321 /home/javi/.ufbt/build/passvault/views/generate_password.o
  .debug_loclists
-                0x00001470      0x148 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+                0x00001086      0x118 /home/javi/.ufbt/build/passvault/views/import_result.o
  .debug_loclists
-                0x000015b8      0x29c build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+                0x0000119e      0x361 /home/javi/.ufbt/build/passvault/views/pin_view.o
  .debug_loclists
-                0x00001854      0x306 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+                0x000014ff      0x2e0 /home/javi/.ufbt/build/passvault/views/saved_passwords.o
  .debug_loclists
-                0x00001b5a      0x429 build/f7-firmware-D/.extapps/passvault/main.o
+                0x000017df      0x828 /home/javi/.ufbt/build/passvault/main.o
+ .debug_loclists
+                0x00002007     0x231b /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_loclists
+                0x00004322      0x464 /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .debug_loclists
+                0x00004786     0x6454 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
 
 .debug_macro
  *(.debug_macro)
@@ -612,28 +1253,34 @@ LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/ar
  *(.debug_names)
 
 .debug_rnglists
-                0x00000000      0x2c5
+                0x00000000     0x1311
  *(.debug_rnglists)
  .debug_rnglists
-                0x00000000       0xb1 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+                0x00000000       0x89 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
  .debug_rnglists
-                0x000000b1       0x32 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+                0x00000089       0x31 /home/javi/.ufbt/build/passvault/textInput/textInput.o
  .debug_rnglists
-                0x000000e3       0x4c build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+                0x000000ba       0x76 /home/javi/.ufbt/build/passvault/views/bookmarks.o
  .debug_rnglists
-                0x0000012f       0x3a build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+                0x00000130       0x48 /home/javi/.ufbt/build/passvault/views/credential_detail.o
  .debug_rnglists
-                0x00000169       0x3a build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+                0x00000178       0x2f /home/javi/.ufbt/build/passvault/views/delete_password.o
  .debug_rnglists
-                0x000001a3       0x4c build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+                0x000001a7       0x46 /home/javi/.ufbt/build/passvault/views/generate_password.o
  .debug_rnglists
-                0x000001ef       0x20 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+                0x000001ed       0x2d /home/javi/.ufbt/build/passvault/views/import_result.o
  .debug_rnglists
-                0x0000020f       0x3b build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+                0x0000021a       0x6a /home/javi/.ufbt/build/passvault/views/pin_view.o
  .debug_rnglists
-                0x0000024a       0x3b build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+                0x00000284       0x3b /home/javi/.ufbt/build/passvault/views/saved_passwords.o
  .debug_rnglists
-                0x00000285       0x40 build/f7-firmware-D/.extapps/passvault/main.o
+                0x000002bf       0xb0 /home/javi/.ufbt/build/passvault/main.o
+ .debug_rnglists
+                0x0000036f      0x34d /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .debug_rnglists
+                0x000006bc       0x27 /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .debug_rnglists
+                0x000006e3      0xc2e /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
 
 .debug_str_offsets
  *(.debug_str_offsets)
@@ -645,29 +1292,35 @@ LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/ar
                 0x00000000       0x34
  *(.ARM.attributes)
  .ARM.attributes
-                0x00000000       0x34 build/f7-firmware-D/.extapps/passvault/badusb/badusb.o
+                0x00000000       0x34 /home/javi/.ufbt/build/passvault/badusb/badusb.o
  .ARM.attributes
-                0x00000034       0x34 build/f7-firmware-D/.extapps/passvault/passwordStorage/passwordStorage.o
+                0x00000034       0x34 /home/javi/.ufbt/build/passvault/passwordStorage/passwordStorage.o
  .ARM.attributes
-                0x00000068       0x34 build/f7-firmware-D/.extapps/passvault/textInput/textInput.o
+                0x00000068       0x34 /home/javi/.ufbt/build/passvault/textInput/textInput.o
  .ARM.attributes
-                0x0000009c       0x34 build/f7-firmware-D/.extapps/passvault/views/bookmarks.o
+                0x0000009c       0x34 /home/javi/.ufbt/build/passvault/views/bookmarks.o
  .ARM.attributes
-                0x000000d0       0x34 build/f7-firmware-D/.extapps/passvault/views/credential_detail.o
+                0x000000d0       0x34 /home/javi/.ufbt/build/passvault/views/credential_detail.o
  .ARM.attributes
-                0x00000104       0x34 build/f7-firmware-D/.extapps/passvault/views/delete_password.o
+                0x00000104       0x34 /home/javi/.ufbt/build/passvault/views/delete_password.o
  .ARM.attributes
-                0x00000138       0x34 build/f7-firmware-D/.extapps/passvault/views/generate_password.o
+                0x00000138       0x34 /home/javi/.ufbt/build/passvault/views/generate_password.o
  .ARM.attributes
-                0x0000016c       0x34 build/f7-firmware-D/.extapps/passvault/views/import_result.o
+                0x0000016c       0x34 /home/javi/.ufbt/build/passvault/views/import_result.o
  .ARM.attributes
-                0x000001a0       0x34 build/f7-firmware-D/.extapps/passvault/views/pin_view.o
+                0x000001a0       0x34 /home/javi/.ufbt/build/passvault/views/pin_view.o
  .ARM.attributes
-                0x000001d4       0x34 build/f7-firmware-D/.extapps/passvault/views/saved_passwords.o
+                0x000001d4       0x34 /home/javi/.ufbt/build/passvault/views/saved_passwords.o
  .ARM.attributes
-                0x00000208       0x34 build/f7-firmware-D/.extapps/passvault/main.o
+                0x00000208       0x34 /home/javi/.ufbt/build/passvault/passvault_icons.o
  .ARM.attributes
-                0x0000023c       0x34 build/f7-firmware-D/.extapps/passvault/passvault_icons.o
+                0x0000023c       0x34 /home/javi/.ufbt/build/passvault/main.o
+ .ARM.attributes
+                0x00000270       0x34 /home/javi/.ufbt/build/passvault/vault_crypto(vault_crypto.o)
+ .ARM.attributes
+                0x000002a4       0x34 /home/javi/.ufbt/build/passvault/vault_crypto(sha256.o)
+ .ARM.attributes
+                0x000002d8       0x34 /home/javi/.ufbt/build/passvault/vault_crypto(monocypher.o)
  *(.gnu.attributes)
 
 .note.gnu.arm.ident
@@ -683,5 +1336,5 @@ LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/ar
  *(.comment.*)
  *(.llvmbc)
  *(.llvmcmd)
-OUTPUT(build/f7-firmware-D/.extapps/passvault_d.elf elf32-littlearm)
+OUTPUT(/home/javi/.ufbt/build/passvault_d.elf elf32-littlearm)
 LOAD linker stubs

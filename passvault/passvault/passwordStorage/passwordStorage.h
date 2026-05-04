@@ -1,26 +1,35 @@
 #pragma once
 #include "../main.h"
+#include <vault_crypto.h>
 
 /* ---- directory ---- */
 void pv_ensure_vault_dir(void);
 
-/* ---- credentials ---- */
-size_t pv_read_credentials(Credential* out, size_t max);
-bool   pv_write_credential(const char* name, const char* username, const char* password);
-bool   pv_delete_credential(size_t line_index);
+/* ---- credentials (in-memory + vault re-encrypt) ---- */
+/**
+ * Append a new credential to app->credentials[] and re-encrypt the vault.
+ * Returns false if the array is full or the vault save fails.
+ */
+bool pv_write_credential(AppContext*  app,
+                          const char* name,
+                          const char* username,
+                          const char* password);
+
+/**
+ * Remove the credential at @p index from app->credentials[] and
+ * re-encrypt the vault.  The array is compacted in place.
+ */
+bool pv_delete_credential(AppContext* app, size_t index);
 
 /* ---- bookmarks ---- */
-void pv_load_bookmarks(Credential* creds, size_t count);
-void pv_save_bookmarks(Credential* creds, size_t count);
-
-/* ---- PIN ---- */
-bool pv_load_pin(char pin_out[PIN_LENGTH + 1]);
-bool pv_save_pin(const char pin[PIN_LENGTH + 1]);
+/** Persist the bookmark state of all credentials by re-encrypting the vault. */
+void pv_save_bookmarks(AppContext* app);
 
 /* ---- import ---- */
-/* Read src_path (CSV), skip entries whose name already exists in
-   existing[], append the rest to FILE_PATH.
-   Returns the count of newly added entries, or SIZE_MAX on file-not-found. */
-size_t pv_import_csv(const char*      src_path,
-                     const Credential* existing,
-                     size_t            existing_count);
+/**
+ * Read a plain CSV from @p src_path (name,username,password per line,
+ * backslash-escaped), skip duplicates already in app->credentials[],
+ * add the rest and re-encrypt the vault once.
+ * Returns the count of newly added entries, or SIZE_MAX on file-not-found.
+ */
+size_t pv_import_csv(AppContext* app, const char* src_path);

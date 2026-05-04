@@ -121,31 +121,52 @@ static bool pin_input(InputEvent* event, void* context) {
         app->pin_input[PIN_LENGTH] = '\0';
 
         if(app->setting_pin) {
-            /* save the new PIN */
-            memcpy(app->pin, app->pin_input, PIN_LENGTH + 1);
-            pv_save_pin(app->pin);
-            app->pin_set    = true;
-            app->setting_pin = false;
-            /* reset entry buffer for next time */
+            /* Create or re-key the vault with the new PIN */
+            VaultResult r;
+            if(app->vault_first_run) {
+                r = pv_vault_create(app->pin_input);
+                if(r == VaultOk) {
+                    app->vault_first_run    = false;
+                    app->credentials_number = 0;
+                }
+            } else {
+                r = pv_vault_change_pin(app->pin_input,
+                                        app->credentials,
+                                        app->credentials_number);
+            }
+
+            /* Always clear the PIN input buffer */
             memset(app->pin_input, '0', PIN_LENGTH);
             app->pin_input[PIN_LENGTH] = '\0';
             app->pin_cursor = 0;
-            view_dispatcher_switch_to_view(app->view_dispatcher, ViewMainMenu);
-        } else {
-            /* verify PIN */
-            if(memcmp(app->pin_input, app->pin, PIN_LENGTH) == 0) {
-                memset(app->pin_input, '0', PIN_LENGTH);
-                app->pin_input[PIN_LENGTH] = '\0';
-                app->pin_cursor = 0;
+
+            if(r == VaultOk) {
+                app->setting_pin = false;
                 view_dispatcher_switch_to_view(app->view_dispatcher,
                                                ViewMainMenu);
             } else {
-                /* wrong PIN: red blink and reset digits */
+                /* I/O or memory error: blink red and stay */
                 notification_message(app->notifications,
                                      &sequence_blink_red_100);
-                memset(app->pin_input, '0', PIN_LENGTH);
-                app->pin_input[PIN_LENGTH] = '\0';
-                app->pin_cursor = 0;
+            }
+        } else {
+            /* Unlock: try to decrypt the vault with the entered PIN */
+            VaultResult r = pv_vault_unlock(app->pin_input,
+                                             app->credentials,
+                                             MAX_CREDENTIALS,
+                                             &app->credentials_number);
+            /* Always clear the PIN input buffer */
+            memset(app->pin_input, '0', PIN_LENGTH);
+            app->pin_input[PIN_LENGTH] = '\0';
+            app->pin_cursor = 0;
+
+            if(r == VaultOk) {
+                view_dispatcher_switch_to_view(app->view_dispatcher,
+                                               ViewMainMenu);
+            } else {
+                /* Wrong PIN or I/O error: red blink, stay on pin screen */
+                notification_message(app->notifications,
+                                     &sequence_blink_red_100);
             }
         }
         return true;
