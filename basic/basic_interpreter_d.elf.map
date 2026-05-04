@@ -1,0 +1,776 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_atan.o)
+                              build/f7-firmware-D/.extapps/basic_interpreter/main.o (atanf)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_fabs.o)
+                              d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_atan.o) (fabsf)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_log.o)
+                              build/f7-firmware-D/.extapps/basic_interpreter/main.o (logf)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
+                              build/f7-firmware-D/.extapps/basic_interpreter/main.o (cosf)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_tan.o)
+                              build/f7-firmware-D/.extapps/basic_interpreter/main.o (tanf)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_nan.o)
+                              d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_log.o) (nanf)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_exp.o)
+                              build/f7-firmware-D/.extapps/basic_interpreter/main.o (expf)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_cos.o)
+                              d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o) (__kernel_cosf)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_floor.o)
+                              build/f7-firmware-D/.extapps/basic_interpreter/main.o (floorf)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
+                              build/f7-firmware-D/.extapps/basic_interpreter/main.o (sinf)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_finite.o)
+                              d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_exp.o) (finitef)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_sin.o)
+                              d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o) (__kernel_sinf)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+                              d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o) (__ieee754_rem_pio2f)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_tan.o)
+                              d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_tan.o) (__kernel_tanf)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_log.o)
+                              d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_log.o) (__ieee754_logf)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+                              d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o) (__kernel_rem_pio2f)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_scalbn.o)
+                              d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o) (scalbnf)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_exp.o)
+                              d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_exp.o) (__ieee754_expf)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-math_errf.o)
+                              d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_exp.o) (__math_uflowf)
+d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+                              build/f7-firmware-D/.extapps/basic_interpreter/main.o (__aeabi_f2d)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_atan.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_atan.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_atan.o)
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_fabs.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_fabs.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_fabs.o)
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_log.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_log.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_log.o)
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_tan.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_tan.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_tan.o)
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_nan.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_nan.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_nan.o)
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_exp.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_exp.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_exp.o)
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_cos.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_cos.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_cos.o)
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_floor.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_floor.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_floor.o)
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_finite.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_finite.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_finite.o)
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_sin.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_sin.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_sin.o)
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_tan.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_tan.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_tan.o)
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_log.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_log.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_log.o)
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_scalbn.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_scalbn.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_scalbn.o)
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_exp.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_exp.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_exp.o)
+ .text          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-math_errf.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-math_errf.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-math_errf.o)
+ .text.__math_divzerof
+                0x00000000       0x24 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-math_errf.o)
+ .text.__math_invalidf
+                0x00000000       0x1e d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-math_errf.o)
+ .data          0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-D/.extapps/basic_interpreter/main.o
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a
+LOAD d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libsupc++_nano.a
+
+.text           0x00000000     0x48f8
+ *(.text)
+ .text          0x00000000      0x378 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+                0x00000000                __aeabi_drsub
+                0x00000008                __aeabi_dsub
+                0x00000008                __subdf3
+                0x0000000c                __aeabi_dadd
+                0x0000000c                __adddf3
+                0x00000284                __floatunsidf
+                0x00000284                __aeabi_ui2d
+                0x000002a4                __floatsidf
+                0x000002a4                __aeabi_i2d
+                0x000002c8                __aeabi_f2d
+                0x000002c8                __extendsfdf2
+                0x0000030c                __floatundidf
+                0x0000030c                __aeabi_ul2d
+                0x0000031c                __floatdidf
+                0x0000031c                __aeabi_l2d
+ *(.stub)
+ *(.text*)
+ .text.trim     0x00000378       0x4c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.uppercase
+                0x000003c4       0x20 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.skip_spaces
+                0x000003e4       0x18 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.skip_spaces_const
+                0x000003fc       0x18 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.next_word
+                0x00000414       0x40 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.is_identifier_char
+                0x00000454       0x20 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.keyword_equals
+                0x00000474       0x54 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.find_comparison_operator
+                0x000004c8       0xc0 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.parse_line_number_token
+                0x00000588       0x48 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.parse_single_var_token
+                0x000005d0       0x54 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.parse_quoted_string
+                0x00000624       0x58 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.is_simple_call
+                0x0000067c       0x7c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.set_numeric_var
+                0x000006f8       0x24 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.round_to_int
+                0x0000071c       0x2a build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *fill*         0x00000746        0x2 
+ .text.clear_render_state
+                0x00000748       0x14 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.get_line_text
+                0x0000075c       0x38 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.get_execution_visible_lines
+                0x00000794       0x18 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.get_execution_max_start_line
+                0x000007ac       0x1c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.add_plot_point
+                0x000007c8       0x58 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.find_line_index
+                0x00000820       0x28 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.split_arguments
+                0x00000848       0xa0 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.editor_load_from_state
+                0x000008e8       0x68 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.basic_runtime_reset
+                0x00000950       0x94 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.format_number
+                0x000009e4       0x70 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.basic_app_navigation_callback
+                0x00000a54       0x18 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.basic_number_input_result_callback
+                0x00000a6c       0x20 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.basic_number_input_previous_callback
+                0x00000a8c       0x18 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.exec_timer_callback
+                0x00000aa4       0x18 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.editor_text_input_callback
+                0x00000abc       0x18 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.basic_main_view_input_callback
+                0x00000ad4       0x64 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.copy_text
+                0x00000b38       0x20 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.append_output
+                0x00000b58       0x74 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.stop_with_runtime_error
+                0x00000bcc       0x50 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.evaluate_string_value
+                0x00000c1c       0x64 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.find_keyword_token
+                0x00000c80       0x7c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.editor_save_to_state
+                0x00000cfc      0x188 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.editor_insert_line_after_cursor
+                0x00000e84       0x84 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.editor_delete_cursor_line
+                0x00000f08       0x80 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.format_trimmed_text
+                0x00000f88       0x84 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.read_program
+                0x0000100c      0x218 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.rebuild_main_view
+                0x00001224       0x2c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.scroll_execution_to_bottom
+                0x00001250       0x38 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.rebuild_execution_widget
+                0x00001288       0x4c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.basic_execution_view_input_callback
+                0x000012d4       0xb8 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.rebuild_editor_view
+                0x0000138c       0x4c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.basic_editor_view_input_callback
+                0x000013d8      0x180 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.set_string_var
+                0x00001558       0x5c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.set_getchar_var
+                0x000015b4       0x48 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.find_matching_next
+                0x000015fc       0x84 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.parse_factor
+                0x00001680      0x380 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.parse_term
+                0x00001a00       0x5c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.parse_expression
+                0x00001a5c       0x54 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.evaluate_numeric_expression
+                0x00001ab0       0x34 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.evaluate_relation
+                0x00001ae4      0x20c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.evaluate_condition
+                0x00001cf0       0x5c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.execute_statement
+                0x00001d4c      0x9d8 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.execute_program_slice
+                0x00002724       0xac build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.basic_custom_event_callback
+                0x000027d0      0x3a4 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.draw_trimmed_text
+                0x00002b74       0x30 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.basic_editor_view_draw_callback
+                0x00002ba4      0x17c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.get_program_name
+                0x00002d20       0x38 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.get_execution_status_badge
+                0x00002d58       0x88 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.basic_main_view_draw_callback
+                0x00002de0      0x13c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.draw_execution_scrollbar
+                0x00002f1c       0x94 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.basic_execution_view_draw_callback
+                0x00002fb0      0x284 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .text.basic_interpreter_main
+                0x00003234      0x33c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+                0x00003234                basic_interpreter_main
+ .text.atanf    0x00003570      0x1a8 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_atan.o)
+                0x00003570                atanf
+ .text.fabsf    0x00003718        0xe d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_fabs.o)
+                0x00003718                fabsf
+ *fill*         0x00003726        0x2 
+ .text.logf     0x00003728       0x5c d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_log.o)
+                0x00003728                logf
+ .text.cosf     0x00003784       0x88 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
+                0x00003784                cosf
+ .text.tanf     0x0000380c       0x58 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_tan.o)
+                0x0000380c                tanf
+ .text.nanf     0x00003864        0xc d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_nan.o)
+                0x00003864                nanf
+ .text.expf     0x00003870       0x6c d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_exp.o)
+                0x00003870                expf
+ .text.__kernel_cosf
+                0x000038dc       0xb0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_cos.o)
+                0x000038dc                __kernel_cosf
+ .text.floorf   0x0000398c       0x88 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_floor.o)
+                0x0000398c                floorf
+ .text.sinf     0x00003a14       0x8c d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
+                0x00003a14                sinf
+ .text.finitef  0x00003aa0       0x14 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_finite.o)
+                0x00003aa0                finitef
+ .text.__kernel_sinf
+                0x00003ab4       0x90 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_sin.o)
+                0x00003ab4                __kernel_sinf
+ .text.__ieee754_rem_pio2f
+                0x00003b44      0x260 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+                0x00003b44                __ieee754_rem_pio2f
+ .text.__kernel_tanf
+                0x00003da4      0x1c0 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_tan.o)
+                0x00003da4                __kernel_tanf
+ .text.__ieee754_logf
+                0x00003f64      0x1e4 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_log.o)
+                0x00003f64                __ieee754_logf
+ .text.__kernel_rem_pio2f
+                0x00004148      0x4fc d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+                0x00004148                __kernel_rem_pio2f
+ .text.scalbnf  0x00004644       0xcc d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_scalbn.o)
+                0x00004644                scalbnf
+ .text.__ieee754_expf
+                0x00004710      0x19c d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_exp.o)
+                0x00004710                __ieee754_expf
+ .text.with_errnof
+                0x000048ac       0x1c d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-math_errf.o)
+ .text.xflowf   0x000048c8       0x16 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-math_errf.o)
+ *fill*         0x000048de        0x2 
+ .text.__math_uflowf
+                0x000048e0        0xc d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-math_errf.o)
+                0x000048e0                __math_uflowf
+ .text.__math_oflowf
+                0x000048ec        0xc d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-math_errf.o)
+                0x000048ec                __math_oflowf
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000048f8      0x8f4
+ *(.rodata)
+ .rodata        0x000048f8        0x3 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *(.rodata1)
+ *(.rodata.*)
+ *fill*         0x000048fb        0x1 
+ .rodata.get_line_text.str1.4
+                0x000048fc        0x1 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *fill*         0x000048fd        0x3 
+ .rodata.editor_load_from_state.str1.4
+                0x00004900        0x6 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *fill*         0x00004906        0x2 
+ .rodata.basic_runtime_reset.str1.4
+                0x00004908        0xb build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *fill*         0x00004913        0x1 
+ .rodata.format_number.str1.4
+                0x00004914        0x9 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *fill*         0x0000491d        0x3 
+ .rodata.stop_with_runtime_error.str1.4
+                0x00004920       0x1c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .rodata.editor_save_to_state.str1.4
+                0x0000493c       0x23 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *fill*         0x0000495f        0x1 
+ .rodata.format_trimmed_text.str1.4
+                0x00004960        0x4 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .rodata.read_program.str1.4
+                0x00004964       0x5e build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *fill*         0x000049c2        0x2 
+ .rodata.basic_editor_view_input_callback.str1.4
+                0x000049c4       0x1d build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *fill*         0x000049e1        0x3 
+ .rodata.set_getchar_var.str1.4
+                0x000049e4        0x3 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *fill*         0x000049e7        0x1 
+ .rodata.find_matching_next.str1.4
+                0x000049e8        0x9 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *fill*         0x000049f1        0x3 
+ .rodata.parse_factor.str1.4
+                0x000049f4       0x30 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .rodata.evaluate_relation.str1.4
+                0x00004a24       0x16 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *fill*         0x00004a3a        0x2 
+ .rodata.evaluate_condition.str1.4
+                0x00004a3c        0x3 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *fill*         0x00004a3f        0x1 
+ .rodata.execute_statement.str1.4
+                0x00004a40      0x24f build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *fill*         0x00004c8f        0x1 
+ .rodata.execute_program_slice.str1.4
+                0x00004c90       0x11 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *fill*         0x00004ca1        0x3 
+ .rodata.basic_custom_event_callback.str1.4
+                0x00004ca4       0x62 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *fill*         0x00004d06        0x2 
+ .rodata.basic_editor_view_draw_callback.str1.4
+                0x00004d08       0x3c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .rodata.get_execution_status_badge.str1.4
+                0x00004d44       0x32 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *fill*         0x00004d76        0x2 
+ .rodata.basic_main_view_draw_callback.str1.4
+                0x00004d78       0x19 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *fill*         0x00004d91        0x3 
+ .rodata.basic_execution_view_draw_callback.str1.4
+                0x00004d94       0x15 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *fill*         0x00004da9        0x3 
+ .rodata.basic_interpreter_main.str1.4
+                0x00004dac       0x34 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .rodata.atanlo
+                0x00004de0       0x10 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_atan.o)
+ .rodata.atanhi
+                0x00004df0       0x10 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_atan.o)
+ .rodata.logf.str1.1
+                0x00004e00        0x1 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_log.o)
+ *fill*         0x00004e01        0x3 
+ .rodata.npio2_hw
+                0x00004e04       0x80 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+ .rodata.two_over_pi
+                0x00004e84      0x318 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+ .rodata.PIo2   0x0000519c       0x2c d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+ .rodata.init_jk
+                0x000051c8        0xc d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+ .rodata.ln2LO  0x000051d4        0x8 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_exp.o)
+ .rodata.ln2HI  0x000051dc        0x8 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_exp.o)
+ .rodata.halF   0x000051e4        0x8 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_exp.o)
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss            0x000051ec     0x238c
+ *(.bss)
+ *(.bss*)
+ .bss.editor_text_buf
+                0x000051ec       0x20 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .bss.editor_cursor
+                0x0000520c        0x4 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .bss.editor_line_count
+                0x00005210        0x4 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .bss.editor_lines
+                0x00005214      0x800 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .bss.exec_timer
+                0x00005a14        0x4 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .bss.program_path
+                0x00005a18        0x4 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .bss.dialogs   0x00005a1c        0x4 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .bss.text_input_editor
+                0x00005a20        0x4 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .bss.number_input
+                0x00005a24        0x4 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .bss.editor_view
+                0x00005a28        0x4 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .bss.execution_view
+                0x00005a2c        0x4 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .bss.main_view
+                0x00005a30        0x4 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .bss.view_dispatcher
+                0x00005a34        0x4 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .bss.expr_ptr  0x00005a38        0x4 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .bss.state     0x00005a3c     0x1b3c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x228
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000      0x228 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x6346
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x6346 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+
+.debug_abbrev   0x00000000      0x47c
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x47c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+
+.debug_line     0x00000000     0x35d3
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x44b build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.trim
+                0x0000044b       0xb4 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.uppercase
+                0x000004ff       0x45 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.skip_spaces
+                0x00000544       0x56 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.skip_spaces_const
+                0x0000059a       0x56 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.next_word
+                0x000005f0       0xb2 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.is_identifier_char
+                0x000006a2       0x2b build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.keyword_equals
+                0x000006cd       0x7e build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.find_comparison_operator
+                0x0000074b      0x187 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.parse_line_number_token
+                0x000008d2       0x75 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.parse_single_var_token
+                0x00000947       0x94 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.parse_quoted_string
+                0x000009db       0xcd build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.is_simple_call
+                0x00000aa8       0xbf build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.set_numeric_var
+                0x00000b67       0x2c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.round_to_int
+                0x00000b93       0x38 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.clear_render_state
+                0x00000bcb       0x24 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.get_line_text
+                0x00000bef       0x4a build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.get_execution_visible_lines
+                0x00000c39       0x1f build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.get_execution_max_start_line
+                0x00000c58       0x29 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.add_plot_point
+                0x00000c81       0x61 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.find_line_index
+                0x00000ce2       0x52 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.split_arguments
+                0x00000d34      0x123 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.editor_load_from_state
+                0x00000e57       0x83 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.basic_runtime_reset
+                0x00000eda       0x6d build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.format_number
+                0x00000f47       0x71 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.basic_app_navigation_callback
+                0x00000fb8       0x21 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.basic_number_input_result_callback
+                0x00000fd9       0x28 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.basic_number_input_previous_callback
+                0x00001001       0x21 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.exec_timer_callback
+                0x00001022       0x1e build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.editor_text_input_callback
+                0x00001040       0x1e build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.basic_main_view_input_callback
+                0x0000105e       0x87 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.copy_text
+                0x000010e5       0x2e build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.append_output
+                0x00001113       0x79 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.stop_with_runtime_error
+                0x0000118c       0x30 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.evaluate_string_value
+                0x000011bc       0x6a build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.find_keyword_token
+                0x00001226       0xf2 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.editor_save_to_state
+                0x00001318      0x27f build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.editor_insert_line_after_cursor
+                0x00001597       0x8c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.editor_delete_cursor_line
+                0x00001623       0x9e build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.format_trimmed_text
+                0x000016c1       0x74 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.read_program
+                0x00001735      0x24e build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.rebuild_main_view
+                0x00001983       0x2d build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.scroll_execution_to_bottom
+                0x000019b0       0x32 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.rebuild_execution_widget
+                0x000019e2       0x66 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.basic_execution_view_input_callback
+                0x00001a48      0x110 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.rebuild_editor_view
+                0x00001b58       0x5e build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.basic_editor_view_input_callback
+                0x00001bb6      0x112 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.set_string_var
+                0x00001cc8       0x59 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.set_getchar_var
+                0x00001d21       0x2b build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.find_matching_next
+                0x00001d4c       0x9c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.parse_factor
+                0x00001de8      0x36f build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.parse_term
+                0x00002157       0x8d build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.parse_expression
+                0x000021e4       0x7b build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.evaluate_numeric_expression
+                0x0000225f       0x4b build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.evaluate_relation
+                0x000022aa      0x21f build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.evaluate_condition
+                0x000024c9       0x8c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.execute_statement
+                0x00002555      0x87c build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.execute_program_slice
+                0x00002dd1       0xb5 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.basic_custom_event_callback
+                0x00002e86      0x23e build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.draw_trimmed_text
+                0x000030c4       0x25 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.basic_editor_view_draw_callback
+                0x000030e9       0xa8 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.get_program_name
+                0x00003191       0x47 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.get_execution_status_badge
+                0x000031d8       0x68 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.basic_main_view_draw_callback
+                0x00003240       0x73 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.draw_execution_scrollbar
+                0x000032b3       0xbc build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.basic_execution_view_draw_callback
+                0x0000336f      0x195 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line.text.basic_interpreter_main
+                0x00003504       0xcf build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .debug_line_end
+                0x000035d3        0x0 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+
+.debug_frame    0x00000000      0x804
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x804 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+
+.debug_str      0x00000000     0x1c7e
+ *(.debug_str)
+ .debug_str     0x00000000     0x1c7e build/f7-firmware-D/.extapps/basic_interpreter/main.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000       0xaa
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xaa d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+
+.debug_loclists
+                0x00000000     0x2311
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000     0x2311 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x3bd
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x3bd build/f7-firmware-D/.extapps/basic_interpreter/main.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-D/.extapps/basic_interpreter/main.o
+ .ARM.attributes
+                0x00000034       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_atan.o)
+ .ARM.attributes
+                0x00000068       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_fabs.o)
+ .ARM.attributes
+                0x0000009c       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_log.o)
+ .ARM.attributes
+                0x000000d0       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
+ .ARM.attributes
+                0x00000104       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_tan.o)
+ .ARM.attributes
+                0x00000138       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_nan.o)
+ .ARM.attributes
+                0x0000016c       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_exp.o)
+ .ARM.attributes
+                0x000001a0       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_cos.o)
+ .ARM.attributes
+                0x000001d4       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_floor.o)
+ .ARM.attributes
+                0x00000208       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
+ .ARM.attributes
+                0x0000023c       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_finite.o)
+ .ARM.attributes
+                0x00000270       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_sin.o)
+ .ARM.attributes
+                0x000002a4       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+ .ARM.attributes
+                0x000002d8       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_tan.o)
+ .ARM.attributes
+                0x0000030c       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_log.o)
+ .ARM.attributes
+                0x00000340       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+ .ARM.attributes
+                0x00000374       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_scalbn.o)
+ .ARM.attributes
+                0x000003a8       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_exp.o)
+ .ARM.attributes
+                0x000003dc       0x34 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-math_errf.o)
+ .ARM.attributes
+                0x00000410       0x22 d:/prueb_con/flipper/flipper-sdk/toolchain/x86_64-windows/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-D/.extapps/basic_interpreter_d.elf elf32-littlearm)
+LOAD linker stubs
