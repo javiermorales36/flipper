@@ -1,0 +1,9 @@
+App(
+    appid="basic_interpreter",
+    name="BASIC Interpreter",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="basic_interpreter_main",
+    requires=["gui", "storage", "dialogs"],
+    stack_size=8 * 1024,
+    fap_category="javiermorales",
+)
