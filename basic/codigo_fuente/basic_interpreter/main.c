@@ -32,8 +32,8 @@
 #define STEPS_PER_TICK       4096
 #define EXECUTION_VISIBLE_LINES_WITH_PLOT 1
 #define EXECUTION_VISIBLE_LINES_TEXT_ONLY 4
-#define MAX_EDITOR_LINES     64
-#define MAX_EDITOR_LINE_LEN  32
+#define MAX_EDITOR_LINES     48
+#define MAX_EDITOR_LINE_LEN  64
 
 typedef enum {
     BasicCustomEventOpenBrowser = 0,
@@ -692,26 +692,52 @@ static bool evaluate_relation(char* clause, bool* result) {
 }
 
 static bool evaluate_condition(char* condition, bool* result) {
-    char* segment = condition;
+    /*
+     * Precedencia: AND > OR (igual que BASIC estándar)
+     * Primero dividimos por OR; cada segmento OR se evalúa como AND de relaciones.
+     * Si cualquier segmento OR es verdadero, el resultado es verdadero.
+     */
+    char* or_seg = condition;
     *result = false;
 
-    while(segment) {
-        const char* or_const = find_keyword_token(segment, "OR");
-        char* next_segment = NULL;
+    while(or_seg) {
+        /* Buscar siguiente OR */
+        const char* or_const = find_keyword_token(or_seg, "OR");
+        char* next_or = NULL;
         if(or_const) {
             char* or_pos = (char*)or_const;
             *or_pos = '\0';
-            next_segment = or_pos + 2;
+            next_or = skip_spaces(or_pos + 2);
         }
 
-        bool clause_result = false;
-        if(!evaluate_relation(segment, &clause_result)) return false;
-        if(clause_result) {
+        /* Dentro del segmento OR, evaluar AND de relaciones */
+        bool or_result = true;
+        char* and_seg = skip_spaces(or_seg);
+
+        while(and_seg) {
+            const char* and_const = find_keyword_token(and_seg, "AND");
+            char* next_and = NULL;
+            if(and_const) {
+                char* and_pos = (char*)and_const;
+                *and_pos = '\0';
+                next_and = skip_spaces(and_pos + 3);
+            }
+
+            bool rel_result = false;
+            if(!evaluate_relation(and_seg, &rel_result)) return false;
+            if(!rel_result) {
+                or_result = false;
+                break;
+            }
+            and_seg = next_and;
+        }
+
+        if(or_result) {
             *result = true;
             return true;
         }
 
-        segment = next_segment;
+        or_seg = next_or;
     }
 
     return true;
@@ -1219,6 +1245,25 @@ static void execute_statement(char* statement, int line_number) {
         }
 
         if(condition) {
+            /* IF ... THEN 50  →  tratar numero como GOTO */
+            char* p = then_stmt;
+            while(*p == ' ' || *p == '\t') p++;
+            bool is_line_number = (*p >= '1' && *p <= '9');
+            if(is_line_number) {
+                char* q = p;
+                while(*q >= '0' && *q <= '9') q++;
+                while(*q == ' ' || *q == '\t') q++;
+                if(*q == '\0') {
+                    int dest = atoi(p);
+                    int target = find_line_index(dest);
+                    if(target < 0) {
+                        stop_with_runtime_error(line_number, "IF THEN: linea inexistente");
+                        return;
+                    }
+                    state.current_index = target;
+                    return;
+                }
+            }
             execute_statement(then_stmt, line_number);
         } else {
             state.current_index++;

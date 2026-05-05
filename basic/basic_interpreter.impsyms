@@ -2,6 +2,7 @@ __errno U
 __wrap_snprintf U         
 __wrap_strtof U         
 _ctype_ U         
+atoi U         
 canvas_clear U         
 canvas_draw_box U         
 canvas_draw_dot U         
